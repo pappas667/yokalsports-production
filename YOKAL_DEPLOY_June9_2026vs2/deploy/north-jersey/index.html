@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>North Jersey | Yokal Sports</title>
+  <meta name="description" content="The YSSR covers school sports across 11 North Jersey counties. Rankings, athletes, history, and NIL — all in one place." />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/favicon.ico" />
+  <script data-ms-content="members" src="https://cdn.memberstack.com/scripts/webflow.js" defer></script>
+
+  <style>
+    :root {
+      --green:    #1A5200;
+      --green-mid:#2E7A00;
+      --lime:     #88CC44;
+      --navy:     #120E49;
+      --blue-cta: #2952A3;
+      --ink:      #111111;
+      --muted:    #666666;
+      --line:     #e2e6ef;
+      --soft:     #F0F7EB;
+      --page-bg:  #F4F5F7;
+      --white:    #ffffff;
+      --radius:   14px;
+      --shadow:   0 2px 12px rgba(18,14,73,0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--page-bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.4;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--white);
+      box-shadow: 0 2px 8px rgba(18,14,73,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .masthead {
+      padding: 5px 0 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .logo img {
+      display: block;
+      height: 60px;
+      width: auto;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .market-pill {
+      background: var(--soft);
+      color: var(--green);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--green);
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      padding: 4px 0 5px;
+      border-top: 1px solid var(--line);
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 4px 12px;
+      border-radius: 20px;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .nav a:hover { background: var(--navy); color: var(--white); }
+
+    /* ── BUTTONS ── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      transition: opacity 0.15s;
+    }
+    .btn:hover { opacity: 0.88; }
+    .btn.lime    { background: var(--white); color: var(--navy);     border-color: var(--lime); }
+    .btn.green   { background: var(--white); color: var(--green);    border-color: var(--green); }
+    .btn.navy    { background: var(--white); color: var(--navy);     border-color: var(--navy); }
+    .btn.blue    { background: var(--white); color: var(--navy); border-color: var(--navy); }
+    .btn.outline-white { background: transparent; color: var(--white); border-color: rgba(255,255,255,0.6); }
+    .btn.full    { width: 100%; }
+    .btn.sm      { padding: 8px 16px; font-size: 11px; }
+
+    /* ── SPONSOR BADGES ── */
+    .sponsor-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .sponsor-label {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--muted);
+    }
+
+    .sponsor-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--navy);
+    }
+
+    .sponsor-pill .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--lime);
+      flex-shrink: 0;
+    }
+
+    .sponsor-open {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #fff8e1;
+      border: 1px dashed #d4a800;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: #7a5c00;
+    }
+
+    .sponsor-open a { color: var(--green); text-decoration: underline; }
+
+    /* ── TITLE SPONSOR BAR ── */
+    .title-sponsor-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      padding: 5px 0;
+    }
+
+    .title-sponsor-inner {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* ── SUBSCRIBE STRIP ── */
+    .subscribe-strip {
+      background: var(--green);
+      padding: 8px 0;
+    }
+
+    .subscribe-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .subscribe-text {
+      color: var(--white);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .subscribe-text span {
+      display: block;
+      font-size: 11px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.75);
+      margin-top: 2px;
+    }
+
+    .beehiiv-wrap {
+      flex: 1;
+      min-width: 260px;
+      max-width: 480px;
+    }
+
+    /* ── SECTION ── */
+    .section { padding: 14px 0; }
+
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .section-kicker {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 4px;
+    }
+
+    .section-title {
+      font-size: clamp(22px, 3vw, 34px);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+      color: var(--navy);
+    }
+
+    /* ── ISSUE CARDS ── */
+    .issues-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .issue-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .issue-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(18,14,73,0.13);
+    }
+
+    .issue-date {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--lime);
+      background: var(--navy);
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 20px;
+      align-self: flex-start;
+    }
+
+    .issue-headline {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--navy);
+      flex: 1;
+    }
+
+    .issue-link {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+
+    /* ── DATA BOXES ── */
+    .boxes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .data-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .box-header {
+      padding: 8px 12px 6px;
+    }
+
+    .box-sport-pill {
+      display: inline-flex;
+      align-items: center;
+      background: var(--soft);
+      color: var(--green);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 4px;
+    }
+
+    .box-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .box-subtitle {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 1px;
+    }
+
+    /* table */
+    .box-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .box-table thead tr { background: var(--navy); }
+
+    .box-table thead th {
+      padding: 4px 8px;
+      color: rgba(255,255,255,0.85);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      text-align: left;
+    }
+
+    .box-table thead th:last-child { text-align: right; }
+
+    .box-table tbody tr:nth-child(odd)  { background: var(--soft); }
+    .box-table tbody tr:nth-child(even) { background: var(--white); }
+
+    .box-table tbody td {
+      padding: 3px 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+
+    .box-table tbody td:last-child { text-align: right; color: var(--muted); }
+
+    .rank-num { font-weight: 900; color: var(--green); }
+
+    /* teaser row */
+    .teaser-row {
+      background: var(--navy) !important;
+    }
+
+    .teaser-row td {
+      padding: 5px 8px !important;
+      text-align: center !important;
+      color: var(--white) !important;
+      font-family: Arial, Helvetica, sans-serif !important;
+      font-size: 11px !important;
+      font-weight: 700 !important;
+    }
+
+    .teaser-row td a {
+      color: var(--lime);
+      text-decoration: underline;
+      font-weight: 900;
+    }
+
+    /* box sponsor strip */
+    .box-sponsor {
+      padding: 4px 12px;
+      border-top: 1px solid var(--line);
+      background: var(--white);
+    }
+
+    /* box footer */
+    .box-footer {
+      padding: 7px 12px;
+      border-top: 1px solid var(--line);
+      background: var(--soft);
+      margin-top: auto;
+    }
+
+    .lock-note {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    /* ── WHAT YOU GET ── */
+    .get-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .get-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 12px 14px;
+      border-top: 3px solid var(--green);
+    }
+
+    .get-tag {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 6px;
+      background: var(--soft);
+      color: var(--green);
+    }
+
+    .get-card h3 {
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+      letter-spacing: -0.02em;
+    }
+
+    .get-card p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── BECOME A YOKAL ── */
+    .become-section {
+      background: var(--navy);
+      padding: 20px 0;
+    }
+
+    .become-inner {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .become-eyebrow {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--lime);
+      margin-bottom: 6px;
+    }
+
+    .become-h2 {
+      font-size: clamp(32px, 4.5vw, 56px);
+      line-height: 0.93;
+      letter-spacing: -0.05em;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+
+    .become-h2 span { color: var(--lime); }
+
+    .become-body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.55;
+      margin-bottom: 10px;
+      max-width: 520px;
+    }
+
+    /* price card */
+    .price-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+
+    .price-card-eyebrow {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 4px;
+    }
+
+    .price-card-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .price-row:last-of-type { border-bottom: 0; margin-bottom: 10px; }
+
+    .price-row .label {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .price-row .amount {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      color: var(--navy);
+      line-height: 1;
+    }
+
+    .price-row .amount span {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .trial-note {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 6px;
+    }
+
+
+    .become-bullets {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .become-bullet {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.4;
+    }
+
+    .become-bullet strong {
+      color: var(--white);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--white);
+      border-top: 1px solid var(--line);
+      padding: 14px 0 20px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .footer-logo {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 13px;
+      color: var(--navy);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .footer-links {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .boxes-grid  { grid-template-columns: 1fr 1fr; }
+      .issues-grid { grid-template-columns: 1fr 1fr; }
+      .become-inner { grid-template-columns: 1fr; }
+      .get-grid    { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      .boxes-grid  { grid-template-columns: 1fr; }
+      .issues-grid { grid-template-columns: 1fr; }
+      .subscribe-inner { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="page masthead">
+      <a href="/" aria-label="Yokal Sports home">
+        <div class="logo">
+          <img src="/Best_Yokal_Logo_6_16.jpg" alt="Yokal Sports" />
+        </div>
+      </a>
+      <div class="header-right">
+        <span class="market-pill">North Jersey</span>
+        <a class="btn blue sm" href="#become"
+           data-ms-membership="pln_yokal-north-jersey-monthly--n3j0ou0">
+          Become a Yokal — $4.99
+        </a>
+      </div>
+    </div>
+    <nav class="page nav" aria-label="Main navigation">
+      <a href="/">Yokal Operators</a>
+      <a href="#issues">The YSSR</a>
+      <a href="#rankings">Rankings</a>
+      <a href="#what-you-get">What You Get</a>
+      <a href="#become">Join — $4.99</a>
+    </nav>
+  </header>
+
+  <!-- TITLE SPONSOR BAR -->
+  <div class="title-sponsor-bar">
+    <div class="page title-sponsor-inner">
+      <span class="sponsor-label">North Jersey YSSR — Presented by</span>
+      <a class="sponsor-pill" href="https://www.performancekiaofdenville.com" target="_blank" rel="noopener">
+        <span class="dot"></span>Performance Kia of Denville
+      </a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- MARKET INTRO BAR -->
+    <div style="background:var(--white); border-bottom:1px solid var(--line); padding:8px 0;">
+      <div class="page" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+        <div>
+          <span style="font-family:Arial,sans-serif; font-size:10px; font-weight:900; letter-spacing:0.13em; text-transform:uppercase; color:var(--green);">The YSSR · North Jersey</span>
+          <div style="font-size:clamp(22px,3vw,32px); font-weight:700; color:var(--navy); letter-spacing:-0.04em; line-height:1;">North Jersey School Sports</div>
+          <div style="font-family:Arial,sans-serif; font-size:11px; color:var(--muted); margin-top:2px;">Bergen · Passaic · Essex · Hudson · Morris · Sussex · Warren · Hunterdon · Somerset · Union · Middlesex</div>
+        </div>
+        <a class="btn navy" href="#become" style="padding:10px 20px; font-size:12px;"
+           data-ms-membership="pln_yokal-north-jersey-monthly--n3j0ou0">
+          Become a Yokal — $4.99/mo
+        </a>
+      </div>
+    </div>
+
+    <!-- SUBSCRIBE STRIP -->
+    <div class="subscribe-strip">
+      <div class="page subscribe-inner">
+        <div class="subscribe-text">
+          The YSSR — free every Tuesday in your inbox.
+          <span>North Jersey school sports. 11 counties. One report.</span>
+        </div>
+        <div class="beehiiv-wrap">
+          <form action="https://embeds.beehiiv.com/037c3aba-6dae-4af3-980e-dfae9b170e62" method="post" target="_blank" style="display:flex; gap:6px; flex-wrap:wrap;">
+            <input type="email" name="email" placeholder="Your email address" required
+              style="flex:1; min-width:200px; padding:11px 16px; border:none; border-radius:8px; background:#ffffff; color:#111111; font-family:Arial,sans-serif; font-size:14px; outline:none;" />
+            <button type="submit"
+              style="padding:11px 20px; background:#120E49; color:#ffffff; border:none; border-radius:8px; font-family:Arial,sans-serif; font-size:12px; font-weight:900; letter-spacing:0.07em; text-transform:uppercase; cursor:pointer; white-space:nowrap;">
+              Subscribe Free
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECENT ISSUES -->
+    <section class="section" id="issues">
+      <div class="page">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">The Yokal Sports Sports Report</div>
+            <h2 class="section-title">Recent Issues</h2>
+          </div>
+          <div class="sponsor-bar">
+            <span class="sponsor-label">Market Update brought to you by</span>
+            <a class="sponsor-pill" href="https://www.performancekiaofdenville.com" target="_blank" rel="noopener">
+              <span class="dot"></span>Performance Kia of Denville
+            </a>
+          </div>
+        </div>
+
+        <div class="issues-grid">
+          <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
+            <span class="issue-date">June 9, 2026</span>
+            <div class="issue-headline">State Playoffs Are in Full Mode — Top Stories You Need to Know</div>
+            <div class="issue-link">Read Issue →</div>
+          </a>
+          <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb" target="_blank" rel="noopener">
+            <span class="issue-date">May 26, 2026</span>
+            <div class="issue-headline">15 North Jersey Schools That Deserve Some Love This Spring</div>
+            <div class="issue-link">Read Issue →</div>
+          </a>
+          <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577" target="_blank" rel="noopener">
+            <span class="issue-date">May 19, 2026</span>
+            <div class="issue-headline">Mount Olive Stuns Delbarton + County Finals &amp; College Corner</div>
+            <div class="issue-link">Read Issue →</div>
+          </a>
+          <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-0d92e15c130f952d" target="_blank" rel="noopener">
+            <span class="issue-date">May 12, 2026</span>
+            <div class="issue-headline">Don Bosco Wins 6th Straight Bergen County Lacrosse Title + Rankings</div>
+            <div class="issue-link">Read Issue →</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+        <!-- 6 DATA BOXES -->
+    <section class="section" id="rankings">
+      <div class="page">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Yokal Rankings — Updated June 9, 2026</div>
+            <h2 class="section-title">What Yokals See Every Week</h2>
+          </div>
+        </div>
+
+        <div class="boxes-grid">
+
+          <!-- BOX 1: Top 50 Teams — show 6-20, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">High School Boys</div>
+              <div class="box-title">Top 50 Teams</div>
+              <div class="box-subtitle">Updated June 9, 2026 · Ranks 6–10 shown</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>School</th><th>County</th><th>Score</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>Passaic Tech</td><td>Passaic</td><td>85</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>Ramapo</td><td>Bergen</td><td>82</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Bergen Catholic</td><td>Bergen</td><td>80</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>Glen Rock</td><td>Bergen</td><td>78</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Ridgewood</td><td>Bergen</td><td>75</td></tr>
+                <tr><td><span class="rank-num">11</span></td><td>North Hunterdon</td><td>Hunterdon</td><td>72</td></tr>
+                <tr><td><span class="rank-num">12</span></td><td>West Milford</td><td>Passaic</td><td>70</td></tr>
+                <tr><td><span class="rank-num">13</span></td><td>Montville</td><td>Morris</td><td>68</td></tr>
+                <tr><td><span class="rank-num">14</span></td><td>Roxbury</td><td>Morris</td><td>66</td></tr>
+                <tr><td><span class="rank-num">15</span></td><td>Clifton</td><td>Passaic</td><td>64</td></tr>
+                <tr><td><span class="rank-num">16</span></td><td>West Essex</td><td>Essex</td><td>63</td></tr>
+                <tr><td><span class="rank-num">17</span></td><td>West Morris</td><td>Morris</td><td>62</td></tr>
+                <tr><td><span class="rank-num">18</span></td><td>Immaculata</td><td>Hunterdon</td><td>61</td></tr>
+                <tr><td><span class="rank-num">19</span></td><td>Ridge</td><td>Bergen</td><td>60</td></tr>
+                <tr><td><span class="rank-num">20</span></td><td>Wayne Hills</td><td>Passaic</td><td>59</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete Top 50? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+          <!-- BOX 2: Top 30 Athletes — show 6-10, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">High School Boys · Baseball</div>
+              <div class="box-title">Top 30 Athletes</div>
+              <div class="box-subtitle">Updated June 9, 2026 · Ranks 6–10 shown</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>Player</th><th>School</th><th>Score</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>Charlie Wingfield</td><td>Ramapo</td><td>89</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>J.C. Pacheco</td><td>DePaul Catholic</td><td>88</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Finnian O'Loughlin</td><td>Delbarton</td><td>87</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>Hunter Brown</td><td>N. Hunterdon</td><td>86</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Frankie Juliano</td><td>Passaic Tech</td><td>85</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete Top 30? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+          <!-- BOX 3: Historical Win% — show 6-20, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">All Sports · Program History</div>
+              <div class="box-title">Historical Win %</div>
+              <div class="box-subtitle">Tracked Games · June 9, 2026</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>School</th><th>County</th><th>Win%</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>Ridgewood</td><td>Bergen</td><td>.741</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>Summit</td><td>Union</td><td>.733</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Passaic Tech</td><td>Passaic</td><td>.727</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>Bergen Catholic</td><td>Bergen</td><td>.719</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Watchung Hills</td><td>Somerset</td><td>.714</td></tr>
+                <tr><td><span class="rank-num">11</span></td><td>Columbia</td><td>Essex</td><td>.708</td></tr>
+                <tr><td><span class="rank-num">12</span></td><td>Morris Knolls</td><td>Morris</td><td>.700</td></tr>
+                <tr><td><span class="rank-num">13</span></td><td>Ramsey</td><td>Bergen</td><td>.694</td></tr>
+                <tr><td><span class="rank-num">14</span></td><td>Glen Rock</td><td>Bergen</td><td>.688</td></tr>
+                <tr><td><span class="rank-num">15</span></td><td>Ramapo</td><td>Bergen</td><td>.681</td></tr>
+                <tr><td><span class="rank-num">16</span></td><td>Northern Highlands</td><td>Bergen</td><td>.674</td></tr>
+                <tr><td><span class="rank-num">17</span></td><td>Wayne Hills</td><td>Passaic</td><td>.667</td></tr>
+                <tr><td><span class="rank-num">18</span></td><td>Mount Olive</td><td>Morris</td><td>.660</td></tr>
+                <tr><td><span class="rank-num">19</span></td><td>Old Tappan</td><td>Bergen</td><td>.654</td></tr>
+                <tr><td><span class="rank-num">20</span></td><td>Livingston</td><td>Essex</td><td>.648</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete list? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+          <!-- BOX 4: NIL — show 6-10, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">NIL · HS + College</div>
+              <div class="box-title">NIL Tracking</div>
+              <div class="box-subtitle">North Jersey HS + College · June 9, 2026</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>Athlete</th><th>Program</th><th>Sport</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>Sal Garcia</td><td>Delbarton</td><td>Baseball</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>JJ Drennan</td><td>Seton Hall Prep</td><td>Baseball</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Katie Adams</td><td>Ridgewood</td><td>Lacrosse</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>Kane Quenault</td><td>Delbarton</td><td>Lacrosse</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Lucas Angel</td><td>Seton Hall Prep</td><td>Lacrosse</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete NIL list? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+          <!-- BOX 5: Girls Teams — show 6-20, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">High School Girls</div>
+              <div class="box-title">Girls Rankings</div>
+              <div class="box-subtitle">Updated June 9, 2026 · Ranks 6–20 shown</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Record</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>IHA</td><td>Softball</td><td>14-5</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>Northern Highlands</td><td>Girls Lax</td><td>12-6</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Indian Hills</td><td>Softball</td><td>15-6</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>DePaul Catholic</td><td>Softball</td><td>13-5</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Glen Rock</td><td>Softball</td><td>14-4</td></tr>
+                <tr><td><span class="rank-num">11</span></td><td>Pompton Lakes</td><td>Softball</td><td>13-5</td></tr>
+                <tr><td><span class="rank-num">12</span></td><td>North Hunterdon</td><td>Softball</td><td>16-7</td></tr>
+                <tr><td><span class="rank-num">13</span></td><td>Summit</td><td>Girls Lax</td><td>10-6</td></tr>
+                <tr><td><span class="rank-num">14</span></td><td>Gov. Livingston</td><td>Softball</td><td>17-8</td></tr>
+                <tr><td><span class="rank-num">15</span></td><td>Roxbury</td><td>Softball</td><td>14-8</td></tr>
+                <tr><td><span class="rank-num">16</span></td><td>West Essex</td><td>Softball</td><td>11-7</td></tr>
+                <tr><td><span class="rank-num">17</span></td><td>Ramapo</td><td>Softball</td><td>17-5</td></tr>
+                <tr><td><span class="rank-num">18</span></td><td>Westfield</td><td>Girls Lax</td><td>9-7</td></tr>
+                <tr><td><span class="rank-num">19</span></td><td>Chatham</td><td>Girls Lax</td><td>10-5</td></tr>
+                <tr><td><span class="rank-num">20</span></td><td>Livingston</td><td>Softball</td><td>12-8</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete girls list? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+          <!-- BOX 6: Girls Athletes — show 6-10, tease 1-5 -->
+          <div class="data-box">
+            <div class="box-header">
+              <div class="box-sport-pill">High School Girls</div>
+              <div class="box-title">Girls Standouts</div>
+              <div class="box-subtitle">Updated June 9, 2026 · Ranks 6–10 shown</div>
+            </div>
+            <table class="box-table">
+              <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>Sport</th></tr></thead>
+              <tbody>
+                <tr class="teaser-row"><td colspan="4">#1–5 · <a href="#become">Become a Yokal</a></td></tr>
+                <tr><td><span class="rank-num">6</span></td><td>Audrey Amoruso</td><td>Indian Hills</td><td>Softball</td></tr>
+                <tr><td><span class="rank-num">7</span></td><td>Grace Sullivan</td><td>Ridgewood</td><td>Girls Lax</td></tr>
+                <tr><td><span class="rank-num">8</span></td><td>Layla Francisco</td><td>N. Hunterdon</td><td>Softball</td></tr>
+                <tr><td><span class="rank-num">9</span></td><td>Morgan Holley</td><td>Union Catholic</td><td>Track</td></tr>
+                <tr><td><span class="rank-num">10</span></td><td>Sofia Vega</td><td>Quinnipiac</td><td>Softball</td></tr>
+              </tbody>
+            </table>
+            <div class="box-footer">
+              <span class="lock-note">Want the complete girls standouts list? <a href="#become" style="color:var(--green);font-weight:900;">Become a Yokal →</a></span>
+            </div>
+            <div class="box-sponsor">
+              <div class="sponsor-bar"><a href="mailto:yokals@yokalsports.com" class="sponsor-open" style="text-decoration:none;">Sponsor This List</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BECOME A YOKAL -->
+    <section class="become-section" id="become">
+      <div class="page">
+        <div class="become-inner">
+          <div>
+            <div class="become-eyebrow">Become a Yokal — $4.99/month</div>
+            <h2 class="become-h2">Every stat. Every ranking.<br><span>Become a Yokal — $4.99/month</span></h2>
+            <div class="become-bullets">
+              <div class="become-bullet">📊 <strong>Full Top 50 Teams</strong> — every sport, every county, updated weekly</div>
+              <div class="become-bullet">🏅 <strong>Full Top 30 Athletes</strong> — baseball, softball, lacrosse, and more</div>
+              <div class="become-bullet">📈 <strong>Historical Win %</strong> — every program tracked across all 11 counties</div>
+              <div class="become-bullet">💰 <strong>NIL Tracking</strong> — North Jersey athletes, deals, and commitments</div>
+              <div class="become-bullet">👧 <strong>Full Girls Rankings</strong> — teams and athletes, softball and lacrosse</div>
+              <div class="become-bullet">🎓 <strong>College Corner</strong> — NJ athletes at Rutgers, Seton Hall, Montclair, and beyond</div>
+              <div class="become-bullet">📬 <strong>The YSSR every Tuesday</strong> — the only report covering all 11 counties</div>
+            </div>
+          </div>
+
+          <div class="price-card">
+            <div class="price-card-eyebrow">North Jersey</div>
+            <div class="price-card-title">Become a Yokal</div>
+            <div class="price-row">
+              <span class="label">Monthly</span>
+              <span class="amount">$4.99<span>/mo</span></span>
+            </div>
+            <div class="price-row">
+              <span class="label">Annual</span>
+              <span class="amount">$49<span>/yr</span></span>
+            </div>
+            <a class="btn navy full" href="/north-jersey/yokal/"
+               data-ms-membership="pln_yokal-north-jersey-monthly--n3j0ou0">
+              Join Now at YokalSports.com
+            </a>
+            <div class="trial-note">7-day free trial. No charge until trial ends. Cancel anytime.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="page footer-inner">
+      <div class="footer-logo">Yokal Sports</div>
+      <div class="footer-links">
+        North Jersey &nbsp;·&nbsp; <a href="/">Yokal Operators</a> &nbsp;·&nbsp; yokals@yokalsports.com
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
