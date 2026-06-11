@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: North Jersey
+permalink: /north-jersey/index.html
+---
+<section class="section"><div class="wrap"><div class="section-head"><div><h1>North Jersey</h1><p>{{ market.counties | join(' · ') }}</p></div><a class="btn" href="#subscribe">Subscribe to the YSSR</a></div>
+{% if market.newsletter_issues.length %}<div class="issues">{% for issue in market.newsletter_issues %}<a class="issue-card" href="{{ issue.url }}" target="_blank" rel="noopener"><div class="date">{{ issue.date | displayDate }}</div><h3>{{ issue.headline }}</h3></a>{% endfor %}</div>{% endif %}</div></section>
+{% set publication = market.latestPublication %}
+<section class="section"><div class="wrap"><div class="section-head"><div><h2>Latest Free Preview</h2><p>{% if publication %}Published {{ publication.publish_date | displayDate }}{% else %}Waiting for the first approved publication{% endif %}</p></div></div>
+{% if publication %}<div class="two-col">
+<div class="stack">
+{% for sport in publication.high_school.boys.sports or [] %}
+{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% include 'list-card.njk' %}
+{% endfor %}
+</div><div class="stack">
+{% for sport in publication.high_school.girls.sports or [] %}
+{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% include 'list-card.njk' %}
+{% endfor %}
+</div></div>{% else %}<div class="archive-note">The Google Sheet connection is working. Sports lists will appear here after the exporter publishes complete approved data.</div>{% endif %}
+<div class="cta-box"><div><strong>Every stat. Every ranking.</strong><div class="muted">The complete lists, NIL, history, charts and archives are for paid Yokals.</div></div><a class="btn" href="/north-jersey/#become">Become a Yokal — $4.99/month</a></div>
+</div></section>

@@ -1,0 +1,27 @@
+<article class="data-card">
+  <header class="card-head">
+    <h3>{{ cardTitle }}</h3>
+    <div class="date-line">{{ sportName }} · {{ publication.publish_date | displayDate }}</div>
+  </header>
+  {% if rows and rows.length %}
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>{{ primaryLabel or 'Name' }}</th><th>County</th><th>Record / Stats</th><th>Score</th></tr></thead>
+      <tbody>
+      {% for row in rows %}
+        <tr>
+          <td class="rank">{{ row.rank or loop.index }}</td>
+          <td><strong>{{ row.team or row.school or row.athlete or row.player or row.name }}</strong>{% if row.sport and showSport %}<div class="muted">{{ row.sport }}</div>{% endif %}</td>
+          <td>{{ row.county or '—' }}</td>
+          <td>{{ row.record or row.stats or row.status or row.mark or '—' }}</td>
+          <td>{{ row.score or '—' }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+    <div class="empty">Data will appear after the next approved Tuesday publication.</div>
+  {% endif %}
+  {% if sponsor %}<a class="sponsor" href="mailto:yokals@yokalsports.com?subject=Sponsor%20This%20List">Sponsor This List</a>{% endif %}
+</article>

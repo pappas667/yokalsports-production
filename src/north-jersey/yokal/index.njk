@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: North Jersey Yokal Hub
+permalink: /north-jersey/yokal/index.html
+---
+<section class="section"><div class="wrap"><div class="section-head"><div><h1>North Jersey Yokal Hub</h1><p>The three most recent Tuesday publications appear here, newest first.</p></div></div>
+{% if market.mainHubPublications.length %}
+{% for publication in market.mainHubPublications %}<section class="publication"><div class="publication-bar"><strong>{{ publication.publish_date | displayDate }}</strong><span class="pill">{{ publication.season }}</span></div>
+<div class="two-col"><div class="stack"><h2>High School Boys</h2>{% for sport in publication.high_school.boys.sports or [] %}{% set cardTitle=sport.name ~ ' — Top ' ~ (sport.teams.length or 0) ~ ' Teams' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='School' %}{% set sponsor=false %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Top Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div>
+<div class="stack"><h2>High School Girls</h2>{% for sport in publication.high_school.girls.sports or [] %}{% set cardTitle=sport.name ~ ' — Top ' ~ (sport.teams.length or 0) ~ ' Teams' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='School' %}{% set sponsor=false %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Top Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div></div>
+<div class="two-col"><div class="stack"><h2>College Men</h2>{% for sport in publication.college.men.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% endfor %}</div><div class="stack"><h2>College Women</h2>{% for sport in publication.college.women.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% endfor %}</div></div>
+</section>{% endfor %}
+{% else %}<div class="archive-note">No approved sports publications are in the JSON yet. The exporter must be updated before lists can populate automatically.</div>{% endif %}
+<div class="archive-note">After a publication becomes older than the three most recent Tuesdays, it automatically leaves this hub and remains on the Boys, Girls or College archive page.</div></div></section>

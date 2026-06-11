@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+title: North Jersey Boys Archive
+permalink: /north-jersey/yokal/boys/index.html
+---
+<section class="section"><div class="wrap"><div class="section-head"><div><h1>Boys Sports Archive</h1><p>All approved weekly snapshots, newest first.</p></div></div>
+{% for publication in market.publications %}<section class="publication"><div class="publication-bar"><strong>{{ publication.publish_date | displayDate }}</strong><span class="pill">{{ publication.season }}</span></div><div class="two-col">
+{% for sport in publication.high_school.boys.sports or [] %}<div class="stack">{% set cardTitle=sport.name ~ ' — Teams' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='School' %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}</div>{% endfor %}
+</div></section>{% endfor %}</div></section>

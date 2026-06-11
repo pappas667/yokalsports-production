@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title }} | Yokal Sports</title>
+  <meta name="description" content="{{ description or 'Yokal Sports market coverage, rankings and local sports intelligence.' }}">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap masthead">
+    <a class="logo" href="/"><img src="/Best_Yokal_Logo_6_16.jpg" alt="Yokal Sports"></a>
+    <div class="market-name">{{ market.market or 'North Jersey' }}</div>
+  </div>
+  <nav class="nav wrap">
+    <a href="/north-jersey/">Free Preview</a>
+    <a href="/north-jersey/yokal/">Yokal Hub</a>
+    <a href="/north-jersey/yokal/boys/">Boys</a>
+    <a href="/north-jersey/yokal/girls/">Girls</a>
+    <a href="/north-jersey/yokal/college/">College</a>
+  </nav>
+</header>
+<main>{{ content | safe }}</main>
+<footer class="site-footer"><div class="wrap">Yokal Sports · yokals@yokalsports.com</div></footer>
+</body>
+</html>
