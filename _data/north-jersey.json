@@ -2,12 +2,177 @@
   "schema_version": 2,
   "market": "North Jersey",
   "slug": "north-jersey",
-  "counties": ["Bergen","Passaic","Essex","Hudson","Morris","Sussex","Warren","Hunterdon","Somerset","Union","Middlesex"],
-  "newsletter_issues": [
-    {"date":"2026-06-09","headline":"State Playoffs Are in Full Mode — Top Stories You Need to Know","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b"},
-    {"date":"2026-05-26","headline":"15 North Jersey Schools That Deserve Some Love This Spring","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb"},
-    {"date":"2026-05-19","headline":"Mount Olive Stuns Delbarton + County Finals & College Corner","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577"},
-    {"date":"2026-05-12","headline":"Don Bosco Wins Sixth Straight Bergen County Lacrosse Title + Rankings","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-0d92e15c130f952d"}
+  "counties": [
+    "Bergen",
+    "Passaic",
+    "Essex",
+    "Hudson",
+    "Morris",
+    "Sussex",
+    "Warren",
+    "Hunterdon",
+    "Somerset",
+    "Union",
+    "Middlesex"
   ],
-  "publications": []
+  "generated_at": "2026-06-11T23:50:20.160Z",
+  "newsletter_issues": [],
+  "publications": [
+    {
+      "publish_date": "2026-06-06",
+      "approved": true,
+      "season": "Spring",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Baseball",
+              "teams": [
+                {
+                  "status": "Sectional championship — opponent TBD | W | Tue Dec 01 2026 03:00:00 GMT-0500 (Eastern Standard Time)",
+                  "sport": "Baseball"
+                }
+              ],
+              "athletes": []
+            }
+          ]
+        },
+        "girls": {
+          "sports": []
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "nil_tracking": [],
+      "historical_winpct": [],
+      "charts": []
+    },
+    {
+      "publish_date": "2026-06-05",
+      "approved": true,
+      "season": "Spring",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Baseball",
+              "teams": [
+                {
+                  "status": "Non-Public A Semifinal — heading to championship | W | 14-9",
+                  "sport": "Baseball"
+                }
+              ],
+              "athletes": []
+            }
+          ]
+        },
+        "girls": {
+          "sports": []
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "nil_tracking": [],
+      "historical_winpct": [],
+      "charts": []
+    },
+    {
+      "publish_date": "2026-06-04",
+      "approved": true,
+      "season": "Spring",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Baseball",
+              "teams": [
+                {
+                  "status": "N1 Group 4 Sectional Final | W | Thu Oct 08 2026 03:00:00 GMT-0400 (Eastern Daylight Time)",
+                  "sport": "Baseball"
+                },
+                {
+                  "status": "N1 Group 3 Sectional Final | W | Fri Sep 04 2026 03:00:00 GMT-0400 (Eastern Daylight Time)",
+                  "sport": "Baseball"
+                },
+                {
+                  "status": "N1 Group 2 Sectional Final — 9 innings | W | Fri Jun 05 2026 03:00:00 GMT-0400 (Eastern Daylight Time)",
+                  "sport": "Baseball"
+                },
+                {
+                  "status": "N1 Group 1 Sectional Final | W | 3-0",
+                  "sport": "Baseball"
+                },
+                {
+                  "status": "Non-Public A Sectional Final | W | Sun Nov 01 2026 02:00:00 GMT-0500 (Eastern Standard Time)",
+                  "sport": "Baseball"
+                }
+              ],
+              "athletes": []
+            }
+          ]
+        },
+        "girls": {
+          "sports": []
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "nil_tracking": [],
+      "historical_winpct": [],
+      "charts": []
+    },
+    {
+      "publish_date": "2026-06-03",
+      "approved": true,
+      "season": "Spring",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Boys Lacrosse",
+              "teams": [
+                {
+                  "status": "Group 4 Semifinal — OT | W | Tue Nov 10 2026 03:00:00 GMT-0500 (Eastern Standard Time)",
+                  "sport": "Boys Lacrosse"
+                }
+              ],
+              "athletes": []
+            }
+          ]
+        },
+        "girls": {
+          "sports": []
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "nil_tracking": [],
+      "historical_winpct": [],
+      "charts": []
+    }
+  ]
 }
