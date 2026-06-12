@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "market": "North Jersey",
+  "slug": "north-jersey",
+  "counties": ["Bergen","Passaic","Essex","Hudson","Morris","Sussex","Warren","Hunterdon","Somerset","Union","Middlesex"],
+  "newsletter_issues": [
+    {"date":"2026-06-09","headline":"State Playoffs Are in Full Mode — Top Stories You Need to Know","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b"},
+    {"date":"2026-05-26","headline":"15 North Jersey Schools That Deserve Some Love This Spring","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb"},
+    {"date":"2026-05-19","headline":"Mount Olive Stuns Delbarton + County Finals & College Corner","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577"},
+    {"date":"2026-05-12","headline":"Don Bosco Wins Sixth Straight Bergen County Lacrosse Title + Rankings","url":"https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-0d92e15c130f952d"}
+  ],
+  "publications": []
+}
