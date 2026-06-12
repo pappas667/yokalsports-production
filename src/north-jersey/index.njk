@@ -10,12 +10,27 @@ permalink: /north-jersey/index.html
 {% if publication %}<div class="two-col">
 <div class="stack">
 {% for sport in publication.high_school.boys.sports or [] %}
-{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% include 'list-card.njk' %}
+{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% set freePreview=true %}{% include 'list-card.njk' %}
 {% endfor %}
 </div><div class="stack">
 {% for sport in publication.high_school.girls.sports or [] %}
-{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% include 'list-card.njk' %}
+{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% set freePreview=true %}{% include 'list-card.njk' %}
 {% endfor %}
 </div></div>{% else %}<div class="archive-note">The Google Sheet connection is working. Sports lists will appear here after the exporter publishes complete approved data.</div>{% endif %}
-<div class="cta-box"><div><strong>Every stat. Every ranking.</strong><div class="muted">The complete lists, NIL, history, charts and archives are for paid Yokals.</div></div><a class="btn" href="/north-jersey/#become">Become a Yokal — $4.99/month</a></div>
+<section id="become" class="membership-card">
+  <div class="membership-copy">
+    <div class="eyebrow">North Jersey Yokal Membership</div>
+    <h2>Every stat. Every ranking.</h2>
+    <p>The complete team lists, athlete rankings, NIL tracking, historical winning percentages, charts, and Boys, Girls and College archives.</p>
+    <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
+  </div>
+  <div class="membership-prices">
+    <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">
+      <span>Monthly</span><strong>$4.99</strong><small>per month</small>
+    </button>
+    <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-annual-374v08rm">
+      <span>Annual</span><strong>$49</strong><small>per year</small>
+    </button>
+  </div>
+</section>
 </div></section>

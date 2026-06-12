@@ -1,7 +1,0 @@
----
-layout: layouts/base.njk
-title: North Jersey College Archive
-permalink: /north-jersey/yokal/college/index.html
----
-<section class="section"><div class="wrap"><div class="section-head"><div><h1>College Archive</h1><p>College men and women, all approved weekly snapshots, newest first.</p></div></div>
-{% for publication in market.publications %}<section class="publication"><div class="publication-bar"><strong>{{ publication.publish_date | displayDate }}</strong><span class="pill">{{ publication.season }}</span></div><div class="two-col"><div class="stack"><h2>College Men</h2>{% for sport in publication.college.men.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div><div class="stack"><h2>College Women</h2>{% for sport in publication.college.women.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div></div></section>{% endfor %}</div></section>
