@@ -11,19 +11,21 @@
   <script data-memberstack-app="app_cmpzrc8r1000f0tvo9wcd3h0r" src="https://static.memberstack.com/scripts/v2/memberstack.js" type="text/javascript"></script>
 </head>
 <body>
+{% set marketSlug = page.url.split('/')[1] or 'north-jersey' %}
+{% set marketLabel = 'South Jersey' if marketSlug == 'south-jersey' else (market.market or 'North Jersey') %}
 <header class="site-header">
   <div class="wrap masthead">
     <a class="logo" href="/"><img src="/Best_Yokal_Logo_6_16.jpg" alt="Yokal Sports"></a>
-    <div class="market-name">{{ market.market or 'North Jersey' }}</div>
+    <div class="market-name">{{ marketLabel }}</div>
   </div>
-  <nav class="nav wrap">
-    <a href="/north-jersey/">Free Preview</a>
-    <a href="/north-jersey/yokal/">Yokal Hub</a>
-    <a href="/north-jersey/yokal/boys/">Boys</a>
-    <a href="/north-jersey/yokal/girls/">Girls</a>
-    <a href="/north-jersey/yokal/college/">College</a>
-    <button class="nav-action" type="button" data-ms-modal="login">Log In</button>
-    <button class="nav-action" type="button" data-ms-modal="profile">Account</button>
+  <nav class="nav wrap" aria-label="Market navigation">
+    <a href="/{{ marketSlug }}/">Free Preview</a>
+    <a href="/{{ marketSlug }}/yokal/">Yokal Hub</a>
+    <a href="/{{ marketSlug }}/yokal/boys/">Boys</a>
+    <a href="/{{ marketSlug }}/yokal/girls/">Girls</a>
+    <a href="/{{ marketSlug }}/yokal/college/">College</a>
+    <a class="nav-action" href="#" data-ms-modal="login">Log In</a>
+    <a class="nav-action" href="#" data-ms-modal="profile">Account</a>
   </nav>
 </header>
 <main>{{ content | safe }}</main>
