@@ -4,6 +4,8 @@ title: North Jersey
 permalink: /north-jersey/index.html
 ---
 
+{% set publication = market.latestPublication %}
+
 <!-- HERO -->
 <section class="section">
   <div class="wrap">
@@ -12,7 +14,7 @@ permalink: /north-jersey/index.html
         <h1>North Jersey</h1>
         <p>{{ market.counties | join(' · ') }}</p>
       </div>
-      <a class="btn" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
+      <a class="btn" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
     </div>
 
     <!-- YSSR SUBSCRIBE -->
@@ -23,22 +25,6 @@ permalink: /north-jersey/index.html
         <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
       </div>
       <a class="subscribe-button" href="https://newsletter.yokalsports.com/" target="_blank" rel="noopener">Subscribe Free</a>
-    </div>
-
-    <div class="mobile-value-strip" aria-label="Why become a Yokal">
-      <div class="mobile-value-item"><div class="mobile-value-icon">1</div><div><strong>Local coverage</strong><span>Teams, athletes and schools in your market.</span></div></div>
-      <div class="mobile-value-item"><div class="mobile-value-icon">2</div><div><strong>Complete rankings</strong><span>Unlock every list, stat and archive.</span></div></div>
-      <div class="mobile-value-item"><div class="mobile-value-icon">3</div><div><strong>Support creators</strong><span>Help fund the people covering local sports.</span></div></div>
-    </div>
-
-    <div class="social-conversion">
-      <div class="eyebrow">Built for Social. Built for Your Phone.</div>
-      <h2>See the story. Tap once. Become a Yokal.</h2>
-      <p>Support the Yokal Sports creators covering North Jersey and unlock the complete YSSR experience on the device you already use every day.</p>
-      <div class="social-conversion-actions">
-        <a class="btn primary-yokal" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
-        <a class="btn secondary-yssr" href="https://newsletter.yokalsports.com/" target="_blank" rel="noopener">Join the YSSR</a>
-      </div>
     </div>
 
     <!-- PREVIOUS YSSR ISSUES -->
@@ -56,53 +42,192 @@ permalink: /north-jersey/index.html
   </div>
 </section>
 
-<!-- FREE PREVIEW DATA -->
-{% set publication = market.latestPublication %}
+<!-- 6 TEASER BOXES -->
+{% if publication %}
 <section class="section">
   <div class="wrap">
+
     <div class="section-head">
       <div>
-        <h2>North Jersey Yokal Data</h2>
-        <p>{% if publication %}Updated {{ publication.publish_date | displayDate }}{% else %}Data coming soon{% endif %}</p>
+        <h2>North Jersey Rankings</h2>
+        <p>Updated {{ publication.publish_date | displayDate }} · Want the full list? Become a Yokal.</p>
       </div>
-      <a class="btn" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
     </div>
 
-    {% if publication %}
+    {% set boys_baseball = null %}
+    {% set boys_lax = null %}
+    {% set girls_softball = null %}
+    {% set girls_lax = null %}
+    {% for sport in publication.high_school.boys.sports %}
+      {% if sport.name == "Baseball" %}{% set boys_baseball = sport %}{% endif %}
+      {% if sport.name == "Boys Lacrosse" %}{% set boys_lax = sport %}{% endif %}
+    {% endfor %}
+    {% for sport in publication.high_school.girls.sports %}
+      {% if sport.name == "Softball" %}{% set girls_softball = sport %}{% endif %}
+      {% if sport.name == "Girls Lacrosse" %}{% set girls_lax = sport %}{% endif %}
+    {% endfor %}
+
     <div class="two-col">
-      <div class="stack">
-        {% for sport in publication.high_school.boys.sports or [] %}
-        {% set cardTitle = sport.name ~ ' — Teams Preview' %}
-        {% set sportName = sport.name %}
-        {% set rows = sport.teams | preview(5,15) %}
-        {% set primaryLabel = 'School' %}
-        {% set sponsor = true %}
-        {% set freePreview = true %}
-        {% include 'list-card.njk' %}
-        {% endfor %}
-      </div>
-      <div class="stack">
-        {% for sport in publication.high_school.girls.sports or [] %}
-        {% set cardTitle = sport.name ~ ' — Teams Preview' %}
-        {% set sportName = sport.name %}
-        {% set rows = sport.teams | preview(5,15) %}
-        {% set primaryLabel = 'School' %}
-        {% set sponsor = true %}
-        {% set freePreview = true %}
-        {% include 'list-card.njk' %}
-        {% endfor %}
-      </div>
-    </div>
-    {% else %}
-    <div class="archive-note">Sports lists will appear here after the first approved publication from the Google Sheet.</div>
-    {% endif %}
 
-    <!-- BECOME A YOKAL -->
-    <section id="become" class="membership-card">
+      <!-- BOX 1: Boys Teams -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>⚾ Boys Teams — Top 50</h3>
+          <div class="date-line">Baseball · Boys Lacrosse · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
+            <tbody>
+              {% if boys_baseball %}
+                {% for team in boys_baseball.teams | preview(5, 10) %}
+                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+              {% if boys_lax %}
+                {% for team in boys_lax.teams | preview(5, 5) %}
+                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+      <!-- BOX 2: Girls Teams -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>🥎 Girls Teams — Top 50</h3>
+          <div class="date-line">Softball · Girls Lacrosse · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
+            <tbody>
+              {% if girls_softball %}
+                {% for team in girls_softball.teams | preview(5, 10) %}
+                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+              {% if girls_lax %}
+                {% for team in girls_lax.teams | preview(5, 5) %}
+                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+      <!-- BOX 3: Boys Athletes -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>🏅 Boys Athletes — Top 30</h3>
+          <div class="date-line">Baseball · Boys Lacrosse · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
+            <tbody>
+              {% if boys_baseball %}
+                {% for athlete in boys_baseball.athletes | preview(5, 5) %}
+                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+              {% if boys_lax %}
+                {% for athlete in boys_lax.athletes | preview(2, 3) %}
+                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+      <!-- BOX 4: Girls Athletes -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>🏅 Girls Athletes — Top 30</h3>
+          <div class="date-line">Softball · Girls Lacrosse · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
+            <tbody>
+              {% if girls_softball %}
+                {% for athlete in girls_softball.athletes | preview(5, 5) %}
+                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+              {% if girls_lax %}
+                {% for athlete in girls_lax.athletes | preview(2, 3) %}
+                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
+                {% endfor %}
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+      <!-- BOX 5: Historical Win % -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>📊 Historical Win %</h3>
+          <div class="date-line">All Programs · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>Win%</th></tr></thead>
+            <tbody>
+              {% for prog in publication.historical_winpct | preview(5, 15) %}
+              <tr><td class="rank">{{ loop.index + 5 }}</td><td><strong>{{ prog.school }}</strong><br><span class="muted">{{ prog.level }}</span></td><td>{{ prog.sport }}</td><td>{{ prog.win_pct }}%</td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+      <!-- BOX 6: NIL Tracking -->
+      <div class="data-card">
+        <div class="card-head">
+          <h3>💰 NIL Tracking</h3>
+          <div class="date-line">HS + College Athletes · {{ publication.publish_date | displayDate }}</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Status</th></tr></thead>
+            <tbody>
+              {% if publication.nil_tracking.length %}
+                {% for nil in publication.nil_tracking | take(5) %}
+                <tr><td><strong>{{ nil.player }}</strong></td><td>{{ nil.school }}</td><td>{{ nil.sport }}</td><td>{{ nil.commit or "Tracking" }}</td></tr>
+                {% endfor %}
+              {% else %}
+              <tr><td colspan="4" class="empty">NIL tracking — data building. <a href="mailto:yokals@yokalsports.com">Submit a tip →</a></td></tr>
+              {% endif %}
+            </tbody>
+          </table>
+        </div>
+        <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
+      </div>
+
+    </div><!-- end two-col -->
+  </div>
+</section>
+{% endif %}
+
+<!-- BECOME A YOKAL -->
+<section class="section" id="become">
+  <div class="wrap">
+    <div class="membership-card">
       <div class="membership-copy">
         <div class="eyebrow">North Jersey Yokal Membership</div>
         <h2>Every stat. Every ranking.</h2>
-        <p>The complete team lists, athlete rankings, NIL tracking, historical winning percentages, charts, and Boys, Girls and College archives.</p>
+        <p>Complete team lists, athlete rankings, NIL tracking, historical winning percentages, and Boys, Girls and College archives.</p>
         <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
       </div>
       <div class="membership-prices">
@@ -113,12 +238,12 @@ permalink: /north-jersey/index.html
           <span>Annual</span><strong>$49</strong><small>per year · Save $11</small>
         </a>
       </div>
-    </section>
-
+    </div>
   </div>
 </section>
 
-<div class="mobile-sticky-yokal" aria-label="Become a Yokal mobile action">
-  <div class="mobile-sticky-copy"><strong>Support North Jersey sports coverage</strong><span>$4.99/month · 7-day trial</span></div>
+<!-- MOBILE STICKY -->
+<div class="mobile-sticky-yokal">
+  <div class="mobile-sticky-copy"><strong>Support North Jersey sports</strong><span>$4.99/month · 7-day trial</span></div>
   <a class="mobile-sticky-button" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
 </div>

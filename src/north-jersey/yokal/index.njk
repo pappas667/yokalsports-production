@@ -2,31 +2,198 @@
 layout: layouts/base.njk
 title: North Jersey Yokal Hub
 permalink: /north-jersey/yokal/index.html
+ms_content: pln_yokal-north-jersey-monthly--n3j0ou0,pln_yokal-north-jersey-annual--d5m0o3n
 ---
-<section class="section"><div class="wrap">
-<div id="yokal-welcome" class="welcome-once"><strong>Thanks for Being a Yokal!</strong><p>Your North Jersey Yokal Hub is ready.</p></div>
-<div class="section-head"><div><h1>North Jersey Yokal Hub</h1><p>The three most recent Tuesday publications appear here, newest first.</p></div></div>
-{% if market.mainHubPublications.length %}
-{% for publication in market.mainHubPublications %}<section class="publication"><div class="publication-bar"><strong>{{ publication.publish_date | displayDate }}</strong><span class="pill">{{ publication.season }}</span></div>
-<div class="two-col"><div class="stack"><h2>High School Boys</h2>{% for sport in publication.high_school.boys.sports or [] %}{% set cardTitle=sport.name ~ ' — Top ' ~ (sport.teams.length or 0) ~ ' Teams' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='School' %}{% set sponsor=false %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Top Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div>
-<div class="stack"><h2>High School Girls</h2>{% for sport in publication.high_school.girls.sports or [] %}{% set cardTitle=sport.name ~ ' — Top ' ~ (sport.teams.length or 0) ~ ' Teams' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='School' %}{% set sponsor=false %}{% include 'list-card.njk' %}{% set cardTitle=sport.name ~ ' — Top Athletes' %}{% set rows=sport.athletes %}{% set primaryLabel='Athlete' %}{% set showSport=true %}{% include 'list-card.njk' %}{% endfor %}</div></div>
-<div class="two-col"><div class="stack"><h2>College Men</h2>{% for sport in publication.college.men.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% endfor %}</div><div class="stack"><h2>College Women</h2>{% for sport in publication.college.women.sports or [] %}{% set cardTitle=sport.name ~ ' — Programs' %}{% set sportName=sport.name %}{% set rows=sport.teams %}{% set primaryLabel='Program' %}{% include 'list-card.njk' %}{% endfor %}</div></div>
-</section>{% endfor %}
-{% else %}<div class="archive-note">No approved sports publications are in the JSON yet. The exporter must be updated before lists can populate automatically.</div>{% endif %}
-<div class="archive-note">After a publication becomes older than the three most recent Tuesdays, it automatically leaves this hub and remains on the Boys, Girls or College archive page.</div></div></section>
 
-<script>
-(function(){
-  const params = new URLSearchParams(window.location.search);
-  if (params.get('welcome') !== '1') return;
-  const key = 'yokal-north-jersey-welcome-shown';
-  if (!localStorage.getItem(key)) {
-    const el = document.getElementById('yokal-welcome');
-    if (el) el.style.display = 'block';
-    localStorage.setItem(key, '1');
-  }
-  params.delete('welcome');
-  const clean = window.location.pathname + (params.toString() ? '?' + params.toString() : '') + window.location.hash;
-  window.history.replaceState({}, document.title, clean);
-})();
-</script>
+{% set publication = market.latestPublication %}
+
+<section class="section">
+  <div class="wrap">
+
+    <div class="section-head">
+      <div>
+        <h1>North Jersey Yokal Hub</h1>
+        <p>{% if publication %}Updated {{ publication.publish_date | displayDate }}{% endif %} · Full data · All 11 counties</p>
+      </div>
+    </div>
+
+    {% if publication %}
+
+    {% set boys_baseball = null %}
+    {% set boys_lax = null %}
+    {% set girls_softball = null %}
+    {% set girls_lax = null %}
+    {% for sport in publication.high_school.boys.sports %}
+      {% if sport.name == "Baseball" %}{% set boys_baseball = sport %}{% endif %}
+      {% if sport.name == "Boys Lacrosse" %}{% set boys_lax = sport %}{% endif %}
+    {% endfor %}
+    {% for sport in publication.high_school.girls.sports %}
+      {% if sport.name == "Softball" %}{% set girls_softball = sport %}{% endif %}
+      {% if sport.name == "Girls Lacrosse" %}{% set girls_lax = sport %}{% endif %}
+    {% endfor %}
+
+    <!-- HIGH SCHOOL BOYS + GIRLS — two columns -->
+    <h2 style="color:var(--navy);font-family:Georgia,serif;margin:0 0 12px;letter-spacing:-.03em;">High School Boys &amp; Girls Rankings</h2>
+    <div class="two-col" style="margin-bottom:24px;">
+
+      <!-- BOYS LEFT -->
+      <div class="stack">
+        <div class="eyebrow" style="margin-bottom:6px;">High School Boys</div>
+
+        {% if boys_baseball %}
+        <!-- Baseball Teams -->
+        <div class="data-card">
+          <div class="card-head"><h3>Baseball — Top {{ boys_baseball.teams | length }} Teams</h3><div class="date-line">Baseball · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>School</th><th>County</th><th>Record</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for team in boys_baseball.teams %}
+              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td>{{ team.county }}</td><td>{{ team.record }}</td><td>{{ team.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+
+        <!-- Baseball Athletes -->
+        <div class="data-card">
+          <div class="card-head"><h3>Baseball — Top {{ boys_baseball.athletes | length }} Players</h3><div class="date-line">Baseball · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Player</th><th>School</th><th>Sport</th><th>Commit</th><th>Stats</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for a in boys_baseball.athletes %}
+              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td>{{ a.school }}</td><td>{{ a.sport }}</td><td>{{ a.commit or "—" }}</td><td>{{ a.stats }}</td><td>{{ a.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+        {% endif %}
+
+        {% if boys_lax %}
+        <!-- Boys Lax Teams -->
+        <div class="data-card">
+          <div class="card-head"><h3>Boys Lacrosse — Top {{ boys_lax.teams | length }} Teams</h3><div class="date-line">Boys Lacrosse · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>School</th><th>County</th><th>Record</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for team in boys_lax.teams %}
+              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td>{{ team.county }}</td><td>{{ team.record }}</td><td>{{ team.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+
+        <!-- Boys Lax Athletes -->
+        <div class="data-card">
+          <div class="card-head"><h3>Boys Lacrosse — Top {{ boys_lax.athletes | length }} Players</h3><div class="date-line">Boys Lacrosse · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Player</th><th>School</th><th>Sport</th><th>Stats</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for a in boys_lax.athletes %}
+              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td>{{ a.school }}</td><td>{{ a.sport }}</td><td>{{ a.stats }}</td><td>{{ a.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- GIRLS RIGHT -->
+      <div class="stack">
+        <div class="eyebrow" style="margin-bottom:6px;">High School Girls</div>
+
+        {% if girls_softball %}
+        <!-- Softball Teams -->
+        <div class="data-card">
+          <div class="card-head"><h3>Softball — Top {{ girls_softball.teams | length }} Teams</h3><div class="date-line">Softball · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>School</th><th>County</th><th>Record</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for team in girls_softball.teams %}
+              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td>{{ team.county }}</td><td>{{ team.record }}</td><td>{{ team.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+
+        <!-- Softball Athletes -->
+        <div class="data-card">
+          <div class="card-head"><h3>Softball — Top {{ girls_softball.athletes | length }} Players</h3><div class="date-line">Softball · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Player</th><th>School</th><th>Sport</th><th>Commit</th><th>Stats</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for a in girls_softball.athletes %}
+              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td>{{ a.school }}</td><td>{{ a.sport }}</td><td>{{ a.commit or "—" }}</td><td>{{ a.stats }}</td><td>{{ a.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+        {% endif %}
+
+        {% if girls_lax %}
+        <!-- Girls Lax Teams -->
+        <div class="data-card">
+          <div class="card-head"><h3>Girls Lacrosse — Top {{ girls_lax.teams | length }} Teams</h3><div class="date-line">Girls Lacrosse · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>School</th><th>County</th><th>Record</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for team in girls_lax.teams %}
+              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td>{{ team.county }}</td><td>{{ team.record }}</td><td>{{ team.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+
+        <!-- Girls Lax Athletes -->
+        <div class="data-card">
+          <div class="card-head"><h3>Girls Lacrosse — Top {{ girls_lax.athletes | length }} Players</h3><div class="date-line">Girls Lacrosse · {{ publication.publish_date | displayDate }}</div></div>
+          <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Player</th><th>School</th><th>Sport</th><th>Stats</th><th>Score</th></tr></thead>
+            <tbody>
+              {% for a in girls_lax.athletes %}
+              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td>{{ a.school }}</td><td>{{ a.sport }}</td><td>{{ a.stats }}</td><td>{{ a.score }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table></div>
+        </div>
+        {% endif %}
+      </div>
+
+    </div><!-- end hs two-col -->
+
+    <!-- HISTORICAL WIN % + NIL — full width -->
+    <div class="two-col" style="margin-bottom:24px;">
+      <div class="data-card">
+        <div class="card-head"><h3>Historical Win %</h3><div class="date-line">All Sports · {{ publication.publish_date | displayDate }}</div></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>Program</th><th>Level</th><th>Sport</th><th>Gender</th><th>Win%</th></tr></thead>
+          <tbody>
+            {% for prog in publication.historical_winpct | take(20) %}
+            <tr><td class="rank">{{ loop.index }}</td><td><strong>{{ prog.school }}</strong></td><td>{{ prog.level }}</td><td>{{ prog.sport }}</td><td>{{ prog.gender }}</td><td>{{ prog.win_pct }}%</td></tr>
+            {% endfor %}
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="data-card">
+        <div class="card-head"><h3>NIL Tracking</h3><div class="date-line">HS + College · {{ publication.publish_date | displayDate }}</div></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Commit / Deal</th></tr></thead>
+          <tbody>
+            {% if publication.nil_tracking.length %}
+              {% for nil in publication.nil_tracking %}
+              <tr><td><strong>{{ nil.player }}</strong></td><td>{{ nil.school }}</td><td>{{ nil.sport }}</td><td>{{ nil.commit or "Tracking" }}</td></tr>
+              {% endfor %}
+            {% else %}
+            <tr><td colspan="4" class="empty">NIL data building. Submit tips to yokals@yokalsports.com</td></tr>
+            {% endif %}
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+
+    {% else %}
+    <div class="archive-note">Data will appear here after the first approved publication.</div>
+    {% endif %}
+
+  </div>
+</section>
