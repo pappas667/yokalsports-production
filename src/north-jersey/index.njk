@@ -3,34 +3,105 @@ layout: layouts/base.njk
 title: North Jersey
 permalink: /north-jersey/index.html
 ---
-<section class="section"><div class="wrap"><div class="section-head"><div><h1>North Jersey</h1><p>{{ market.counties | join(' · ') }}</p></div><a class="btn" href="#subscribe">Subscribe to the YSSR</a></div>
-{% if market.newsletter_issues.length %}<div class="issues">{% for issue in market.newsletter_issues %}<a class="issue-card" href="{{ issue.url }}" target="_blank" rel="noopener"><div class="date">{{ issue.date | displayDate }}</div><h3>{{ issue.headline }}</h3></a>{% endfor %}</div>{% endif %}</div></section>
-{% set publication = market.latestPublication %}
-<section class="section"><div class="wrap"><div class="section-head"><div><h2>Latest Free Preview</h2><p>{% if publication %}Published {{ publication.publish_date | displayDate }}{% else %}Waiting for the first approved publication{% endif %}</p></div></div>
-{% if publication %}<div class="two-col">
-<div class="stack">
-{% for sport in publication.high_school.boys.sports or [] %}
-{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% set freePreview=true %}{% include 'list-card.njk' %}
-{% endfor %}
-</div><div class="stack">
-{% for sport in publication.high_school.girls.sports or [] %}
-{% set cardTitle = sport.name ~ ' — Teams Preview' %}{% set sportName = sport.name %}{% set rows = sport.teams | preview(5,15) %}{% set primaryLabel='School' %}{% set sponsor=true %}{% set freePreview=true %}{% include 'list-card.njk' %}
-{% endfor %}
-</div></div>{% else %}<div class="archive-note">The Google Sheet connection is working. Sports lists will appear here after the exporter publishes complete approved data.</div>{% endif %}
-<section id="become" class="membership-card">
-  <div class="membership-copy">
-    <div class="eyebrow">North Jersey Yokal Membership</div>
-    <h2>Every stat. Every ranking.</h2>
-    <p>The complete team lists, athlete rankings, NIL tracking, historical winning percentages, charts, and Boys, Girls and College archives.</p>
-    <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
-  </div>
-  <div class="membership-prices">
-    <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">
-      <span>Monthly</span><strong>$4.99</strong><small>per month</small>
-    </button>
-    <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-annual-374v08rm">
-      <span>Annual</span><strong>$49</strong><small>per year</small>
-    </button>
+
+<!-- HERO -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h1>North Jersey</h1>
+        <p>{{ market.counties | join(' · ') }}</p>
+      </div>
+      <button class="btn" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</button>
+    </div>
+
+    <!-- YSSR SUBSCRIBE -->
+    <div id="subscribe" class="subscribe-block">
+      <h2>Subscribe to The YSSR — North Jersey</h2>
+      <p>Free Tuesday newsletter. Rankings, school sports stories, local athletes, and market updates.</p>
+      <div class="beehiiv-embed">
+        <iframe src="https://embeds.beehiiv.com/037c3aba-6dae-4af3-980e-dfae9b170e62"
+          data-test-id="beehiiv-embed"
+          width="100%" height="320"
+          frameborder="0" scrolling="no"
+          style="border-radius:8px; border:1px solid #e2e6ef; margin:0; background:transparent;">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- PREVIOUS YSSR ISSUES -->
+    {% if market.newsletter_issues.length %}
+    <div class="issues">
+      {% for issue in market.newsletter_issues %}
+      <a class="issue-card" href="{{ issue.url }}" target="_blank" rel="noopener">
+        <div class="date">{{ issue.date | displayDate }}</div>
+        <h3>{{ issue.headline }}</h3>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
 </section>
-</div></section>
+
+<!-- FREE PREVIEW DATA -->
+{% set publication = market.latestPublication %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h2>North Jersey Yokal Data</h2>
+        <p>{% if publication %}Updated {{ publication.publish_date | displayDate }}{% else %}Data coming soon{% endif %}</p>
+      </div>
+      <button class="btn" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</button>
+    </div>
+
+    {% if publication %}
+    <div class="two-col">
+      <div class="stack">
+        {% for sport in publication.high_school.boys.sports or [] %}
+        {% set cardTitle = sport.name ~ ' — Teams Preview' %}
+        {% set sportName = sport.name %}
+        {% set rows = sport.teams | preview(5,15) %}
+        {% set primaryLabel = 'School' %}
+        {% set sponsor = true %}
+        {% set freePreview = true %}
+        {% include 'list-card.njk' %}
+        {% endfor %}
+      </div>
+      <div class="stack">
+        {% for sport in publication.high_school.girls.sports or [] %}
+        {% set cardTitle = sport.name ~ ' — Teams Preview' %}
+        {% set sportName = sport.name %}
+        {% set rows = sport.teams | preview(5,15) %}
+        {% set primaryLabel = 'School' %}
+        {% set sponsor = true %}
+        {% set freePreview = true %}
+        {% include 'list-card.njk' %}
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <div class="archive-note">Sports lists will appear here after the first approved publication from the Google Sheet.</div>
+    {% endif %}
+
+    <!-- BECOME A YOKAL -->
+    <section id="become" class="membership-card">
+      <div class="membership-copy">
+        <div class="eyebrow">North Jersey Yokal Membership</div>
+        <h2>Every stat. Every ranking.</h2>
+        <p>The complete team lists, athlete rankings, NIL tracking, historical winning percentages, charts, and Boys, Girls and College archives.</p>
+        <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
+      </div>
+      <div class="membership-prices">
+        <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">
+          <span>Monthly</span><strong>$4.99</strong><small>per month</small>
+        </button>
+        <button class="price-button" type="button" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-annual-374v08rm">
+          <span>Annual</span><strong>$49</strong><small>per year · Save $11</small>
+        </button>
+      </div>
+    </section>
+
+  </div>
+</section>
