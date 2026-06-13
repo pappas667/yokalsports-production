@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "packageManager": "npm@10.7.0",
   "description": "Data-driven Yokal Sports market system",
   "scripts": {
     "build": "eleventy",
