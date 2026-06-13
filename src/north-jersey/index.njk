@@ -6,6 +6,15 @@ permalink: /north-jersey/index.html
 
 {% set publication = market.latestPublication %}
 
+<!-- PERFORMANCE KIA SPONSOR BAR -->
+<div style="background:var(--navy);padding:6px 0;text-align:center;">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:center;gap:10px;">
+    <span style="font-family:Arial,sans-serif;font-size:11px;font-weight:900;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:0.08em;">Presented by</span>
+    <span style="font-family:Arial,sans-serif;font-size:12px;font-weight:900;color:var(--lime);">Performance Kia of Denville</span>
+    <span style="font-family:Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);">· Your North Jersey Sports Partner</span>
+  </div>
+</div>
+
 <!-- HERO -->
 <section class="section">
   <div class="wrap">
@@ -14,18 +23,22 @@ permalink: /north-jersey/index.html
         <h1>North Jersey</h1>
         <p>{{ market.counties | join(' · ') }}</p>
       </div>
-      <a class="btn" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
+      <a class="btn primary-yokal" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
     </div>
 
     <!-- YSSR SUBSCRIBE -->
-    <div id="subscribe" class="subscribe-block">
-      <div class="eyebrow">Free Every Tuesday</div>
-      <h2>Subscribe to The YSSR — North Jersey</h2>
-      <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
-      <iframe src="https://embeds.beehiiv.com/037c3aba-6dae-4af3-980e-dfae9b170e62"
-        width="100%" height="280" frameborder="0" scrolling="no"
-        style="border-radius:8px;border:0;margin:16px 0 0;background:transparent;">
-      </iframe>
+    <div class="subscribe-block">
+      <div>
+        <div class="eyebrow">Free Every Tuesday</div>
+        <h2>Subscribe to The YSSR — North Jersey</h2>
+        <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
+      </div>
+      <div style="min-width:320px;flex:1;">
+        <iframe src="https://embeds.beehiiv.com/037c3aba-6dae-4af3-980e-dfae9b170e62"
+          width="100%" height="52" frameborder="0" scrolling="no"
+          style="border-radius:8px;border:0;background:transparent;display:block;">
+        </iframe>
+      </div>
     </div>
 
     <!-- PREVIOUS YSSR ISSUES -->
@@ -84,25 +97,19 @@ permalink: /north-jersey/index.html
           <h3>⚾ Boys Teams — Top 50</h3>
           <div class="date-line">Baseball · Boys Lacrosse · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
-            <tbody>
-              {% if boys_baseball %}
-                {% for team in boys_baseball.teams | preview(5, 10) %}
-                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-              {% if boys_lax %}
-                {% for team in boys_lax.teams | preview(5, 5) %}
-                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
+          <tbody>
+            {% if boys_baseball %}{% for team in boys_baseball.teams | preview(5,10) %}
+            <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><small class="muted">{{ team.county }}</small></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+            {% endfor %}{% endif %}
+            {% if boys_lax %}{% for team in boys_lax.teams | preview(3,5) %}
+            <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><small class="muted">{{ team.county }}</small></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+            {% endfor %}{% endif %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Teams">Sponsor This List →</a>
       </div>
 
       <!-- BOX 2: Girls Teams -->
@@ -111,25 +118,19 @@ permalink: /north-jersey/index.html
           <h3>🥎 Girls Teams — Top 50</h3>
           <div class="date-line">Softball · Girls Lacrosse · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
-            <tbody>
-              {% if girls_softball %}
-                {% for team in girls_softball.teams | preview(5, 10) %}
-                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-              {% if girls_lax %}
-                {% for team in girls_lax.teams | preview(5, 5) %}
-                <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><span class="muted">{{ team.county }}</span></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>School</th><th>Sport</th><th>Score</th></tr></thead>
+          <tbody>
+            {% if girls_softball %}{% for team in girls_softball.teams | preview(5,10) %}
+            <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><small class="muted">{{ team.county }}</small></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+            {% endfor %}{% endif %}
+            {% if girls_lax %}{% for team in girls_lax.teams | preview(3,5) %}
+            <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong><br><small class="muted">{{ team.county }}</small></td><td>{{ team.sport }}</td><td>{{ team.score }}</td></tr>
+            {% endfor %}{% endif %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Teams">Sponsor This List →</a>
       </div>
 
       <!-- BOX 3: Boys Athletes -->
@@ -138,25 +139,19 @@ permalink: /north-jersey/index.html
           <h3>🏅 Boys Athletes — Top 30</h3>
           <div class="date-line">Baseball · Boys Lacrosse · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
-            <tbody>
-              {% if boys_baseball %}
-                {% for athlete in boys_baseball.athletes | preview(5, 5) %}
-                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-              {% if boys_lax %}
-                {% for athlete in boys_lax.athletes | preview(2, 3) %}
-                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
+          <tbody>
+            {% if boys_baseball %}{% for a in boys_baseball.athletes | preview(5,7) %}
+            <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong><br><small class="muted">{{ a.school }}</small></td><td>{{ a.sport }}</td><td>{{ a.score }}</td></tr>
+            {% endfor %}{% endif %}
+            {% if boys_lax %}{% for a in boys_lax.athletes | preview(2,3) %}
+            <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong><br><small class="muted">{{ a.school }}</small></td><td>{{ a.sport }}</td><td>{{ a.score }}</td></tr>
+            {% endfor %}{% endif %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Athletes">Sponsor This List →</a>
       </div>
 
       <!-- BOX 4: Girls Athletes -->
@@ -165,25 +160,19 @@ permalink: /north-jersey/index.html
           <h3>🏅 Girls Athletes — Top 30</h3>
           <div class="date-line">Softball · Girls Lacrosse · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
-            <tbody>
-              {% if girls_softball %}
-                {% for athlete in girls_softball.athletes | preview(5, 5) %}
-                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-              {% if girls_lax %}
-                {% for athlete in girls_lax.athletes | preview(2, 3) %}
-                <tr><td class="rank">{{ athlete.rank }}</td><td><strong>{{ athlete.athlete }}</strong><br><span class="muted">{{ athlete.school }}</span></td><td>{{ athlete.sport }}</td><td>{{ athlete.score }}</td></tr>
-                {% endfor %}
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>Athlete</th><th>Sport</th><th>Score</th></tr></thead>
+          <tbody>
+            {% if girls_softball %}{% for a in girls_softball.athletes | preview(5,7) %}
+            <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong><br><small class="muted">{{ a.school }}</small></td><td>{{ a.sport }}</td><td>{{ a.score }}</td></tr>
+            {% endfor %}{% endif %}
+            {% if girls_lax %}{% for a in girls_lax.athletes | preview(2,3) %}
+            <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong><br><small class="muted">{{ a.school }}</small></td><td>{{ a.sport }}</td><td>{{ a.score }}</td></tr>
+            {% endfor %}{% endif %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Athletes">Sponsor This List →</a>
       </div>
 
       <!-- BOX 5: Historical Win % -->
@@ -192,18 +181,16 @@ permalink: /north-jersey/index.html
           <h3>📊 Historical Win %</h3>
           <div class="date-line">All Programs · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>Win%</th></tr></thead>
-            <tbody>
-              {% for prog in publication.historical_winpct | preview(5, 15) %}
-              <tr><td class="rank">{{ loop.index + 5 }}</td><td><strong>{{ prog.school }}</strong><br><span class="muted">{{ prog.level }}</span></td><td>{{ prog.sport }}</td><td>{{ prog.win_pct }}%</td></tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>Win%</th></tr></thead>
+          <tbody>
+            {% for prog in publication.historical_winpct | preview(5,15) %}
+            <tr><td class="rank">{{ loop.index + 5 }}</td><td><strong>{{ prog.school }}</strong><br><small class="muted">{{ prog.level }}</small></td><td>{{ prog.sport }}</td><td>{{ prog.win_pct }}%</td></tr>
+            {% endfor %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Historical Win Pct">Sponsor This List →</a>
       </div>
 
       <!-- BOX 6: NIL Tracking -->
@@ -212,25 +199,23 @@ permalink: /north-jersey/index.html
           <h3>💰 NIL Tracking</h3>
           <div class="date-line">HS + College Athletes · {{ publication.publish_date | displayDate }}</div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Status</th></tr></thead>
-            <tbody>
-              {% if publication.nil_tracking.length %}
-                {% for nil in publication.nil_tracking | take(5) %}
-                <tr><td><strong>{{ nil.player }}</strong></td><td>{{ nil.school }}</td><td>{{ nil.sport }}</td><td>{{ nil.commit or "Tracking" }}</td></tr>
-                {% endfor %}
-              {% else %}
-              <tr><td colspan="4" class="empty">NIL tracking — data building. <a href="mailto:yokals@yokalsports.com">Submit a tip →</a></td></tr>
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Status</th></tr></thead>
+          <tbody>
+            {% if publication.nil_tracking.length %}
+              {% for nil in publication.nil_tracking | take(5) %}
+              <tr><td><strong>{{ nil.player }}</strong></td><td>{{ nil.school }}</td><td>{{ nil.sport }}</td><td>{{ nil.commit or "Tracking" }}</td></tr>
+              {% endfor %}
+            {% else %}
+            <tr><td colspan="4" class="empty">NIL data building. <a href="mailto:yokals@yokalsports.com">Submit a tip →</a></td></tr>
+            {% endif %}
+          </tbody>
+        </table></div>
         <a class="complete-list" href="#become" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-list" href="mailto:yokals@yokalsports.com?subject=Sponsor This List">Sponsor This List →</a>
+        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — NIL Tracking">Sponsor This List →</a>
       </div>
 
-    </div><!-- end two-col -->
+    </div>
   </div>
 </section>
 {% endif %}
@@ -241,7 +226,7 @@ permalink: /north-jersey/index.html
     <div class="membership-card">
       <div class="membership-copy">
         <div class="eyebrow">North Jersey Yokal Membership</div>
-        <h2>Every stat. Every ranking.</h2>
+        <h2>Stats, Data, Rankings</h2>
         <p>Complete team lists, athlete rankings, NIL tracking, historical winning percentages, and Boys, Girls and College archives.</p>
         <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
       </div>
