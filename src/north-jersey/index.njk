@@ -6,39 +6,33 @@ permalink: /north-jersey/index.html
 
 {% set publication = market.latestPublication %}
 
-<!-- PERFORMANCE KIA SPONSOR BAR -->
-<div style="background:var(--navy);padding:6px 0;text-align:center;">
-  <div class="wrap" style="display:flex;align-items:center;justify-content:center;gap:10px;">
-    <span style="font-family:Arial,sans-serif;font-size:11px;font-weight:900;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:0.08em;">Presented by</span>
-    <span style="font-family:Arial,sans-serif;font-size:12px;font-weight:900;color:var(--lime);">Performance Kia of Denville</span>
-    <span style="font-family:Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);">· Your North Jersey Sports Partner</span>
-  </div>
-</div>
-
 <!-- HERO -->
 <section class="section">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <h1>North Jersey</h1>
+        <h1>North Jersey <span style="font-size:13px;font-weight:600;font-family:Arial,sans-serif;color:var(--muted);letter-spacing:0;"> · presented by <a href="https://www.performancekiadenville.com/" target="_blank" style="color:var(--green);font-weight:900;">Kia of Denville</a></span></h1>
         <p>{{ market.counties | join(' · ') }}</p>
+        <p style="margin-top:6px;font-size:13px;color:var(--ink);">Support Yokal Sports Sports Creators — Become A Yokal.</p>
       </div>
-      <a class="btn primary-yokal" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become A Yokal</a>
+      <a class="btn primary-yokal" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
     </div>
 
     <!-- YSSR SUBSCRIBE -->
     <div class="subscribe-block">
       <div>
         <div class="eyebrow">Free Every Tuesday</div>
-        <h2>Subscribe to The YSSR — North Jersey</h2>
+        <h2>Subscribe to the YSSR</h2>
         <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
       </div>
-      <div style="min-width:320px;flex:1;">
-        <iframe src="https://embeds.beehiiv.com/037c3aba-6dae-4af3-980e-dfae9b170e62"
-          width="100%" height="52" frameborder="0" scrolling="no"
-          style="border-radius:8px;border:0;background:transparent;display:block;">
-        </iframe>
-      </div>
+      <form action="https://app.beehiiv.com/subscribe" method="POST" target="_blank"
+        style="display:flex;gap:8px;flex:1;min-width:260px;">
+        <input type="hidden" name="publication_id" value="037c3aba-6dae-4af3-980e-dfae9b170e62">
+        <input type="email" name="email" placeholder="Enter your email" required
+          style="flex:1;padding:10px 14px;border-radius:8px;border:0;font-size:13px;color:#121212;min-width:0;">
+        <button type="submit"
+          style="background:#88CC44;color:#120E49;border:0;border-radius:8px;padding:10px 16px;font-size:12px;font-weight:900;text-transform:uppercase;white-space:nowrap;cursor:pointer;">Subscribe Free</button>
+      </form>
     </div>
 
     <!-- PREVIOUS YSSR ISSUES -->
@@ -60,7 +54,6 @@ permalink: /north-jersey/index.html
         <h3>Don Bosco Wins 6th Straight Bergen County Lacrosse Title + Rankings</h3>
       </a>
     </div>
-
   </div>
 </section>
 
@@ -68,11 +61,10 @@ permalink: /north-jersey/index.html
 {% if publication %}
 <section class="section">
   <div class="wrap">
-
     <div class="section-head">
       <div>
         <h2>North Jersey Rankings</h2>
-        <p>Updated {{ publication.publish_date | displayDate }} · Want Top 5 and full list? Become A Yokal.</p>
+        <p>Updated {{ publication.publish_date | displayDate }} · Want the full list? Become a Yokal.</p>
       </div>
     </div>
 
@@ -108,7 +100,7 @@ permalink: /north-jersey/index.html
             {% endfor %}{% endif %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Teams">Sponsor This List →</a>
       </div>
 
@@ -129,7 +121,7 @@ permalink: /north-jersey/index.html
             {% endfor %}{% endif %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Teams">Sponsor This List →</a>
       </div>
 
@@ -150,7 +142,7 @@ permalink: /north-jersey/index.html
             {% endfor %}{% endif %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Athletes">Sponsor This List →</a>
       </div>
 
@@ -171,7 +163,7 @@ permalink: /north-jersey/index.html
             {% endfor %}{% endif %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Athletes">Sponsor This List →</a>
       </div>
 
@@ -189,7 +181,7 @@ permalink: /north-jersey/index.html
             {% endfor %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Historical Win Pct">Sponsor This List →</a>
       </div>
 
@@ -211,7 +203,7 @@ permalink: /north-jersey/index.html
             {% endif %}
           </tbody>
         </table></div>
-        <a class="complete-list" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want Top 5 and full list? Become A Yokal →</a>
+        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
         <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — NIL Tracking">Sponsor This List →</a>
       </div>
 
@@ -231,11 +223,11 @@ permalink: /north-jersey/index.html
         <p class="trial-line">7-day trial · Cancel anytime · North Jersey access</p>
       </div>
       <div class="membership-prices">
-        <a class="price-button" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">
-          <span>Monthly</span><strong>$4.99</strong><small>per month</small>
+        <a class="price-button" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">
+          <span>Become A Yokal</span><strong>$4.99</strong><small>per month</small>
         </a>
-        <a class="price-button" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-annual-374v08rm">
-          <span>Annual</span><strong>$49</strong><small>per year · Save $11</small>
+        <a class="price-button" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-annual-374v08rm">
+          <span>Become A Yokal</span><strong>$49</strong><small>per year · Save $11</small>
         </a>
       </div>
     </div>
@@ -245,5 +237,5 @@ permalink: /north-jersey/index.html
 <!-- MOBILE STICKY -->
 <div class="mobile-sticky-yokal">
   <div class="mobile-sticky-copy"><strong>Support North Jersey sports</strong><span>$4.99/month · 7-day trial</span></div>
-  <a class="mobile-sticky-button" href="javascript:void(0)" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become A Yokal</a>
+  <a class="mobile-sticky-button" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
 </div>
