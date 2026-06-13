@@ -1,1 +1,14 @@
-{ "name": "yokalsports-production", "version": "1.0.0", "private": true, "type": "module", "scripts": { "build": "eleventy", "serve": "eleventy --serve" }, "devDependencies": { "@11ty/eleventy": "^3.1.2" } } 
+{
+  "name": "yokalsports-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Data-driven Yokal Sports market system",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
