@@ -16,3 +16,5 @@
   to = "https://yokalsports.com/:splat"
   status = 301
   force = true
+[build.environment]  
+NODE_VERSION = "20" 
