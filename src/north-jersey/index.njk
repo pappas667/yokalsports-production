@@ -11,9 +11,9 @@ permalink: /north-jersey/index.html
   <div class="wrap">
     <div class="section-head">
       <div>
-        <h1>North Jersey <span class="sponsor-inline"> · presented by <a href="https://www.performancekiadenville.com/" target="_blank">Kia of Denville</a></span></h1>
+        <h1>North Jersey <span class="sponsor-inline"> · presented by <a href="https://www.performancekiaofdenville.com/" target="_blank">Kia of Denville</a></span></h1>
         <p>Bergen · Passaic · Essex · Hudson · Morris · Sussex · Warren · Hunterdon · Somerset · Union · Middlesex</p>
-        <p class="support-line">Build Yokal Sports Sports Creators — Become A Yokal.</p>
+        <p class="support-line">Support Yokal Sports Sports Creators — Become A Yokal.</p>
       </div>
       <a class="btn primary-yokal" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
     </div>
@@ -24,11 +24,9 @@ permalink: /north-jersey/index.html
         <h2>Subscribe to the YSSR</h2>
         <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
       </div>
-      <form action="https://app.beehiiv.com/subscribe" method="POST" target="_blank" class="subscribe-form">
-        <input type="hidden" name="publication_id" value="037c3aba-6dae-4af3-980e-dfae9b170e62">
-        <input type="email" name="email" placeholder="Enter your email" required class="subscribe-input">
-        <button type="submit" class="subscribe-btn">Subscribe Free</button>
-      </form>
+      <div class="beehiiv-form">
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="037c3aba-6dae-4af3-980e-dfae9b170e62"></script>
+      </div>
     </div>
 
     <div class="issues">
@@ -70,7 +68,7 @@ permalink: /north-jersey/index.html
 <!-- HIGH SCHOOL -->
 <section class="section">
   <div class="wrap">
-    <div class="section-label">High School</div>
+    <h2 class="section-title">High School</h2>
     <p class="section-sub">Updated {{ publication.publish_date | displayDate }} · Full lists available to Yokals</p>
     <div class="two-col">
 
@@ -127,7 +125,7 @@ permalink: /north-jersey/index.html
               {% if boys_baseball %}{% for a in boys_baseball.athletes %}{% if a.rank >= 6 and a.rank <= 10 %}
               <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
               {% endif %}{% endfor %}{% endif %}
-              {% if boys_lax %}{% for a in boys_lax.athletes %}{% if a.rank >= 3 and a.rank <= 5 %}
+              {% if boys_lax %}{% for a in boys_lax.athletes %}{% if a.rank >= 6 and a.rank <= 10 %}
               <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
               {% endif %}{% endfor %}{% endif %}
             </tbody>
@@ -192,7 +190,7 @@ permalink: /north-jersey/index.html
               {% if girls_softball %}{% for a in girls_softball.athletes %}{% if a.rank and a.score and a.rank >= 6 and a.rank <= 10 %}
               <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
               {% endif %}{% endfor %}{% endif %}
-              {% if girls_lax %}{% for a in girls_lax.athletes %}{% if a.rank and a.score and a.rank >= 3 and a.rank <= 5 %}
+              {% if girls_lax %}{% for a in girls_lax.athletes %}{% if a.rank and a.score and a.rank >= 6 and a.rank <= 10 %}
               <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
               {% endif %}{% endfor %}{% endif %}
             </tbody>
@@ -252,7 +250,7 @@ permalink: /north-jersey/index.html
 <!-- COLLEGE CORNER -->
 <section class="section">
   <div class="wrap">
-    <div class="section-label">College Corner</div>
+    <h2 class="section-title">College Corner</h2>
     <p class="section-sub">North Jersey athletes and programs at the college level</p>
     <div class="two-col">
 
@@ -401,4 +399,3 @@ permalink: /north-jersey/index.html
   <div class="mobile-sticky-copy"><strong>Support North Jersey sports</strong><span>$4.99/month · 7-day trial</span></div>
   <a class="mobile-sticky-button" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Become a Yokal</a>
 </div>
-" " 

@@ -116,3 +116,8 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
   td{font-size:12px}
   th{font-size:10px}
 }
+
+/* Section titles - match North Jersey h1 size */
+.section-title{font-family:Georgia,serif;font-size:26px;font-weight:800;color:var(--navy);letter-spacing:-.03em;line-height:1;margin:0 0 4px;}
+.beehiiv-form{flex:1;min-width:260px;}
+@media(min-width:900px){.section-title{font-size:32px;}}
