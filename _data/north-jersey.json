@@ -68,7 +68,7 @@
                   "team": "Don Bosco Prep",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 88
                 },
                 {
@@ -202,7 +202,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 58
                 },
                 {
@@ -448,8 +448,8 @@
                   "school": "Governor Livingston",
                   "county": "Union",
                   "sport": "Baseball",
-                  "stats": ".458 AVG · 7 HR · 29 RBI",
-                  "status": "Mississippi State commit — Gov. Livingston now 14-3-1",
+                  "stats": ".458 AVG \u00b7 7 HR \u00b7 29 RBI",
+                  "status": "Mississippi State commit \u2014 Gov. Livingston now 14-3-1",
                   "score": 97,
                   "commit": "Mississippi State"
                 },
@@ -459,7 +459,7 @@
                   "school": "DePaul Catholic",
                   "county": "Passaic",
                   "sport": "Baseball",
-                  "stats": "Continued power surge in playoffs; 9 HR · 29 RBI on season",
+                  "stats": "Continued power surge in playoffs; 9 HR \u00b7 29 RBI on season",
                   "status": "Oklahoma commit. Non-Public A Final. Source: data_intake",
                   "score": 95,
                   "commit": "Oklahoma"
@@ -520,7 +520,7 @@
                   "school": "Delbarton",
                   "county": "Morris",
                   "sport": "Baseball",
-                  "stats": ".469 AVG · 2-way",
+                  "stats": ".469 AVG \u00b7 2-way",
                   "score": 87
                 },
                 {
@@ -635,7 +635,7 @@
                   "team": "Don Bosco Prep",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 95
                 },
                 {
@@ -661,7 +661,7 @@
                   "team": "Summit",
                   "county": "Union",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 88
                 },
                 {
@@ -685,7 +685,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 80
                 },
                 {
@@ -707,7 +707,7 @@
                 {
                   "team": "Westfield",
                   "sport": "Boys Lacrosse",
-                  "status": "Group 4 Semifinal — OT | W"
+                  "status": "Group 4 Semifinal \u2014 OT | W"
                 }
               ],
               "athletes": [
@@ -788,7 +788,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
                   "score": 93
                 },
                 {
@@ -1210,28 +1210,6 @@
                   "sport": "Softball",
                   "stats": "Leader",
                   "score": 83
-                },
-                {
-                  "athlete": "Layla Francisco",
-                  "school": "North Hunterdon",
-                  "county": "Hunterdon",
-                  "sport": "Softball",
-                  "stats": "4th shutout of state tournament; 3-0 win vs Roxbury in Group 3 Semifinal",
-                  "status": "YSSR Girls Athlete of the Week candidate. Source: MyCentralJersey / @SimeonPincus"
-                },
-                {
-                  "team": "Ramsey",
-                  "county": "Bergen",
-                  "sport": "Softball",
-                  "record": "~18-5",
-                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI"
-                },
-                {
-                  "team": "North Hunterdon",
-                  "county": "Hunterdon",
-                  "sport": "Softball",
-                  "record": "~18-5",
-                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney"
                 }
               ]
             }
@@ -1279,36 +1257,6 @@
           "notes": "Lost to Rutgers 11-4 on 4/8/25 (third straight year)."
         },
         {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending — populate from shupirates.com archives"
-        },
-        {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2023",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2022",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
           "school_id": "S-0069",
           "school": "Rutgers University",
           "level": "College",
@@ -1336,37 +1284,7 @@
           "games": 33,
           "win_pct": 48.5,
           "confidence": "Verified",
-          "notes": "Beat Seton Hall 11-4 on 4/8/25 — 3rd straight year over SHU."
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2023",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2022",
-          "confidence": "Pending",
-          "notes": "Pending"
+          "notes": "Beat Seton Hall 11-4 on 4/8/25 \u2014 3rd straight year over SHU."
         },
         {
           "school_id": "S-0068",
@@ -1384,46 +1302,6 @@
           "notes": "Hosted NCAA D3 Regional. First NCAA Tourney win since 2008. 14-4 NJAC, 2nd."
         },
         {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2023",
-          "confidence": "Partial",
-          "notes": "Active NJAC season. Sam Angelo hit for cycle vs NJCU (25-10 win 4/14)."
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2022",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
           "school_id": "S-0070",
           "school": "Ramapo College",
           "level": "College",
@@ -1437,46 +1315,6 @@
           "win_pct": 68.9,
           "confidence": "Verified",
           "notes": "T-3 NJAC at 12-6. Strong postseason form."
-        },
-        {
-          "school_id": "S-0070",
-          "school": "Ramapo College",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0070",
-          "school": "Ramapo College",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0070",
-          "school": "Ramapo College",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2023",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0070",
-          "school": "Ramapo College",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2022",
-          "confidence": "Pending",
-          "notes": "Pending"
         },
         {
           "school_id": "S-0071",
@@ -1494,46 +1332,6 @@
           "notes": "T-3 NJAC at 12-6. Strong season."
         },
         {
-          "school_id": "S-0071",
-          "school": "Kean University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0071",
-          "school": "Kean University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0071",
-          "school": "Kean University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2023",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0071",
-          "school": "Kean University",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2022",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
           "school_id": "S-0073",
           "school": "NJIT",
           "level": "College",
@@ -1549,26 +1347,6 @@
           "notes": "America East. Strong regional recruiting."
         },
         {
-          "school_id": "S-0073",
-          "school": "NJIT",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0073",
-          "school": "NJIT",
-          "level": "College",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
           "school_id": "S-0068",
           "school": "Montclair State University",
           "level": "College",
@@ -1582,76 +1360,6 @@
           "win_pct": 63.4,
           "confidence": "Verified",
           "notes": "Strong season. Multiple NJAC Rookie of the Week honors (Tarabokia)."
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2025",
-          "confidence": "Partial",
-          "notes": "Swept Ramapo 3-2/3-1 on 4/10. Sophia Alonso hit 2 triples vs Neumann 3/21/25."
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2023",
-          "confidence": "Partial",
-          "notes": "Amber Reed had 3 doubles vs John Jay 3/30/23."
-        },
-        {
-          "school_id": "S-0068",
-          "school": "Montclair State University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2022",
-          "confidence": "Partial",
-          "notes": "Danielle Sibilio 2 HR vs WPU 4/19/22."
-        },
-        {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Partial",
-          "notes": "Angelina Benitez .405 AVG, 47 H, 7th in Big East."
-        },
-        {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0072",
-          "school": "Seton Hall University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
         },
         {
           "school_id": "S-0070",
@@ -1684,16 +1392,6 @@
           "notes": "5-3 NJAC at time of 4/10 doubleheader vs Montclair St."
         },
         {
-          "school_id": "S-0071",
-          "school": "Kean University",
-          "level": "College",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Lusnia earned NJAC honors 3/9/26"
-        },
-        {
           "school_id": "S-0076",
           "school": "Stevens Institute of Technology",
           "level": "College",
@@ -1709,26 +1407,6 @@
           "notes": "1st MAC Freedom (6-0). 8-game win streak. Top local D3 lacrosse story."
         },
         {
-          "school_id": "S-0076",
-          "school": "Stevens Institute of Technology",
-          "level": "College",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0076",
-          "school": "Stevens Institute of Technology",
-          "level": "College",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
           "school_id": "S-0069",
           "school": "Rutgers University",
           "level": "College",
@@ -1742,56 +1420,6 @@
           "win_pct": 57.1,
           "confidence": "Verified",
           "notes": "#6 seed Big Ten Tournament."
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Partial",
-          "notes": "Strong NCAA Tournament run. Top offense (Caroline Ling 63G/34A). Kate Theofield All-Freshman."
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2025",
-          "confidence": "Pending",
-          "notes": "Pending"
-        },
-        {
-          "school_id": "S-0069",
-          "school": "Rutgers University",
-          "level": "College",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2024",
-          "confidence": "Pending",
-          "notes": "Pending"
         },
         {
           "school_id": "S-0010",
@@ -1836,7 +1464,7 @@
           "games": 20,
           "win_pct": 65,
           "confidence": "Verified",
-          "notes": "Bergen Co Champs — 13-7 over IHA 5/10"
+          "notes": "Bergen Co Champs \u2014 13-7 over IHA 5/10"
         },
         {
           "school_id": "S-0010",
@@ -2031,7 +1659,7 @@
           "games": 10,
           "win_pct": 80,
           "confidence": "Verified",
-          "notes": "Bergen Co Champs — 6th straight"
+          "notes": "Bergen Co Champs \u2014 6th straight"
         },
         {
           "school_id": "S-0016",
@@ -2289,46 +1917,6 @@
           "notes": "Gilligan two-way star"
         },
         {
-          "school_id": "S-0066",
-          "school": "Pope John XXIII",
-          "level": "High School",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate from PJ athletics"
-        },
-        {
-          "school_id": "S-0066",
-          "school": "Pope John XXIII",
-          "level": "High School",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
-          "school_id": "S-0066",
-          "school": "Pope John XXIII",
-          "level": "High School",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Gold standard for Sussex/Warren/Hunterdon. Lost 14-3 to Seton Hall Prep 5/16."
-        },
-        {
-          "school_id": "S-0066",
-          "school": "Pope John XXIII",
-          "level": "High School",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
           "school_id": "S-0008",
           "school": "Bergen Catholic",
           "level": "High School",
@@ -2342,16 +1930,6 @@
           "win_pct": 61.5,
           "confidence": "Verified",
           "notes": "8-5 record as of 4/21. Strong NP-A baseball."
-        },
-        {
-          "school_id": "S-0008",
-          "school": "Bergen Catholic",
-          "level": "High School",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Top tier Bergen Co program — populate"
         },
         {
           "school_id": "S-0055",
@@ -2369,16 +1947,6 @@
           "notes": "6-1 record as of 4/21. Strong start."
         },
         {
-          "school_id": "S-0055",
-          "school": "Immaculate Heart",
-          "level": "High School",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Lost to Ridgewood 13-7 in Bergen Co Final 5/10. IHA alum Gabby Shadek now at Duke."
-        },
-        {
           "school_id": "S-0026",
           "school": "Paramus Catholic",
           "level": "High School",
@@ -2392,16 +1960,6 @@
           "win_pct": 50,
           "confidence": "Verified",
           "notes": "5-5 record as of 4/21."
-        },
-        {
-          "school_id": "S-0026",
-          "school": "Paramus Catholic",
-          "level": "High School",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
         },
         {
           "school_id": "S-0050",
@@ -2419,16 +1977,6 @@
           "notes": "5-6 record as of 4/21."
         },
         {
-          "school_id": "S-0050",
-          "school": "Union Catholic",
-          "level": "High School",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Strong pipeline — Sofia Vega + Kennedy DeMott now at Quinnipiac D1."
-        },
-        {
           "school_id": "S-0047",
           "school": "Rutgers Prep",
           "level": "High School",
@@ -2444,36 +1992,6 @@
           "notes": "5-5 record as of 4/21."
         },
         {
-          "school_id": "S-0047",
-          "school": "Rutgers Prep",
-          "level": "High School",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
-          "school_id": "S-0047",
-          "school": "Rutgers Prep",
-          "level": "High School",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
-          "school_id": "S-0047",
-          "school": "Rutgers Prep",
-          "level": "High School",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
           "school_id": "S-0018",
           "school": "Immaculata",
           "level": "High School",
@@ -2487,56 +2005,6 @@
           "win_pct": 66.7,
           "confidence": "Verified",
           "notes": "8-4 record as of 4/21."
-        },
-        {
-          "school_id": "S-0018",
-          "school": "Immaculata",
-          "level": "High School",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "Spring 2026 — populate"
-        },
-        {
-          "school_id": "S-0077",
-          "school": "Blair Academy",
-          "level": "High School",
-          "sport": "Baseball",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "MAPL. National prep level — populate from blair.edu athletics."
-        },
-        {
-          "school_id": "S-0077",
-          "school": "Blair Academy",
-          "level": "High School",
-          "sport": "Softball",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "MAPL. National prep — populate."
-        },
-        {
-          "school_id": "S-0077",
-          "school": "Blair Academy",
-          "level": "High School",
-          "sport": "Boys Lacrosse",
-          "gender": "Men's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "MAPL. National prep — populate."
-        },
-        {
-          "school_id": "S-0077",
-          "school": "Blair Academy",
-          "level": "High School",
-          "sport": "Girls Lacrosse",
-          "gender": "Women's",
-          "season": "2026",
-          "confidence": "Pending",
-          "notes": "MAPL. National prep — populate."
         },
         {
           "school_id": "S-0056",
