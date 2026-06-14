@@ -11,6 +11,7 @@ export default function(eleventyConfig) {
   });
   eleventyConfig.addFilter("take", (arr, count) => Array.isArray(arr) ? arr.slice(0, count) : []);
   eleventyConfig.addFilter("preview", (arr, start = 5, count = 15) => Array.isArray(arr) ? arr.slice(start, start + count) : []);
+  eleventyConfig.addFilter("slice", (arr, start, end) => Array.isArray(arr) ? arr.slice(start, end) : []);
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
 
   return {
