@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npx @11ty/eleventy --quiet"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
