@@ -120,5 +120,9 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
 /* Section titles - match North Jersey h1 size */
 .section-title{font-family:Georgia,serif;font-size:26px;font-weight:800;color:var(--navy);letter-spacing:-.03em;line-height:1;margin:0 0 4px;}
 .beehiiv-form{flex:1;min-width:260px;}
-@media(min-width:900px){.section-title{font-size:32px;}}.beehiiv-form{max-width:320px;width:100%;}
-.beehiiv-form iframe{width:100%!important;max-width:100%!important;}
+@media(min-width:900px){.section-title{font-size:32px;}}
+
+/* SUBSCRIBE FORM */
+.subscribe-form-wrap{display:flex;flex-direction:column;gap:6px;flex:1;min-width:220px;max-width:360px;}
+.subscribe-form-wrap .subscribe-input{padding:10px 12px;border-radius:7px;border:0;font-size:13px;color:#121212;width:100%;}
+.subscribe-form-wrap .subscribe-btn{background:var(--lime);color:var(--navy);border:0;border-radius:7px;padding:10px 14px;font-size:11px;font-weight:900;text-transform:uppercase;cursor:pointer;width:100%;}

@@ -24,10 +24,36 @@ permalink: /north-jersey/index.html
         <h2>Subscribe to the YSSR</h2>
         <p>Rankings, school sports stories, local athletes and the market updates that matter.</p>
       </div>
-      <div style="width:320px;max-width:100%;">
-        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="037c3aba-6dae-4af3-980e-dfae9b170e62"></script>
+      <div class="subscribe-form-wrap">
+        <input type="email" id="yssr-email" placeholder="Enter your email" class="subscribe-input">
+        <button onclick="yssrSubscribe()" class="subscribe-btn">Subscribe Free</button>
+        <p id="yssr-msg" style="display:none;margin:6px 0 0;font-size:11px;color:var(--lime);font-weight:900;"></p>
       </div>
     </div>
+    <script>
+    async function yssrSubscribe() {
+      const email = document.getElementById('yssr-email').value;
+      const msg = document.getElementById('yssr-msg');
+      if (!email) return;
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({email, market:'north-jersey'})
+        });
+        const data = await res.json();
+        msg.style.display = 'block';
+        msg.textContent = data.success ? "You're in! Check your inbox for the YSSR." : 'Something went wrong. Try again.';
+        if (data.success) document.getElementById('yssr-email').value = '';
+      } catch(e) {
+        msg.style.display = 'block';
+        msg.textContent = 'Something went wrong. Try again.';
+      }
+    }
+    document.getElementById('yssr-email').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') yssrSubscribe();
+    });
+    </script>
 
     <div class="issues">
       <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
