@@ -55,24 +55,33 @@ permalink: /north-jersey/index.html
     });
     </script>
 
-    <div class="issues">
-      <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
-        <div class="date">June 9, 2026</div>
-        <h3>State Playoffs Are in Full Mode — Top Stories You Need to Know</h3>
+<div class="issues">
+  {% if market.newsletter_issues and market.newsletter_issues.length %}
+    {% for issue in market.newsletter_issues | take(4) %}
+      <a class="issue-card" href="{{ issue.url }}" target="_blank" rel="noopener">
+        <div class="date">{{ issue.label or (issue.date | displayDate) }}</div>
+        <h3>{{ issue.title }}</h3>
       </a>
-      <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb" target="_blank" rel="noopener">
-        <div class="date">May 26, 2026</div>
-        <h3>15 North Jersey Schools That Deserve Some Love This Spring</h3>
-      </a>
-      <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577" target="_blank" rel="noopener">
-        <div class="date">May 19, 2026</div>
-        <h3>Mount Olive Stuns Delbarton + County Finals &amp; College Corner</h3>
-      </a>
-      <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-0d92e15c130f952d" target="_blank" rel="noopener">
-        <div class="date">May 12, 2026</div>
-        <h3>Don Bosco Wins 6th Straight Bergen County Lacrosse Title + Rankings</h3>
-      </a>
-    </div>
+    {% endfor %}
+  {% else %}
+    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958" target="_blank" rel="noopener">
+      <div class="date">June 16, 2026</div>
+      <h3>YSSR North Jersey — June 16, 2026</h3>
+    </a>
+    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
+      <div class="date">June 9, 2026</div>
+      <h3>State Playoffs Are in Full Mode — Top Stories You Need to Know</h3>
+    </a>
+    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb" target="_blank" rel="noopener">
+      <div class="date">May 26, 2026</div>
+      <h3>15 North Jersey Schools That Deserve Some Love This Spring</h3>
+    </a>
+    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577" target="_blank" rel="noopener">
+      <div class="date">May 19, 2026</div>
+      <h3>Mount Olive Stuns Delbarton + County Finals &amp; College Corner</h3>
+    </a>
+  {% endif %}
+</div>
   </div>
 </section>
 
