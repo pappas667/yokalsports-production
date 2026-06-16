@@ -15,10 +15,17 @@
     "Union",
     "Middlesex"
   ],
-  "newsletter_issues": [],
+  "newsletter_issues": [
+    {
+      "date": "2026-06-16",
+      "label": "June 16, 2026",
+      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958",
+      "title": "YSSR North Jersey \u2014 June 16, 2026"
+    }
+  ],
   "publications": [
     {
-      "publish_date": "2026-06-09",
+      "publish_date": "2026-06-16",
       "approved": true,
       "season": "Spring",
       "high_school": {
@@ -29,130 +36,134 @@
               "teams": [
                 {
                   "rank": 1,
-                  "team": "Delbarton",
-                  "county": "Morris",
+                  "team": "Ridgewood",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "26-4",
-                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic",
+                  "record": "25-7",
+                  "status": "Group 4 State Champions \u2014 7-6 over Kingsway. Hudson Feeney 3-run double. Brady Ross relief gem.",
                   "score": 98
                 },
                 {
                   "rank": 2,
-                  "team": "DePaul Catholic",
-                  "county": "Passaic",
+                  "team": "Ramsey",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "~20-8",
-                  "status": "Lost Non-Public A North Final 1-11 to Delbarton",
-                  "score": 95
+                  "record": "25-3",
+                  "status": "Group 2 State Champions \u2014 4-2 over Gov. Livingston. Scarnecchia 2-hitter. Ferrando squeeze bunt.",
+                  "score": 96
                 },
                 {
                   "rank": 3,
-                  "team": "Governor Livingston",
-                  "county": "Union",
+                  "team": "Delbarton",
+                  "county": "Morris",
                   "sport": "Baseball",
-                  "record": "17-8",
-                  "status": "Lost Group 2 State Semifinal 0-5 to Ramsey",
-                  "score": 93
+                  "record": "29-4",
+                  "status": "Non-Public A State Champions \u2014 4-1 (10 inn) over St. Augustine. McBride relief gem. 5th program title.",
+                  "score": 94
                 },
                 {
                   "rank": 4,
-                  "team": "Seton Hall Prep",
-                  "county": "Essex",
+                  "team": "Old Tappan",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "~14-7",
-                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship",
+                  "record": "~22-6",
+                  "status": "Group 3 State Champions \u2014 5-0 shutout vs Brick Memorial. Selden Kolkebeck complete game, 10 Ks.",
                   "score": 91
                 },
                 {
                   "rank": 5,
-                  "team": "Don Bosco Prep",
-                  "county": "Bergen",
+                  "team": "Seton Hall Prep",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "record": "~16-7",
+                  "status": "Non-Public A State Finalist. Strong postseason run.",
                   "score": 88
                 },
                 {
                   "rank": 6,
-                  "team": "Passaic Tech",
-                  "county": "Passaic",
+                  "team": "Don Bosco Prep",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "status": "N1 Group 4 Sectional Final | W",
+                  "record": "~14-6",
+                  "status": "Strong county and sectional run.",
                   "score": 85
                 },
                 {
                   "rank": 7,
-                  "team": "Ramapo",
-                  "county": "Bergen",
+                  "team": "Passaic Tech",
+                  "county": "Passaic",
                   "sport": "Baseball",
-                  "status": "N1 Group 3 Sectional Final | W",
+                  "record": "~18-5",
+                  "status": "N1 Group 4 Sectional Final winner.",
                   "score": 82
                 },
                 {
                   "rank": 8,
-                  "team": "Bergen Catholic",
-                  "county": "Bergen",
+                  "team": "Pompton Lakes",
+                  "county": "Passaic",
                   "sport": "Baseball",
-                  "record": "8-5",
+                  "record": "22-8",
+                  "status": "Group 1 State Finalist.",
                   "score": 80
                 },
                 {
                   "rank": 9,
-                  "team": "Glen Rock",
-                  "county": "Bergen",
+                  "team": "West Morris",
+                  "county": "Morris",
                   "sport": "Baseball",
-                  "record": "~16-8",
-                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
+                  "record": "~17-4",
+                  "status": "Sectional championship W 12-1.",
                   "score": 78
                 },
                 {
                   "rank": 10,
-                  "team": "Ridgewood",
-                  "county": "Bergen",
+                  "team": "Governor Livingston",
+                  "county": "Union",
                   "sport": "Baseball",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
+                  "record": "17-8",
+                  "status": "Group 2 State Final \u2014 lost 2-4 to Ramsey.",
                   "score": 75
                 },
                 {
                   "rank": 11,
-                  "team": "North Hunterdon",
-                  "county": "Hunterdon",
+                  "team": "Bergen Catholic",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "~18-5",
-                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney",
+                  "record": "8-5",
                   "score": 72
                 },
                 {
                   "rank": 12,
-                  "team": "West Milford",
-                  "county": "Passaic",
+                  "team": "Ramapo",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "5-4",
+                  "record": "~21-8",
                   "score": 70
                 },
                 {
                   "rank": 13,
-                  "team": "Montville",
-                  "county": "Morris",
+                  "team": "Glen Rock",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "4-7",
+                  "record": "~16-8",
+                  "status": "Lost N1 Group 2 Sectional Final to Ramsey.",
                   "score": 68
                 },
                 {
                   "rank": 14,
-                  "team": "Roxbury",
-                  "county": "Morris",
+                  "team": "DePaul Catholic",
+                  "county": "Passaic",
                   "sport": "Baseball",
-                  "record": "~15-8",
-                  "status": "Lost Group 3 State Semifinal 0-3 to North Hunterdon",
+                  "record": "~20-8",
+                  "status": "Non-Public A Finalist \u2014 lost 1-11 to Delbarton.",
                   "score": 66
                 },
                 {
                   "rank": 15,
-                  "team": "Clifton",
-                  "county": "Passaic",
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
                   "sport": "Baseball",
-                  "record": "5-6",
+                  "record": "~12-8",
                   "score": 64
                 },
                 {
@@ -165,456 +176,430 @@
                 },
                 {
                   "rank": 17,
-                  "team": "West Morris",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "record": "~17-4",
-                  "status": "Sectional championship W 12-1",
-                  "score": 62
-                },
-                {
-                  "rank": 18,
                   "team": "Immaculata",
                   "county": "Hunterdon",
                   "sport": "Baseball",
                   "record": "8-4",
-                  "score": 61
+                  "score": 62
                 },
                 {
-                  "rank": 19,
+                  "rank": 18,
                   "team": "Ridge",
                   "county": "Bergen",
                   "sport": "Baseball",
                   "record": "19-10",
-                  "status": "Lost 8-7 to Ridgewood in Group 4 State Semifinal (8 innings); season ends",
-                  "score": 60
+                  "status": "Lost Group 4 State Semifinal to Ridgewood.",
+                  "score": 61
                 },
                 {
-                  "rank": 20,
+                  "rank": 19,
                   "team": "Wayne Hills",
                   "county": "Passaic",
                   "sport": "Baseball",
                   "record": "7-4",
+                  "score": 60
+                },
+                {
+                  "rank": 20,
+                  "team": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Baseball",
                   "score": 59
                 },
                 {
                   "rank": 21,
-                  "team": "Northern Highlands",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
-                  "score": 58
-                },
-                {
-                  "rank": 22,
-                  "team": "Ramsey",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~18-5",
-                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
-                  "score": 57
-                },
-                {
-                  "rank": 23,
                   "team": "Westwood",
                   "county": "Bergen",
                   "sport": "Baseball",
                   "record": "9-3",
-                  "score": 56
+                  "score": 58
                 },
                 {
-                  "rank": 24,
-                  "team": "Old Tappan",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~19-6",
-                  "status": "N1 Group 3 Sectional Final W 9-4 vs Ramapo",
-                  "score": 55
-                },
-                {
-                  "rank": 25,
+                  "rank": 22,
                   "team": "Pascack Valley",
                   "county": "Bergen",
                   "sport": "Baseball",
                   "record": "6-5",
-                  "score": 54
+                  "score": 57
                 },
                 {
-                  "rank": 26,
+                  "rank": 23,
                   "team": "Paramus Catholic",
                   "county": "Bergen",
                   "sport": "Baseball",
                   "record": "5-5",
+                  "score": 56
+                },
+                {
+                  "rank": 24,
+                  "team": "Indian Hills",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "7-4",
+                  "score": 55
+                },
+                {
+                  "rank": 25,
+                  "team": "Bergenfield",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "6-4",
+                  "score": 54
+                },
+                {
+                  "rank": 26,
+                  "team": "Teaneck",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "5-6",
                   "score": 53
                 },
                 {
                   "rank": 27,
-                  "team": "Indian Hills",
-                  "county": "Bergen",
+                  "team": "Livingston",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "record": "10-4",
-                  "status": "Lost Group 1 State Semifinal 0-1 to Dayton; season ends",
+                  "record": "7-3",
                   "score": 52
                 },
                 {
                   "rank": 28,
-                  "team": "Bergenfield",
-                  "county": "Bergen",
+                  "team": "Millburn",
+                  "county": "Essex",
                   "sport": "Baseball",
                   "record": "6-4",
                   "score": 51
                 },
                 {
                   "rank": 29,
-                  "team": "Teaneck",
-                  "county": "Bergen",
+                  "team": "Columbia",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "record": "5-6",
+                  "record": "5-5",
                   "score": 50
                 },
                 {
                   "rank": 30,
-                  "team": "Livingston",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "status": "Group 1 State Semifinals June 8 | ADV",
-                  "score": 49
-                },
-                {
-                  "rank": 31,
-                  "team": "Millburn",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "record": "6-4",
-                  "score": 48
-                },
-                {
-                  "rank": 32,
-                  "team": "Columbia",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "status": "Advanced deep in North sections | ADV",
-                  "score": 47
-                },
-                {
-                  "rank": 33,
                   "team": "East Side",
                   "county": "Passaic",
                   "sport": "Baseball",
                   "record": "6-4",
-                  "score": 46
+                  "score": 49
                 },
                 {
-                  "rank": 34,
+                  "rank": 31,
                   "team": "Passaic",
                   "county": "Passaic",
                   "sport": "Baseball",
                   "record": "4-6",
-                  "score": 45
+                  "score": 48
                 },
                 {
-                  "rank": 35,
+                  "rank": 32,
                   "team": "Morris Knolls",
                   "county": "Morris",
                   "sport": "Baseball",
                   "record": "5-5",
-                  "score": 44
+                  "score": 47
                 },
                 {
-                  "rank": 36,
+                  "rank": 33,
                   "team": "Morris Hills",
                   "county": "Morris",
                   "sport": "Baseball",
                   "record": "4-6",
-                  "score": 43
+                  "score": 46
                 },
                 {
-                  "rank": 37,
+                  "rank": 34,
                   "team": "Randolph",
                   "county": "Morris",
                   "sport": "Baseball",
                   "record": "6-5",
-                  "score": 42
+                  "score": 45
                 },
                 {
-                  "rank": 38,
+                  "rank": 35,
                   "team": "Mount Olive",
                   "county": "Morris",
                   "sport": "Baseball",
-                  "status": "From 5/19 Market Update prose",
-                  "score": 41
+                  "score": 44
                 },
                 {
-                  "rank": 39,
+                  "rank": 36,
                   "team": "Hackettstown",
                   "county": "Warren",
                   "sport": "Baseball",
                   "record": "7-4",
-                  "score": 40
+                  "score": 43
                 },
                 {
-                  "rank": 40,
+                  "rank": 37,
                   "team": "Belvidere",
                   "county": "Warren",
                   "sport": "Baseball",
                   "record": "6-4",
-                  "score": 39
+                  "score": 42
                 },
                 {
-                  "rank": 41,
+                  "rank": 38,
                   "team": "North Warren",
                   "county": "Warren",
                   "sport": "Baseball",
                   "record": "5-5",
-                  "score": 38
+                  "score": 41
                 },
                 {
-                  "rank": 42,
+                  "rank": 39,
                   "team": "Vernon",
                   "county": "Sussex",
                   "sport": "Baseball",
                   "record": "6-5",
-                  "score": 37
+                  "score": 40
                 },
                 {
-                  "rank": 43,
+                  "rank": 40,
                   "team": "Sparta",
                   "county": "Sussex",
                   "sport": "Baseball",
                   "record": "5-6",
-                  "score": 36
+                  "score": 39
                 },
                 {
-                  "rank": 44,
+                  "rank": 41,
                   "team": "High Point",
                   "county": "Sussex",
                   "sport": "Baseball",
                   "record": "4-6",
-                  "score": 35
+                  "score": 38
                 },
                 {
-                  "rank": 45,
+                  "rank": 42,
                   "team": "Somerville",
                   "county": "Somerset",
                   "sport": "Baseball",
                   "record": "7-4",
-                  "score": 34
+                  "score": 37
                 },
                 {
-                  "rank": 46,
+                  "rank": 43,
                   "team": "Watchung Hills",
                   "county": "Somerset",
                   "sport": "Baseball",
-                  "status": "Advanced deep in North sections | ADV",
-                  "score": 33
+                  "score": 36
                 },
                 {
-                  "rank": 47,
+                  "rank": 44,
                   "team": "Rutgers Prep",
                   "county": "Somerset",
                   "sport": "Baseball",
                   "record": "5-5",
-                  "score": 32
+                  "score": 35
                 },
                 {
-                  "rank": 48,
+                  "rank": 45,
+                  "team": "Clifton",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 34
+                },
+                {
+                  "rank": 46,
                   "team": "Cranford",
                   "county": "Union",
                   "sport": "Baseball",
                   "record": "6-5",
-                  "score": 31
+                  "score": 33
                 },
                 {
-                  "rank": 49,
+                  "rank": 47,
                   "team": "Elizabeth",
                   "county": "Union",
                   "sport": "Baseball",
                   "record": "5-6",
-                  "score": 30
+                  "score": 32
                 },
                 {
-                  "rank": 50,
+                  "rank": 48,
                   "team": "Union Catholic",
                   "county": "Union",
                   "sport": "Baseball",
                   "record": "5-6",
+                  "score": 31
+                },
+                {
+                  "rank": 49,
+                  "team": "Montville",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "4-7",
+                  "score": 30
+                },
+                {
+                  "rank": 50,
+                  "team": "West Milford",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "5-4",
                   "score": 29
                 }
               ],
               "athletes": [
                 {
                   "rank": 1,
+                  "athlete": "Hudson Feeney",
+                  "school": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Walk-off HR in semifinal; 3-run double in Group 4 State Final",
+                  "status": "YSSR Boys Athlete of the Week. State champion.",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
+                  "athlete": "Selden Kolkebeck",
+                  "school": "Old Tappan",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Complete game, 10 Ks, 0.72 ERA on season. Also hit in state final.",
+                  "status": "Group 3 State Champion MVP candidate.",
+                  "score": 96
+                },
+                {
+                  "rank": 3,
+                  "athlete": "Joe Scarnecchia",
+                  "school": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "2-hitter in Group 2 State Final",
+                  "status": "Group 2 State Champion.",
+                  "score": 94
+                },
+                {
+                  "rank": 4,
                   "athlete": "Zach Geertsma",
                   "school": "Governor Livingston",
                   "county": "Union",
                   "sport": "Baseball",
                   "stats": ".458 AVG \u00b7 7 HR \u00b7 29 RBI",
-                  "status": "Mississippi State commit \u2014 Gov. Livingston now 14-3-1",
-                  "score": 97,
+                  "status": "Mississippi State commit.",
+                  "score": 93,
                   "commit": "Mississippi State"
                 },
                 {
-                  "rank": 2,
+                  "rank": 5,
                   "athlete": "Jason Amalbert",
                   "school": "DePaul Catholic",
                   "county": "Passaic",
                   "sport": "Baseball",
-                  "stats": "Continued power surge in playoffs; 9 HR \u00b7 29 RBI on season",
-                  "status": "Oklahoma commit. Non-Public A Final. Source: data_intake",
-                  "score": 95,
+                  "stats": "9 HR \u00b7 29 RBI on season",
+                  "status": "Oklahoma commit.",
+                  "score": 91,
                   "commit": "Oklahoma"
                 },
                 {
-                  "rank": 3,
+                  "rank": 6,
                   "athlete": "Mickey Gilligan",
                   "school": "Passaic Tech",
                   "county": "Passaic",
                   "sport": "Baseball",
-                  "stats": "Strong two-way play in N1 G4 Sectional Final",
-                  "status": "Rutgers commit. Source: data_intake",
-                  "score": 94,
+                  "stats": "Strong two-way play through sectionals",
+                  "status": "Rutgers commit.",
+                  "score": 89,
                   "commit": "Rutgers"
                 },
                 {
-                  "rank": 4,
+                  "rank": 7,
+                  "athlete": "Hudson Ferrando",
+                  "school": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Go-ahead RBI squeeze bunt in 6th inning, Group 2 State Final",
+                  "status": "State champion.",
+                  "score": 88
+                },
+                {
+                  "rank": 8,
+                  "athlete": "Brady Ross",
+                  "school": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "4+ scoreless IP relief, bases-loaded popup to end Group 4 State Final",
+                  "status": "State champion.",
+                  "score": 87
+                },
+                {
+                  "rank": 9,
                   "athlete": "Sal Garcia",
                   "school": "Delbarton",
                   "county": "Morris",
                   "sport": "Baseball",
                   "stats": ".408 AVG | 4 HR | 32 RBI",
-                  "score": 93,
+                  "status": "Duke commit. State champion.",
+                  "score": 86,
                   "commit": "Duke"
                 },
                 {
-                  "rank": 5,
+                  "rank": 10,
                   "athlete": "JJ Drennan",
                   "school": "Seton Hall Prep",
                   "county": "Essex",
                   "sport": "Baseball",
                   "stats": "Strong velocity + Ks",
-                  "score": 91,
+                  "status": "Boston College commit.",
+                  "score": 85,
                   "commit": "Boston College"
                 },
                 {
-                  "rank": 6,
-                  "athlete": "Charlie Wingfield",
-                  "school": "Ramapo",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "stats": "Top returning arm",
-                  "score": 89
-                },
-                {
-                  "rank": 7,
-                  "athlete": "J.C. Pacheco",
-                  "school": "DePaul Catholic",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "stats": "Multiple HR games",
-                  "score": 88,
-                  "commit": "Arizona State"
-                },
-                {
-                  "rank": 8,
+                  "rank": 11,
                   "athlete": "Finnian O'Loughlin",
                   "school": "Delbarton",
                   "county": "Morris",
                   "sport": "Baseball",
                   "stats": ".469 AVG \u00b7 2-way",
-                  "score": 87
+                  "score": 84
                 },
                 {
-                  "rank": 9,
+                  "rank": 12,
+                  "athlete": "Roberto Cotes",
+                  "school": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Winning RBI in N1 Group 2 Sectional Final",
+                  "status": "SUNY Cortland football commit. State champion.",
+                  "score": 83
+                },
+                {
+                  "rank": 13,
+                  "athlete": "J.C. Pacheco",
+                  "school": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "stats": "Multiple HR games",
+                  "status": "Arizona State commit.",
+                  "score": 82,
+                  "commit": "Arizona State"
+                },
+                {
+                  "rank": 14,
                   "athlete": "Hunter Brown",
                   "school": "North Hunterdon",
                   "county": "Hunterdon",
                   "sport": "Baseball",
                   "stats": "Velocity leader",
-                  "score": 86,
+                  "status": "Penn State commit.",
+                  "score": 81,
                   "commit": "Penn State"
                 },
                 {
-                  "rank": 10,
+                  "rank": 15,
                   "athlete": "Frankie Juliano",
                   "school": "Passaic Tech",
                   "county": "Passaic",
                   "sport": "Baseball",
-                  "stats": "Consistent production",
-                  "score": 85
-                },
-                {
-                  "rank": 11,
-                  "athlete": "Matt Tafuri",
-                  "school": "Delbarton",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "stats": "Speed + extra-base hits",
-                  "score": 84
-                },
-                {
-                  "rank": 12,
-                  "athlete": "Michael Basile",
-                  "school": "Governor Livingston",
-                  "county": "Union",
-                  "sport": "Baseball",
-                  "stats": "Middle-order heater",
-                  "score": 83
-                },
-                {
-                  "rank": 13,
-                  "athlete": "Danny Poppe",
-                  "school": "Ramapo",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "stats": "2-way threat",
-                  "score": 82
-                },
-                {
-                  "rank": 14,
-                  "athlete": "Lorenzo Maselli",
-                  "school": "Delbarton",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "stats": "Power bat",
-                  "score": 81
-                },
-                {
-                  "rank": 15,
-                  "athlete": "Jordan Burwell",
-                  "school": "Seton Hall Prep",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "stats": "Multiple HR",
+                  "stats": "Consistent production through sectionals",
                   "score": 80
-                },
-                {
-                  "athlete": "Hudson Feeney",
-                  "school": "Ridgewood",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "stats": "Walk-off solo HR leading off bottom of 8th vs Ridge (Group 4 State Semifinal)",
-                  "status": "YSSR Boys Athlete of the Week. Ridgewood advances 24-7. Source: NJ.com / JSZ / NorthJersey.com"
-                },
-                {
-                  "team": "Ridgewood",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final"
-                },
-                {
-                  "team": "Delbarton",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "record": "26-4",
-                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic"
-                },
-                {
-                  "team": "Seton Hall Prep",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "record": "~14-7",
-                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship"
                 }
               ]
             },
@@ -623,70 +608,67 @@
               "teams": [
                 {
                   "rank": 1,
-                  "team": "Delbarton",
-                  "county": "Morris",
+                  "team": "Summit",
+                  "county": "Union",
                   "sport": "Boys Lacrosse",
-                  "record": "26-4",
-                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic",
-                  "score": 98
+                  "record": "20-1",
+                  "status": "Group 3 State Champions. Kirst Cup semifinalist.",
+                  "score": 97
                 },
                 {
                   "rank": 2,
-                  "team": "Don Bosco Prep",
+                  "team": "Ridgewood",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
-                  "score": 95
+                  "status": "Group 4 State Champions.",
+                  "score": 94
                 },
                 {
                   "rank": 3,
+                  "team": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Boys Lacrosse",
+                  "record": "~19-6",
+                  "status": "Strong Non-Public A run.",
+                  "score": 91
+                },
+                {
+                  "rank": 4,
+                  "team": "Don Bosco Prep",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "record": "~14-6",
+                  "status": "Bergen Co Champs \u2014 6th straight.",
+                  "score": 88
+                },
+                {
+                  "rank": 5,
                   "team": "Seton Hall Prep",
                   "county": "Essex",
                   "sport": "Boys Lacrosse",
                   "record": "~14-7",
-                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship",
-                  "score": 93
-                },
-                {
-                  "rank": 4,
-                  "team": "Ridgewood",
-                  "county": "Bergen",
-                  "sport": "Boys Lacrosse",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
-                  "score": 91
-                },
-                {
-                  "rank": 5,
-                  "team": "Summit",
-                  "county": "Union",
-                  "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
-                  "score": 88
+                  "score": 85
                 },
                 {
                   "rank": 6,
                   "team": "Bergen Catholic",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "record": "8-5",
-                  "score": 85
+                  "score": 82
                 },
                 {
                   "rank": 7,
                   "team": "Ramapo",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "N1 Group 3 Sectional Final | W",
-                  "score": 82
+                  "score": 80
                 },
                 {
                   "rank": 8,
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
-                  "score": 80
+                  "score": 78
                 },
                 {
                   "rank": 9,
@@ -694,20 +676,14 @@
                   "county": "Essex",
                   "sport": "Boys Lacrosse",
                   "record": "8-3",
-                  "score": 78
+                  "score": 75
                 },
                 {
                   "rank": 10,
                   "team": "Livingston",
                   "county": "Essex",
                   "sport": "Boys Lacrosse",
-                  "status": "Group 1 State Semifinals June 8 | ADV",
-                  "score": 75
-                },
-                {
-                  "team": "Westfield",
-                  "sport": "Boys Lacrosse",
-                  "status": "Group 4 Semifinal \u2014 OT | W"
+                  "score": 72
                 }
               ],
               "athletes": [
@@ -771,16 +747,15 @@
                   "team": "Ridgewood",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
-                  "score": 98
+                  "status": "Group 4 State Champions \u2014 12-4 over Cherokee. Bergen Co repeat champs.",
+                  "score": 97
                 },
                 {
                   "rank": 2,
                   "team": "Immaculate Heart",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "status": "Active in recent sectional rounds | ADV",
+                  "status": "Deep sectional run.",
                   "score": 95
                 },
                 {
@@ -788,7 +763,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Active in sectional rounds.",
                   "score": 93
                 },
                 {
@@ -796,8 +771,6 @@
                   "team": "Glen Rock",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "record": "~16-8",
-                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
                   "score": 91
                 },
                 {
@@ -805,7 +778,6 @@
                   "team": "Pascack Valley",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "record": "6-5",
                   "score": 88
                 },
                 {
@@ -820,8 +792,6 @@
                   "team": "Ramsey",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "record": "~18-5",
-                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
                   "score": 82
                 },
                 {
@@ -844,13 +814,6 @@
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
                   "score": 75
-                },
-                {
-                  "team": "Ridgewood",
-                  "county": "Bergen",
-                  "sport": "Girls Lacrosse",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final"
                 }
               ],
               "athletes": [
@@ -861,8 +824,9 @@
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
                   "stats": "USA Lacrosse All-American",
-                  "score": 98,
-                  "commit": "William & Mary"
+                  "score": 99,
+                  "commit": "William & Mary",
+                  "status": "USA Lacrosse All-American. Group 4 State Champion. William & Mary commit."
                 },
                 {
                   "rank": 2,
@@ -952,98 +916,91 @@
               "teams": [
                 {
                   "rank": 1,
-                  "team": "Columbia",
-                  "county": "Essex",
+                  "team": "Ramsey",
+                  "county": "Bergen",
                   "sport": "Softball",
-                  "status": "Advanced deep in North sections | ADV",
+                  "record": "25-3",
+                  "status": "Group 2 State Champions \u2014 4-2 over Gov. Livingston. 2nd title in 4 years.",
                   "score": 98
                 },
                 {
                   "rank": 2,
-                  "team": "Watchung Hills",
-                  "county": "Somerset",
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
                   "sport": "Softball",
-                  "status": "Advanced deep in North sections | ADV",
-                  "score": 95
-                },
-                {
-                  "rank": 3,
-                  "team": "Morris Knolls",
-                  "county": "Morris",
-                  "sport": "Softball",
-                  "record": "5-5",
+                  "status": "Group 3 State Finalist. Layla Francisco 4 shutouts in tournament.",
                   "score": 93
                 },
                 {
-                  "rank": 4,
-                  "team": "Ramsey",
-                  "county": "Bergen",
+                  "rank": 3,
+                  "team": "Columbia",
+                  "county": "Essex",
                   "sport": "Softball",
-                  "record": "~18-5",
-                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
+                  "status": "Strong deep postseason run.",
                   "score": 91
                 },
                 {
-                  "rank": 5,
-                  "team": "Immaculate Heart",
-                  "county": "Bergen",
+                  "rank": 4,
+                  "team": "Watchung Hills",
+                  "county": "Somerset",
                   "sport": "Softball",
-                  "status": "Active in recent sectional rounds | ADV",
-                  "score": 88
+                  "status": "SCT Champions. Deep sectional run.",
+                  "score": 89
+                },
+                {
+                  "rank": 5,
+                  "team": "Morris Knolls",
+                  "county": "Morris",
+                  "sport": "Softball",
+                  "record": "9-3",
+                  "score": 87
                 },
                 {
                   "rank": 6,
-                  "team": "DePaul Catholic",
-                  "county": "Passaic",
+                  "team": "Immaculate Heart",
+                  "county": "Bergen",
                   "sport": "Softball",
-                  "record": "~20-8",
-                  "status": "Lost Non-Public A North Final 1-11 to Delbarton",
                   "score": 85
                 },
                 {
                   "rank": 7,
-                  "team": "Indian Hills",
-                  "county": "Bergen",
+                  "team": "DePaul Catholic",
+                  "county": "Passaic",
                   "sport": "Softball",
-                  "record": "10-4",
-                  "status": "Lost Group 1 State Semifinal 0-1 to Dayton; season ends",
-                  "score": 82
+                  "score": 83
                 },
                 {
                   "rank": 8,
                   "team": "Glen Rock",
                   "county": "Bergen",
                   "sport": "Softball",
-                  "record": "~16-8",
-                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
-                  "score": 80
+                  "record": "9-2",
+                  "score": 81
                 },
                 {
                   "rank": 9,
                   "team": "Pompton Lakes",
                   "county": "Passaic",
                   "sport": "Softball",
-                  "record": "~16-5",
-                  "status": "N1 Group 1 Sectional Final W 3-0 vs Waldwick; shutout",
-                  "score": 78
+                  "record": "9-2",
+                  "score": 79
                 },
                 {
                   "rank": 10,
                   "team": "Ridgewood",
                   "county": "Bergen",
                   "sport": "Softball",
-                  "record": "24-7",
-                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
-                  "score": 75
+                  "record": "8-3",
+                  "score": 77
                 },
                 {
                   "rank": 11,
-                  "team": "North Hunterdon",
-                  "county": "Hunterdon",
+                  "team": "Indian Hills",
+                  "county": "Bergen",
                   "sport": "Softball",
-                  "record": "~18-5",
-                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney",
-                  "score": 72
+                  "record": "10-4",
+                  "status": "Lost Group 1 State Semifinal 0-1 to Dayton.",
+                  "score": 75
                 },
                 {
                   "rank": 12,
@@ -1051,15 +1008,15 @@
                   "county": "Essex",
                   "sport": "Softball",
                   "record": "8-3",
-                  "score": 70
+                  "score": 73
                 },
                 {
                   "rank": 13,
                   "team": "Livingston",
                   "county": "Essex",
                   "sport": "Softball",
-                  "status": "Group 1 State Semifinals June 8 | ADV",
-                  "score": 68
+                  "record": "7-3",
+                  "score": 71
                 },
                 {
                   "rank": 14,
@@ -1067,7 +1024,7 @@
                   "county": "Essex",
                   "sport": "Softball",
                   "record": "6-4",
-                  "score": 66
+                  "score": 69
                 },
                 {
                   "rank": 15,
@@ -1075,7 +1032,7 @@
                   "county": "Union",
                   "sport": "Softball",
                   "record": "6-5",
-                  "score": 64
+                  "score": 67
                 },
                 {
                   "rank": 16,
@@ -1083,7 +1040,7 @@
                   "county": "Somerset",
                   "sport": "Softball",
                   "record": "6-3",
-                  "score": 63
+                  "score": 65
                 },
                 {
                   "rank": 17,
@@ -1091,7 +1048,7 @@
                   "county": "Morris",
                   "sport": "Softball",
                   "record": "8-3",
-                  "score": 62
+                  "score": 63
                 },
                 {
                   "rank": 18,
@@ -1103,11 +1060,11 @@
                 },
                 {
                   "rank": 19,
-                  "team": "Verona",
-                  "county": "Essex",
+                  "team": "Morris Hills",
+                  "county": "Morris",
                   "sport": "Softball",
-                  "record": "4-6",
-                  "score": 60
+                  "status": "North 1 Group 3 semifinal upset win over Montville 2-1.",
+                  "score": 59
                 },
                 {
                   "rank": 20,
@@ -1115,13 +1072,23 @@
                   "county": "Union",
                   "sport": "Softball",
                   "record": "17-8",
-                  "status": "Lost Group 2 State Semifinal 0-5 to Ramsey",
-                  "score": 59
+                  "status": "Group 2 State Final \u2014 lost 2-4 to Ramsey.",
+                  "score": 57
                 }
               ],
               "athletes": [
                 {
                   "rank": 1,
+                  "athlete": "Layla Francisco",
+                  "school": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Softball",
+                  "stats": "4 shutouts in state tournament run. Group 3 State Finalist.",
+                  "status": "YSSR Girls Athlete of the Week.",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
                   "athlete": "Claire Shupe",
                   "school": "Columbia",
                   "county": "Essex",
@@ -1131,7 +1098,7 @@
                   "commit": "Boston University"
                 },
                 {
-                  "rank": 2,
+                  "rank": 3,
                   "athlete": "Audrey Amoruso",
                   "school": "Indian Hills",
                   "county": "Bergen",
@@ -1140,7 +1107,7 @@
                   "score": 94
                 },
                 {
-                  "rank": 3,
+                  "rank": 4,
                   "athlete": "Briana Darling",
                   "school": "Hackensack",
                   "county": "Bergen",
@@ -1149,7 +1116,7 @@
                   "score": 92
                 },
                 {
-                  "rank": 4,
+                  "rank": 5,
                   "athlete": "Lily Allmendinger",
                   "school": "Passaic Valley",
                   "county": "Passaic",
@@ -1158,7 +1125,7 @@
                   "score": 90
                 },
                 {
-                  "rank": 5,
+                  "rank": 6,
                   "athlete": "Lydia Paget",
                   "school": "West Milford",
                   "county": "Passaic",
@@ -1167,7 +1134,7 @@
                   "score": 88
                 },
                 {
-                  "rank": 6,
+                  "rank": 7,
                   "athlete": "Grace McManus",
                   "school": "Old Tappan",
                   "county": "Bergen",
@@ -1176,7 +1143,7 @@
                   "score": 87
                 },
                 {
-                  "rank": 7,
+                  "rank": 8,
                   "athlete": "Bella Baldino",
                   "school": "Ramsey",
                   "county": "Bergen",
@@ -1185,7 +1152,7 @@
                   "score": 86
                 },
                 {
-                  "rank": 8,
+                  "rank": 9,
                   "athlete": "Julia Fox",
                   "school": "Morris Knolls",
                   "county": "Morris",
@@ -1194,7 +1161,7 @@
                   "score": 85
                 },
                 {
-                  "rank": 9,
+                  "rank": 10,
                   "athlete": "Kaelyn Brown",
                   "school": "DePaul Catholic",
                   "county": "Passaic",
@@ -1203,7 +1170,7 @@
                   "score": 84
                 },
                 {
-                  "rank": 10,
+                  "rank": 11,
                   "athlete": "Giuliana Terranova",
                   "school": "Hasbrouck Heights",
                   "county": "Bergen",
@@ -2056,5 +2023,5 @@
       "newsletter_issues": []
     }
   ],
-  "generated_at": "2026-06-12T02:01:07.922Z"
+  "generated_at": "2026-06-16T12:00:00.000Z"
 }
