@@ -18,7 +18,7 @@
   "newsletter_issues": [],
   "publications": [
     {
-      "publish_date": "2026-06-09",
+      "publish_date": "2026-06-16",
       "approved": true,
       "season": "Spring",
       "high_school": {
@@ -68,7 +68,7 @@
                   "team": "Don Bosco Prep",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 88
                 },
                 {
@@ -202,7 +202,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 58
                 },
                 {
@@ -448,8 +448,8 @@
                   "school": "Governor Livingston",
                   "county": "Union",
                   "sport": "Baseball",
-                  "stats": ".458 AVG \u00b7 7 HR \u00b7 29 RBI",
-                  "status": "Mississippi State commit \u2014 Gov. Livingston now 14-3-1",
+                  "stats": ".458 AVG · 7 HR · 29 RBI",
+                  "status": "Mississippi State commit — Gov. Livingston now 14-3-1",
                   "score": 97,
                   "commit": "Mississippi State"
                 },
@@ -459,7 +459,7 @@
                   "school": "DePaul Catholic",
                   "county": "Passaic",
                   "sport": "Baseball",
-                  "stats": "Continued power surge in playoffs; 9 HR \u00b7 29 RBI on season",
+                  "stats": "Continued power surge in playoffs; 9 HR · 29 RBI on season",
                   "status": "Oklahoma commit. Non-Public A Final. Source: data_intake",
                   "score": 95,
                   "commit": "Oklahoma"
@@ -520,7 +520,7 @@
                   "school": "Delbarton",
                   "county": "Morris",
                   "sport": "Baseball",
-                  "stats": ".469 AVG \u00b7 2-way",
+                  "stats": ".469 AVG · 2-way",
                   "score": 87
                 },
                 {
@@ -635,7 +635,7 @@
                   "team": "Don Bosco Prep",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 95
                 },
                 {
@@ -661,7 +661,7 @@
                   "team": "Summit",
                   "county": "Union",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 88
                 },
                 {
@@ -685,7 +685,7 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Boys Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 80
                 },
                 {
@@ -707,7 +707,7 @@
                 {
                   "team": "Westfield",
                   "sport": "Boys Lacrosse",
-                  "status": "Group 4 Semifinal \u2014 OT | W"
+                  "status": "Group 4 Semifinal — OT | W"
                 }
               ],
               "athletes": [
@@ -788,7 +788,2577 @@
                   "team": "Northern Highlands",
                   "county": "Bergen",
                   "sport": "Girls Lacrosse",
-                  "status": "Public Round 3 winner \u2014 advancing to June 9 final | ADV",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "team": "Glen Rock",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "record": "~16-8",
+                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
+                  "score": 91
+                },
+                {
+                  "rank": 5,
+                  "team": "Pascack Valley",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "record": "6-5",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "team": "Mahwah",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "score": 85
+                },
+                {
+                  "rank": 7,
+                  "team": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "record": "~18-5",
+                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
+                  "score": 82
+                },
+                {
+                  "rank": 8,
+                  "team": "River Dell",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "score": 80
+                },
+                {
+                  "rank": 9,
+                  "team": "Lakeland",
+                  "county": "Passaic",
+                  "sport": "Girls Lacrosse",
+                  "score": 78
+                },
+                {
+                  "rank": 10,
+                  "team": "Rutherford",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "score": 75
+                },
+                {
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final"
+                }
+              ],
+              "athletes": [
+                {
+                  "rank": 1,
+                  "athlete": "Katie Adams",
+                  "school": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "USA Lacrosse All-American",
+                  "score": 98,
+                  "commit": "William & Mary"
+                },
+                {
+                  "rank": 2,
+                  "athlete": "Liliana Betz",
+                  "school": "Immaculate Heart",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Strong two-way",
+                  "score": 95
+                },
+                {
+                  "rank": 3,
+                  "athlete": "Ele Hollender",
+                  "school": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "athlete": "Samantha Allen",
+                  "school": "River Dell",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 90
+                },
+                {
+                  "rank": 5,
+                  "athlete": "Hope Arturi",
+                  "school": "River Dell",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Attack",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "athlete": "Myla Gottschall",
+                  "school": "Lakeland",
+                  "county": "Passaic",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 87
+                },
+                {
+                  "rank": 7,
+                  "athlete": "Cate Metzger",
+                  "school": "Rutherford",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder/Attack",
+                  "score": 86
+                },
+                {
+                  "rank": 8,
+                  "athlete": "Grace Sullivan",
+                  "school": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 85
+                },
+                {
+                  "rank": 9,
+                  "athlete": "Jacqueline Citera",
+                  "school": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 84
+                },
+                {
+                  "rank": 10,
+                  "athlete": "Avery Vega",
+                  "school": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "stats": "Defender",
+                  "score": 83
+                }
+              ]
+            },
+            {
+              "name": "Softball",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "Columbia",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "status": "Advanced deep in North sections | ADV",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
+                  "team": "Watchung Hills",
+                  "county": "Somerset",
+                  "sport": "Softball",
+                  "status": "Advanced deep in North sections | ADV",
+                  "score": 95
+                },
+                {
+                  "rank": 3,
+                  "team": "Morris Knolls",
+                  "county": "Morris",
+                  "sport": "Softball",
+                  "record": "5-5",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "team": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "~18-5",
+                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
+                  "score": 91
+                },
+                {
+                  "rank": 5,
+                  "team": "Immaculate Heart",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "status": "Active in recent sectional rounds | ADV",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "team": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Softball",
+                  "record": "~20-8",
+                  "status": "Lost Non-Public A North Final 1-11 to Delbarton",
+                  "score": 85
+                },
+                {
+                  "rank": 7,
+                  "team": "Indian Hills",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "10-4",
+                  "status": "Lost Group 1 State Semifinal 0-1 to Dayton; season ends",
+                  "score": 82
+                },
+                {
+                  "rank": 8,
+                  "team": "Glen Rock",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "~16-8",
+                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
+                  "score": 80
+                },
+                {
+                  "rank": 9,
+                  "team": "Pompton Lakes",
+                  "county": "Passaic",
+                  "sport": "Softball",
+                  "record": "~16-5",
+                  "status": "N1 Group 1 Sectional Final W 3-0 vs Waldwick; shutout",
+                  "score": 78
+                },
+                {
+                  "rank": 10,
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
+                  "score": 75
+                },
+                {
+                  "rank": 11,
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Softball",
+                  "record": "~18-5",
+                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney",
+                  "score": 72
+                },
+                {
+                  "rank": 12,
+                  "team": "West Essex",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "record": "8-3",
+                  "score": 70
+                },
+                {
+                  "rank": 13,
+                  "team": "Livingston",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "status": "Group 1 State Semifinals June 8 | ADV",
+                  "score": 68
+                },
+                {
+                  "rank": 14,
+                  "team": "Millburn",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "record": "6-4",
+                  "score": 66
+                },
+                {
+                  "rank": 15,
+                  "team": "Cranford",
+                  "county": "Union",
+                  "sport": "Softball",
+                  "record": "6-5",
+                  "score": 64
+                },
+                {
+                  "rank": 16,
+                  "team": "Bound Brook",
+                  "county": "Somerset",
+                  "sport": "Softball",
+                  "record": "6-3",
+                  "score": 63
+                },
+                {
+                  "rank": 17,
+                  "team": "Whippany Park",
+                  "county": "Morris",
+                  "sport": "Softball",
+                  "record": "8-3",
+                  "score": 62
+                },
+                {
+                  "rank": 18,
+                  "team": "Midland Park",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "12-0",
+                  "score": 61
+                },
+                {
+                  "rank": 19,
+                  "team": "Verona",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "record": "4-6",
+                  "score": 60
+                },
+                {
+                  "rank": 20,
+                  "team": "Governor Livingston",
+                  "county": "Union",
+                  "sport": "Softball",
+                  "record": "17-8",
+                  "status": "Lost Group 2 State Semifinal 0-5 to Ramsey",
+                  "score": 59
+                }
+              ],
+              "athletes": [
+                {
+                  "rank": 1,
+                  "athlete": "Claire Shupe",
+                  "school": "Columbia",
+                  "county": "Essex",
+                  "sport": "Softball",
+                  "stats": "Dominant two-way star",
+                  "score": 97,
+                  "commit": "Boston University"
+                },
+                {
+                  "rank": 2,
+                  "athlete": "Audrey Amoruso",
+                  "school": "Indian Hills",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "stats": "Strong two-way numbers",
+                  "score": 94
+                },
+                {
+                  "rank": 3,
+                  "athlete": "Briana Darling",
+                  "school": "Hackensack",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "stats": "Hit leader",
+                  "score": 92
+                },
+                {
+                  "rank": 4,
+                  "athlete": "Lily Allmendinger",
+                  "school": "Passaic Valley",
+                  "county": "Passaic",
+                  "sport": "Softball",
+                  "stats": "High AVG",
+                  "score": 90
+                },
+                {
+                  "rank": 5,
+                  "athlete": "Lydia Paget",
+                  "school": "West Milford",
+                  "county": "Passaic",
+                  "sport": "Softball",
+                  "stats": "Consistent producer",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "athlete": "Grace McManus",
+                  "school": "Old Tappan",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "stats": "Power bat",
+                  "score": 87
+                },
+                {
+                  "rank": 7,
+                  "athlete": "Bella Baldino",
+                  "school": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "stats": "Key hitter",
+                  "score": 86
+                },
+                {
+                  "rank": 8,
+                  "athlete": "Julia Fox",
+                  "school": "Morris Knolls",
+                  "county": "Morris",
+                  "sport": "Softball",
+                  "stats": "INF/P",
+                  "score": 85
+                },
+                {
+                  "rank": 9,
+                  "athlete": "Kaelyn Brown",
+                  "school": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Softball",
+                  "stats": "Standout",
+                  "score": 84
+                },
+                {
+                  "rank": 10,
+                  "athlete": "Giuliana Terranova",
+                  "school": "Hasbrouck Heights",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "stats": "Leader",
+                  "score": 83
+                },
+                {
+                  "athlete": "Layla Francisco",
+                  "school": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Softball",
+                  "stats": "4th shutout of state tournament; 3-0 win vs Roxbury in Group 3 Semifinal",
+                  "status": "YSSR Girls Athlete of the Week candidate. Source: MyCentralJersey / @SimeonPincus"
+                },
+                {
+                  "team": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Softball",
+                  "record": "~18-5",
+                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI"
+                },
+                {
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Softball",
+                  "record": "~18-5",
+                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "nil_tracking": [],
+      "historical_winpct": [
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 16,
+          "losses": 30,
+          "ties": 0,
+          "games": 46,
+          "win_pct": 34.8,
+          "confidence": "Verified",
+          "notes": "3-18 Big East. Down year. Approaching 1000 all-time program wins."
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "wins": 12,
+          "losses": 21,
+          "ties": 0,
+          "games": 33,
+          "win_pct": 36.4,
+          "confidence": "Verified",
+          "notes": "Lost to Rutgers 11-4 on 4/8/25 (third straight year)."
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending — populate from shupirates.com archives"
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2023",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2022",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 25,
+          "losses": 28,
+          "ties": 0,
+          "games": 53,
+          "win_pct": 47.2,
+          "confidence": "Verified",
+          "notes": "Big Ten Tournament berth. Won 4 of last 5 conf series."
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "wins": 16,
+          "losses": 17,
+          "ties": 0,
+          "games": 33,
+          "win_pct": 48.5,
+          "confidence": "Verified",
+          "notes": "Beat Seton Hall 11-4 on 4/8/25 — 3rd straight year over SHU."
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2023",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2022",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 31,
+          "losses": 9,
+          "ties": 0,
+          "games": 40,
+          "win_pct": 77.5,
+          "confidence": "Verified",
+          "notes": "Hosted NCAA D3 Regional. First NCAA Tourney win since 2008. 14-4 NJAC, 2nd."
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2023",
+          "confidence": "Partial",
+          "notes": "Active NJAC season. Sam Angelo hit for cycle vs NJCU (25-10 win 4/14)."
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2022",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 31,
+          "losses": 14,
+          "ties": 0,
+          "games": 45,
+          "win_pct": 68.9,
+          "confidence": "Verified",
+          "notes": "T-3 NJAC at 12-6. Strong postseason form."
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2023",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2022",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 31,
+          "losses": 13,
+          "ties": 1,
+          "games": 45,
+          "win_pct": 70,
+          "confidence": "Verified",
+          "notes": "T-3 NJAC at 12-6. Strong season."
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2023",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2022",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0073",
+          "school": "NJIT",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 15,
+          "losses": 27,
+          "ties": 1,
+          "games": 43,
+          "win_pct": 36,
+          "confidence": "Verified",
+          "notes": "America East. Strong regional recruiting."
+        },
+        {
+          "school_id": "S-0073",
+          "school": "NJIT",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0073",
+          "school": "NJIT",
+          "level": "College",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 26,
+          "losses": 15,
+          "ties": 0,
+          "games": 41,
+          "win_pct": 63.4,
+          "confidence": "Verified",
+          "notes": "Strong season. Multiple NJAC Rookie of the Week honors (Tarabokia)."
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2025",
+          "confidence": "Partial",
+          "notes": "Swept Ramapo 3-2/3-1 on 4/10. Sophia Alonso hit 2 triples vs Neumann 3/21/25."
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2023",
+          "confidence": "Partial",
+          "notes": "Amber Reed had 3 doubles vs John Jay 3/30/23."
+        },
+        {
+          "school_id": "S-0068",
+          "school": "Montclair State University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2022",
+          "confidence": "Partial",
+          "notes": "Danielle Sibilio 2 HR vs WPU 4/19/22."
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Partial",
+          "notes": "Angelina Benitez .405 AVG, 47 H, 7th in Big East."
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0072",
+          "school": "Seton Hall University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 25,
+          "losses": 12,
+          "ties": 0,
+          "games": 37,
+          "win_pct": 67.6,
+          "confidence": "Verified",
+          "notes": "9-7 NJAC. Strong season."
+        },
+        {
+          "school_id": "S-0070",
+          "school": "Ramapo College",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2025",
+          "wins": 21,
+          "losses": 4,
+          "ties": 0,
+          "games": 25,
+          "win_pct": 84,
+          "confidence": "Partial",
+          "notes": "5-3 NJAC at time of 4/10 doubleheader vs Montclair St."
+        },
+        {
+          "school_id": "S-0071",
+          "school": "Kean University",
+          "level": "College",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Lusnia earned NJAC honors 3/9/26"
+        },
+        {
+          "school_id": "S-0076",
+          "school": "Stevens Institute of Technology",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 14,
+          "losses": 2,
+          "ties": 0,
+          "games": 16,
+          "win_pct": 87.5,
+          "confidence": "Verified",
+          "notes": "1st MAC Freedom (6-0). 8-game win streak. Top local D3 lacrosse story."
+        },
+        {
+          "school_id": "S-0076",
+          "school": "Stevens Institute of Technology",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0076",
+          "school": "Stevens Institute of Technology",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 57.1,
+          "confidence": "Verified",
+          "notes": "#6 seed Big Ten Tournament."
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Partial",
+          "notes": "Strong NCAA Tournament run. Top offense (Caroline Ling 63G/34A). Kate Theofield All-Freshman."
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2025",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0069",
+          "school": "Rutgers University",
+          "level": "College",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2024",
+          "confidence": "Pending",
+          "notes": "Pending"
+        },
+        {
+          "school_id": "S-0010",
+          "school": "Ridgewood",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "games": 12,
+          "win_pct": 75,
+          "confidence": "Verified",
+          "notes": "Spring 2026 baseline"
+        },
+        {
+          "school_id": "S-0010",
+          "school": "Ridgewood",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 72.7,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0010",
+          "school": "Ridgewood",
+          "level": "High School",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 13,
+          "losses": 7,
+          "ties": 0,
+          "games": 20,
+          "win_pct": 65,
+          "confidence": "Verified",
+          "notes": "Bergen Co Champs — 13-7 over IHA 5/10"
+        },
+        {
+          "school_id": "S-0010",
+          "school": "Ridgewood",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "games": 8,
+          "win_pct": 75,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0001",
+          "school": "Delbarton",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 14,
+          "losses": 3,
+          "ties": 0,
+          "games": 17,
+          "win_pct": 82.4,
+          "confidence": "Verified",
+          "notes": "MCT Final runner-up to Mt Olive"
+        },
+        {
+          "school_id": "S-0001",
+          "school": "Delbarton",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "games": 13,
+          "win_pct": 76.9,
+          "confidence": "Verified",
+          "notes": "Top NP-A program"
+        },
+        {
+          "school_id": "S-0002",
+          "school": "DePaul Catholic",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 15,
+          "losses": 6,
+          "ties": 0,
+          "games": 21,
+          "win_pct": 71.4,
+          "confidence": "Verified",
+          "notes": "PCT Final 5/19"
+        },
+        {
+          "school_id": "S-0002",
+          "school": "DePaul Catholic",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 1,
+          "ties": 0,
+          "games": 7,
+          "win_pct": 85.7,
+          "confidence": "Verified",
+          "notes": "Strong start"
+        },
+        {
+          "school_id": "S-0003",
+          "school": "Governor Livingston",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 14,
+          "losses": 3,
+          "ties": 1,
+          "games": 18,
+          "win_pct": 80.6,
+          "confidence": "Verified",
+          "notes": "Geertsma .458 AVG, 7 HR, 29 RBI"
+        },
+        {
+          "school_id": "S-0003",
+          "school": "Governor Livingston",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "games": 8,
+          "win_pct": 62.5,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0009",
+          "school": "Glen Rock",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 9,
+          "losses": 1,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 90,
+          "confidence": "Verified",
+          "notes": "Top Bergen Co arm"
+        },
+        {
+          "school_id": "S-0009",
+          "school": "Glen Rock",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 9,
+          "losses": 2,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 81.8,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0022",
+          "school": "Ramsey",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 72.7,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0022",
+          "school": "Ramsey",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "games": 12,
+          "win_pct": 75,
+          "confidence": "Verified",
+          "notes": "Donofrio dominant"
+        },
+        {
+          "school_id": "S-0005",
+          "school": "Don Bosco Prep",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 4,
+          "ties": 0,
+          "games": 12,
+          "win_pct": 66.7,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0005",
+          "school": "Don Bosco Prep",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 2,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 80,
+          "confidence": "Verified",
+          "notes": "Bergen Co Champs — 6th straight"
+        },
+        {
+          "school_id": "S-0016",
+          "school": "West Essex",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 72.7,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0016",
+          "school": "West Essex",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 72.7,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0030",
+          "school": "Livingston",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 70,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0030",
+          "school": "Livingston",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 70,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0004",
+          "school": "Seton Hall Prep",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "games": 13,
+          "win_pct": 76.9,
+          "confidence": "Verified",
+          "notes": "JJ Drennan top arm"
+        },
+        {
+          "school_id": "S-0004",
+          "school": "Seton Hall Prep",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "games": 9,
+          "win_pct": 55.6,
+          "confidence": "Verified",
+          "notes": "Lucas Angel, Alex Ante"
+        },
+        {
+          "school_id": "S-0027",
+          "school": "Indian Hills",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 7,
+          "losses": 4,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 63.6,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0027",
+          "school": "Indian Hills",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 71.4,
+          "confidence": "Verified",
+          "notes": "Amoruso two-way"
+        },
+        {
+          "school_id": "S-0032",
+          "school": "Columbia",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 50,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0032",
+          "school": "Columbia",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 2,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 80,
+          "confidence": "Verified",
+          "notes": "Claire Shupe lead"
+        },
+        {
+          "school_id": "S-0035",
+          "school": "Morris Knolls",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 50,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0035",
+          "school": "Morris Knolls",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "games": 12,
+          "win_pct": 75,
+          "confidence": "Verified",
+          "notes": "Julia Fox INF/P"
+        },
+        {
+          "school_id": "S-0011",
+          "school": "North Hunterdon",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 5,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 54.5,
+          "confidence": "Verified",
+          "notes": "Hunter Brown velocity leader"
+        },
+        {
+          "school_id": "S-0011",
+          "school": "North Hunterdon",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 70,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0031",
+          "school": "Millburn",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 60,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0031",
+          "school": "Millburn",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 60,
+          "confidence": "Verified",
+          "notes": "Spring 2026"
+        },
+        {
+          "school_id": "S-0006",
+          "school": "Passaic Tech",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 10,
+          "losses": 1,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 90.9,
+          "confidence": "Verified",
+          "notes": "Gilligan two-way star"
+        },
+        {
+          "school_id": "S-0066",
+          "school": "Pope John XXIII",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate from PJ athletics"
+        },
+        {
+          "school_id": "S-0066",
+          "school": "Pope John XXIII",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0066",
+          "school": "Pope John XXIII",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Gold standard for Sussex/Warren/Hunterdon. Lost 14-3 to Seton Hall Prep 5/16."
+        },
+        {
+          "school_id": "S-0066",
+          "school": "Pope John XXIII",
+          "level": "High School",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0008",
+          "school": "Bergen Catholic",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "games": 13,
+          "win_pct": 61.5,
+          "confidence": "Verified",
+          "notes": "8-5 record as of 4/21. Strong NP-A baseball."
+        },
+        {
+          "school_id": "S-0008",
+          "school": "Bergen Catholic",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Top tier Bergen Co program — populate"
+        },
+        {
+          "school_id": "S-0055",
+          "school": "Immaculate Heart",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "wins": 6,
+          "losses": 1,
+          "ties": 0,
+          "games": 7,
+          "win_pct": 85.7,
+          "confidence": "Verified",
+          "notes": "6-1 record as of 4/21. Strong start."
+        },
+        {
+          "school_id": "S-0055",
+          "school": "Immaculate Heart",
+          "level": "High School",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Lost to Ridgewood 13-7 in Bergen Co Final 5/10. IHA alum Gabby Shadek now at Duke."
+        },
+        {
+          "school_id": "S-0026",
+          "school": "Paramus Catholic",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 50,
+          "confidence": "Verified",
+          "notes": "5-5 record as of 4/21."
+        },
+        {
+          "school_id": "S-0026",
+          "school": "Paramus Catholic",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0050",
+          "school": "Union Catholic",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 6,
+          "ties": 0,
+          "games": 11,
+          "win_pct": 45.5,
+          "confidence": "Verified",
+          "notes": "5-6 record as of 4/21."
+        },
+        {
+          "school_id": "S-0050",
+          "school": "Union Catholic",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Strong pipeline — Sofia Vega + Kennedy DeMott now at Quinnipiac D1."
+        },
+        {
+          "school_id": "S-0047",
+          "school": "Rutgers Prep",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "games": 10,
+          "win_pct": 50,
+          "confidence": "Verified",
+          "notes": "5-5 record as of 4/21."
+        },
+        {
+          "school_id": "S-0047",
+          "school": "Rutgers Prep",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0047",
+          "school": "Rutgers Prep",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0047",
+          "school": "Rutgers Prep",
+          "level": "High School",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0018",
+          "school": "Immaculata",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 8,
+          "losses": 4,
+          "ties": 0,
+          "games": 12,
+          "win_pct": 66.7,
+          "confidence": "Verified",
+          "notes": "8-4 record as of 4/21."
+        },
+        {
+          "school_id": "S-0018",
+          "school": "Immaculata",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "Spring 2026 — populate"
+        },
+        {
+          "school_id": "S-0077",
+          "school": "Blair Academy",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "MAPL. National prep level — populate from blair.edu athletics."
+        },
+        {
+          "school_id": "S-0077",
+          "school": "Blair Academy",
+          "level": "High School",
+          "sport": "Softball",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "MAPL. National prep — populate."
+        },
+        {
+          "school_id": "S-0077",
+          "school": "Blair Academy",
+          "level": "High School",
+          "sport": "Boys Lacrosse",
+          "gender": "Men's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "MAPL. National prep — populate."
+        },
+        {
+          "school_id": "S-0077",
+          "school": "Blair Academy",
+          "level": "High School",
+          "sport": "Girls Lacrosse",
+          "gender": "Women's",
+          "season": "2026",
+          "confidence": "Pending",
+          "notes": "MAPL. National prep — populate."
+        },
+        {
+          "school_id": "S-0056",
+          "school": "Pompton Lakes",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 16,
+          "losses": 5,
+          "ties": 0,
+          "games": 21,
+          "win_pct": 76.2,
+          "confidence": "Verified",
+          "notes": "N1 Group 1 Sectional Final 3-0 shutout W vs Waldwick"
+        },
+        {
+          "school_id": "S-0024",
+          "school": "Old Tappan",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 19,
+          "losses": 6,
+          "ties": 0,
+          "games": 25,
+          "win_pct": 76,
+          "confidence": "Verified",
+          "notes": "N1 Group 3 Sectional Final 9-4 W vs Ramapo"
+        },
+        {
+          "school_id": "S-0017",
+          "school": "West Morris",
+          "level": "High School",
+          "sport": "Baseball",
+          "gender": "Men's",
+          "season": "2026",
+          "wins": 17,
+          "losses": 4,
+          "ties": 0,
+          "games": 21,
+          "win_pct": 81,
+          "confidence": "Verified",
+          "notes": "Sectional championship 12-1 W"
+        }
+      ],
+      "charts": [],
+      "newsletter_issues": []
+    },
+    {
+      "publish_date": "2026-06-09",
+      "approved": true,
+      "season": "Spring",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Baseball",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "26-4",
+                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
+                  "team": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "~20-8",
+                  "status": "Lost Non-Public A North Final 1-11 to Delbarton",
+                  "score": 95
+                },
+                {
+                  "rank": 3,
+                  "team": "Governor Livingston",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "17-8",
+                  "status": "Lost Group 2 State Semifinal 0-5 to Ramsey",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "team": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "~14-7",
+                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship",
+                  "score": 91
+                },
+                {
+                  "rank": 5,
+                  "team": "Don Bosco Prep",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "team": "Passaic Tech",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "status": "N1 Group 4 Sectional Final | W",
+                  "score": 85
+                },
+                {
+                  "rank": 7,
+                  "team": "Ramapo",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "status": "N1 Group 3 Sectional Final | W",
+                  "score": 82
+                },
+                {
+                  "rank": 8,
+                  "team": "Bergen Catholic",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "8-5",
+                  "score": 80
+                },
+                {
+                  "rank": 9,
+                  "team": "Glen Rock",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "~16-8",
+                  "status": "Lost N1 Group 2 Sectional Final 5-6 in 9 innings to Ramsey",
+                  "score": 78
+                },
+                {
+                  "rank": 10,
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
+                  "score": 75
+                },
+                {
+                  "rank": 11,
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Baseball",
+                  "record": "~18-5",
+                  "status": "Group 3 State Semifinal W 3-0 vs Roxbury; Layla Francisco 4th shutout of state tourney",
+                  "score": 72
+                },
+                {
+                  "rank": 12,
+                  "team": "West Milford",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "5-4",
+                  "score": 70
+                },
+                {
+                  "rank": 13,
+                  "team": "Montville",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "4-7",
+                  "score": 68
+                },
+                {
+                  "rank": 14,
+                  "team": "Roxbury",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "~15-8",
+                  "status": "Lost Group 3 State Semifinal 0-3 to North Hunterdon",
+                  "score": 66
+                },
+                {
+                  "rank": 15,
+                  "team": "Clifton",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 64
+                },
+                {
+                  "rank": 16,
+                  "team": "West Essex",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "8-3",
+                  "score": 63
+                },
+                {
+                  "rank": 17,
+                  "team": "West Morris",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "~17-4",
+                  "status": "Sectional championship W 12-1",
+                  "score": 62
+                },
+                {
+                  "rank": 18,
+                  "team": "Immaculata",
+                  "county": "Hunterdon",
+                  "sport": "Baseball",
+                  "record": "8-4",
+                  "score": 61
+                },
+                {
+                  "rank": 19,
+                  "team": "Ridge",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "19-10",
+                  "status": "Lost 8-7 to Ridgewood in Group 4 State Semifinal (8 innings); season ends",
+                  "score": 60
+                },
+                {
+                  "rank": 20,
+                  "team": "Wayne Hills",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "7-4",
+                  "score": 59
+                },
+                {
+                  "rank": 21,
+                  "team": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 58
+                },
+                {
+                  "rank": 22,
+                  "team": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "~18-5",
+                  "status": "N1 Group 2 Sectional Final W 6-5 (9 inn) vs Glen Rock; Roberto Cotes winning RBI",
+                  "score": 57
+                },
+                {
+                  "rank": 23,
+                  "team": "Westwood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "9-3",
+                  "score": 56
+                },
+                {
+                  "rank": 24,
+                  "team": "Old Tappan",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "~19-6",
+                  "status": "N1 Group 3 Sectional Final W 9-4 vs Ramapo",
+                  "score": 55
+                },
+                {
+                  "rank": 25,
+                  "team": "Pascack Valley",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "6-5",
+                  "score": 54
+                },
+                {
+                  "rank": 26,
+                  "team": "Paramus Catholic",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "5-5",
+                  "score": 53
+                },
+                {
+                  "rank": 27,
+                  "team": "Indian Hills",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "10-4",
+                  "status": "Lost Group 1 State Semifinal 0-1 to Dayton; season ends",
+                  "score": 52
+                },
+                {
+                  "rank": 28,
+                  "team": "Bergenfield",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "6-4",
+                  "score": 51
+                },
+                {
+                  "rank": 29,
+                  "team": "Teaneck",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 50
+                },
+                {
+                  "rank": 30,
+                  "team": "Livingston",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "status": "Group 1 State Semifinals June 8 | ADV",
+                  "score": 49
+                },
+                {
+                  "rank": 31,
+                  "team": "Millburn",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "6-4",
+                  "score": 48
+                },
+                {
+                  "rank": 32,
+                  "team": "Columbia",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "status": "Advanced deep in North sections | ADV",
+                  "score": 47
+                },
+                {
+                  "rank": 33,
+                  "team": "East Side",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "6-4",
+                  "score": 46
+                },
+                {
+                  "rank": 34,
+                  "team": "Passaic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "4-6",
+                  "score": 45
+                },
+                {
+                  "rank": 35,
+                  "team": "Morris Knolls",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "5-5",
+                  "score": 44
+                },
+                {
+                  "rank": 36,
+                  "team": "Morris Hills",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "4-6",
+                  "score": 43
+                },
+                {
+                  "rank": 37,
+                  "team": "Randolph",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "6-5",
+                  "score": 42
+                },
+                {
+                  "rank": 38,
+                  "team": "Mount Olive",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "status": "From 5/19 Market Update prose",
+                  "score": 41
+                },
+                {
+                  "rank": 39,
+                  "team": "Hackettstown",
+                  "county": "Warren",
+                  "sport": "Baseball",
+                  "record": "7-4",
+                  "score": 40
+                },
+                {
+                  "rank": 40,
+                  "team": "Belvidere",
+                  "county": "Warren",
+                  "sport": "Baseball",
+                  "record": "6-4",
+                  "score": 39
+                },
+                {
+                  "rank": 41,
+                  "team": "North Warren",
+                  "county": "Warren",
+                  "sport": "Baseball",
+                  "record": "5-5",
+                  "score": 38
+                },
+                {
+                  "rank": 42,
+                  "team": "Vernon",
+                  "county": "Sussex",
+                  "sport": "Baseball",
+                  "record": "6-5",
+                  "score": 37
+                },
+                {
+                  "rank": 43,
+                  "team": "Sparta",
+                  "county": "Sussex",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 36
+                },
+                {
+                  "rank": 44,
+                  "team": "High Point",
+                  "county": "Sussex",
+                  "sport": "Baseball",
+                  "record": "4-6",
+                  "score": 35
+                },
+                {
+                  "rank": 45,
+                  "team": "Somerville",
+                  "county": "Somerset",
+                  "sport": "Baseball",
+                  "record": "7-4",
+                  "score": 34
+                },
+                {
+                  "rank": 46,
+                  "team": "Watchung Hills",
+                  "county": "Somerset",
+                  "sport": "Baseball",
+                  "status": "Advanced deep in North sections | ADV",
+                  "score": 33
+                },
+                {
+                  "rank": 47,
+                  "team": "Rutgers Prep",
+                  "county": "Somerset",
+                  "sport": "Baseball",
+                  "record": "5-5",
+                  "score": 32
+                },
+                {
+                  "rank": 48,
+                  "team": "Cranford",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "6-5",
+                  "score": 31
+                },
+                {
+                  "rank": 49,
+                  "team": "Elizabeth",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 30
+                },
+                {
+                  "rank": 50,
+                  "team": "Union Catholic",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "5-6",
+                  "score": 29
+                }
+              ],
+              "athletes": [
+                {
+                  "rank": 1,
+                  "athlete": "Zach Geertsma",
+                  "school": "Governor Livingston",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "stats": ".458 AVG · 7 HR · 29 RBI",
+                  "status": "Mississippi State commit — Gov. Livingston now 14-3-1",
+                  "score": 97,
+                  "commit": "Mississippi State"
+                },
+                {
+                  "rank": 2,
+                  "athlete": "Jason Amalbert",
+                  "school": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "stats": "Continued power surge in playoffs; 9 HR · 29 RBI on season",
+                  "status": "Oklahoma commit. Non-Public A Final. Source: data_intake",
+                  "score": 95,
+                  "commit": "Oklahoma"
+                },
+                {
+                  "rank": 3,
+                  "athlete": "Mickey Gilligan",
+                  "school": "Passaic Tech",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "stats": "Strong two-way play in N1 G4 Sectional Final",
+                  "status": "Rutgers commit. Source: data_intake",
+                  "score": 94,
+                  "commit": "Rutgers"
+                },
+                {
+                  "rank": 4,
+                  "athlete": "Sal Garcia",
+                  "school": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "stats": ".408 AVG | 4 HR | 32 RBI",
+                  "score": 93,
+                  "commit": "Duke"
+                },
+                {
+                  "rank": 5,
+                  "athlete": "JJ Drennan",
+                  "school": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "stats": "Strong velocity + Ks",
+                  "score": 91,
+                  "commit": "Boston College"
+                },
+                {
+                  "rank": 6,
+                  "athlete": "Charlie Wingfield",
+                  "school": "Ramapo",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Top returning arm",
+                  "score": 89
+                },
+                {
+                  "rank": 7,
+                  "athlete": "J.C. Pacheco",
+                  "school": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "stats": "Multiple HR games",
+                  "score": 88,
+                  "commit": "Arizona State"
+                },
+                {
+                  "rank": 8,
+                  "athlete": "Finnian O'Loughlin",
+                  "school": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "stats": ".469 AVG · 2-way",
+                  "score": 87
+                },
+                {
+                  "rank": 9,
+                  "athlete": "Hunter Brown",
+                  "school": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Baseball",
+                  "stats": "Velocity leader",
+                  "score": 86,
+                  "commit": "Penn State"
+                },
+                {
+                  "rank": 10,
+                  "athlete": "Frankie Juliano",
+                  "school": "Passaic Tech",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "stats": "Consistent production",
+                  "score": 85
+                },
+                {
+                  "rank": 11,
+                  "athlete": "Matt Tafuri",
+                  "school": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "stats": "Speed + extra-base hits",
+                  "score": 84
+                },
+                {
+                  "rank": 12,
+                  "athlete": "Michael Basile",
+                  "school": "Governor Livingston",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "stats": "Middle-order heater",
+                  "score": 83
+                },
+                {
+                  "rank": 13,
+                  "athlete": "Danny Poppe",
+                  "school": "Ramapo",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "2-way threat",
+                  "score": 82
+                },
+                {
+                  "rank": 14,
+                  "athlete": "Lorenzo Maselli",
+                  "school": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "stats": "Power bat",
+                  "score": 81
+                },
+                {
+                  "rank": 15,
+                  "athlete": "Jordan Burwell",
+                  "school": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "stats": "Multiple HR",
+                  "score": 80
+                },
+                {
+                  "athlete": "Hudson Feeney",
+                  "school": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "stats": "Walk-off solo HR leading off bottom of 8th vs Ridge (Group 4 State Semifinal)",
+                  "status": "YSSR Boys Athlete of the Week. Ridgewood advances 24-7. Source: NJ.com / JSZ / NorthJersey.com"
+                },
+                {
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final"
+                },
+                {
+                  "team": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "26-4",
+                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic"
+                },
+                {
+                  "team": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "~14-7",
+                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship"
+                }
+              ]
+            },
+            {
+              "name": "Boys Lacrosse",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Boys Lacrosse",
+                  "record": "26-4",
+                  "status": "Non-Public A North champion; 11-1 over DePaul Catholic",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
+                  "team": "Don Bosco Prep",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 95
+                },
+                {
+                  "rank": 3,
+                  "team": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Boys Lacrosse",
+                  "record": "~14-7",
+                  "status": "Non-Public A Semifinal W 14-9 vs St. Augustine; advances to state championship",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
+                  "score": 91
+                },
+                {
+                  "rank": 5,
+                  "team": "Summit",
+                  "county": "Union",
+                  "sport": "Boys Lacrosse",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 88
+                },
+                {
+                  "rank": 6,
+                  "team": "Bergen Catholic",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "record": "8-5",
+                  "score": 85
+                },
+                {
+                  "rank": 7,
+                  "team": "Ramapo",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "status": "N1 Group 3 Sectional Final | W",
+                  "score": 82
+                },
+                {
+                  "rank": 8,
+                  "team": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
+                  "score": 80
+                },
+                {
+                  "rank": 9,
+                  "team": "West Essex",
+                  "county": "Essex",
+                  "sport": "Boys Lacrosse",
+                  "record": "8-3",
+                  "score": 78
+                },
+                {
+                  "rank": 10,
+                  "team": "Livingston",
+                  "county": "Essex",
+                  "sport": "Boys Lacrosse",
+                  "status": "Group 1 State Semifinals June 8 | ADV",
+                  "score": 75
+                },
+                {
+                  "team": "Westfield",
+                  "sport": "Boys Lacrosse",
+                  "status": "Group 4 Semifinal — OT | W"
+                }
+              ],
+              "athletes": [
+                {
+                  "rank": 1,
+                  "athlete": "Kane Quenault",
+                  "school": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Boys Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 97
+                },
+                {
+                  "rank": 2,
+                  "athlete": "Lucas Angel",
+                  "school": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Boys Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 95,
+                  "commit": "Fairfield"
+                },
+                {
+                  "rank": 3,
+                  "athlete": "Alex Ante",
+                  "school": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Boys Lacrosse",
+                  "stats": "Attack",
+                  "score": 93
+                },
+                {
+                  "rank": 4,
+                  "athlete": "Jared Corsair",
+                  "school": "Tenafly",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "stats": "Midfielder",
+                  "score": 91
+                },
+                {
+                  "rank": 5,
+                  "athlete": "Owen Crowley",
+                  "school": "Ramsey",
+                  "county": "Bergen",
+                  "sport": "Boys Lacrosse",
+                  "stats": "Standout",
+                  "score": 89
+                }
+              ]
+            }
+          ]
+        },
+        "girls": {
+          "sports": [
+            {
+              "name": "Girls Lacrosse",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "Ridgewood",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "record": "24-7",
+                  "status": "Group 4 State Semifinal W 8-7 (8 inn) vs Ridge; walk-off HR Hudson Feeney; advances to state final",
+                  "score": 98
+                },
+                {
+                  "rank": 2,
+                  "team": "Immaculate Heart",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "status": "Active in recent sectional rounds | ADV",
+                  "score": 95
+                },
+                {
+                  "rank": 3,
+                  "team": "Northern Highlands",
+                  "county": "Bergen",
+                  "sport": "Girls Lacrosse",
+                  "status": "Public Round 3 winner — advancing to June 9 final | ADV",
                   "score": 93
                 },
                 {
@@ -1284,7 +3854,7 @@
           "games": 33,
           "win_pct": 48.5,
           "confidence": "Verified",
-          "notes": "Beat Seton Hall 11-4 on 4/8/25 \u2014 3rd straight year over SHU."
+          "notes": "Beat Seton Hall 11-4 on 4/8/25 — 3rd straight year over SHU."
         },
         {
           "school_id": "S-0068",
@@ -1464,7 +4034,7 @@
           "games": 20,
           "win_pct": 65,
           "confidence": "Verified",
-          "notes": "Bergen Co Champs \u2014 13-7 over IHA 5/10"
+          "notes": "Bergen Co Champs — 13-7 over IHA 5/10"
         },
         {
           "school_id": "S-0010",
@@ -1659,7 +4229,7 @@
           "games": 10,
           "win_pct": 80,
           "confidence": "Verified",
-          "notes": "Bergen Co Champs \u2014 6th straight"
+          "notes": "Bergen Co Champs — 6th straight"
         },
         {
           "school_id": "S-0016",
@@ -2056,5 +4626,5 @@
       "newsletter_issues": []
     }
   ],
-  "generated_at": "2026-06-12T02:01:07.922Z"
+  "generated_at": "2026-06-16T11:59:45.303Z"
 }
