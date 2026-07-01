@@ -14,7 +14,7 @@ export default async (req, context) => {
     }
 
     const response = await fetch(
-      'https://api.beehiiv.com/v2/publications/037c3aba-6dae-4af3-980e-dfae9b170e62/subscriptions',
+      'https://api.beehiiv.com/v2/publications/pub_945661b0-c9ff-4eb8-be9d-3c9f4de1ed99/subscriptions',
       {
         method: 'POST',
         headers: {
