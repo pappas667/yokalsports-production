@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: North Jersey Girls Archive
 permalink: /north-jersey/yokal/girls/index.html
+gated: true
 ---
 <section class="section"><div class="wrap"><div class="section-head"><div><h1>Girls Sports Archive</h1><p>All approved weekly snapshots, newest first.</p></div></div>
 {% for publication in market.publications %}<section class="publication"><div class="publication-bar"><strong>{{ publication.publish_date | displayDate }}</strong><span class="pill">{{ publication.season }}</span></div><div class="two-col">

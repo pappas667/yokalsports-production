@@ -17,6 +17,12 @@
   ],
   "newsletter_issues": [
     {
+      "date": "2026-06-30",
+      "label": "June 30, 2026",
+      "title": "Spring 2026 Final Wrap \u2014 Seven State Champions Crowned Across North Jersey",
+      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-d9219a280e754c1a"
+    },
+    {
       "date": "2026-06-16",
       "label": "June 16, 2026",
       "title": "State Champions Crowned Across North Jersey — Ridgewood, Ramsey, Delbarton, Old Tappan & More",
@@ -43,7 +49,7 @@
   ],
   "publications": [
     {
-      "publish_date": "2026-06-16",
+      "publish_date": "2026-06-30",
       "approved": true,
       "season": "Spring",
       "high_school": {
