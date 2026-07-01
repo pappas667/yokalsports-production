@@ -1,6 +1,7 @@
 [build]
   command = "npm install && npx @11ty/eleventy --quiet"
   publish = "dist"
+  functions = "Netlify/Functions"
 
 [build.environment]
   NODE_VERSION = "18"
