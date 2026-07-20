@@ -19,7 +19,7 @@
     {
       "date": "2026-06-30",
       "label": "June 30, 2026",
-      "title": "Spring 2026 Final Wrap \u2014 Seven State Champions Crowned Across North Jersey",
+      "title": "Spring 2026 Final Wrap — Seven State Champions Crowned Across North Jersey",
       "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-d9219a280e754c1a"
     },
     {
@@ -60,413 +60,363 @@
               "teams": [
                 {
                   "rank": 1,
+                  "team": "Passaic Tech",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "28-3",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 90.3
+                },
+                {
+                  "rank": 2,
+                  "team": "Delbarton",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "28-4",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 87.5
+                },
+                {
+                  "rank": 3,
+                  "team": "Old Tappan",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "26-4",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 86.7
+                },
+                {
+                  "rank": 4,
+                  "team": "Piscataway Magnet",
+                  "county": "Middlesex",
+                  "sport": "Baseball",
+                  "record": "25-4",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 86.2
+                },
+                {
+                  "rank": 5,
+                  "team": "Park Ridge",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "23-4",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 85.2
+                },
+                {
+                  "rank": 6,
+                  "team": "Governor Livingston",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "28-5",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 84.8
+                },
+                {
+                  "rank": 7,
+                  "team": "James Caldwell",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "23-5",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 82.1
+                },
+                {
+                  "rank": 8,
+                  "team": "Don Bosco Prep",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "21-5",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 80.8
+                },
+                {
+                  "rank": 9,
+                  "team": "Arthur L. Johnson",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "21-5",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 80.8
+                },
+                {
+                  "rank": 10,
+                  "team": "Seton Hall Prep",
+                  "county": "Essex",
+                  "sport": "Baseball",
+                  "record": "23-6",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 79.3
+                },
+                {
+                  "rank": 11,
+                  "team": "DePaul Catholic",
+                  "county": "Passaic",
+                  "sport": "Baseball",
+                  "record": "22-6",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 78.6
+                },
+                {
+                  "rank": 12,
+                  "team": "Glen Rock",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "22-6",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 78.6
+                },
+                {
+                  "rank": 13,
+                  "team": "Middlesex",
+                  "county": "Middlesex",
+                  "sport": "Baseball",
+                  "record": "22-6",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 78.6
+                },
+                {
+                  "rank": 14,
+                  "team": "Fort Lee",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "22-6",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 78.6
+                },
+                {
+                  "rank": 15,
                   "team": "Ridgewood",
                   "county": "Bergen",
                   "sport": "Baseball",
                   "record": "25-7",
-                  "status": "Group 4 State Champions — 7-6 over Kingsway. Hudson Feeney 3-run double. Brady Ross relief gem.",
-                  "score": 98
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 78.1
                 },
                 {
-                  "rank": 2,
+                  "rank": 16,
+                  "team": "North Hunterdon",
+                  "county": "Hunterdon",
+                  "sport": "Baseball",
+                  "record": "22-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 75.9
+                },
+                {
+                  "rank": 17,
+                  "team": "Westwood",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "22-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 75.9
+                },
+                {
+                  "rank": 18,
+                  "team": "Mount Olive",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "22-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 75.9
+                },
+                {
+                  "rank": 19,
+                  "team": "Wallkill Valley Regional",
+                  "county": "Sussex",
+                  "sport": "Baseball",
+                  "record": "21-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 75.0
+                },
+                {
+                  "rank": 20,
+                  "team": "New Milford",
+                  "county": "Bergen",
+                  "sport": "Baseball",
+                  "record": "20-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 74.1
+                },
+                {
+                  "rank": 21,
+                  "team": "Chatham",
+                  "county": "Morris",
+                  "sport": "Baseball",
+                  "record": "20-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 74.1
+                },
+                {
+                  "rank": 22,
+                  "team": "Plainfield",
+                  "county": "Union",
+                  "sport": "Baseball",
+                  "record": "14-5",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 73.7
+                },
+                {
+                  "rank": 23,
                   "team": "Ramsey",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "25-3",
-                  "status": "Group 2 State Champions — 4-2 over Gov. Livingston. Scarnecchia 2-hitter. Ferrando squeeze bunt.",
-                  "score": 96
+                  "record": "22-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 73.3
                 },
                 {
-                  "rank": 3,
-                  "team": "Delbarton",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "record": "29-4",
-                  "status": "Non-Public A State Champions — 4-1 (10 inn) over St. Augustine. McBride relief gem. 5th program title.",
-                  "score": 94
-                },
-                {
-                  "rank": 4,
-                  "team": "Old Tappan",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~22-6",
-                  "status": "Group 3 State Champions — 5-0 shutout vs Brick Memorial. Selden Kolkebeck complete game, 10 Ks.",
-                  "score": 91
-                },
-                {
-                  "rank": 5,
-                  "team": "Seton Hall Prep",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "record": "~16-7",
-                  "status": "Non-Public A State Finalist. Strong postseason run.",
-                  "score": 88
-                },
-                {
-                  "rank": 6,
-                  "team": "Don Bosco Prep",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~14-6",
-                  "status": "Strong county and sectional run.",
-                  "score": 85
-                },
-                {
-                  "rank": 7,
-                  "team": "Passaic Tech",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "record": "~18-5",
-                  "status": "N1 Group 4 Sectional Final winner.",
-                  "score": 82
-                },
-                {
-                  "rank": 8,
+                  "rank": 24,
                   "team": "Pompton Lakes",
                   "county": "Passaic",
                   "sport": "Baseball",
                   "record": "22-8",
-                  "status": "Group 1 State Finalist.",
-                  "score": 80
-                },
-                {
-                  "rank": 9,
-                  "team": "West Morris",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "record": "~17-4",
-                  "status": "Sectional championship W 12-1.",
-                  "score": 78
-                },
-                {
-                  "rank": 10,
-                  "team": "Governor Livingston",
-                  "county": "Union",
-                  "sport": "Baseball",
-                  "record": "17-8",
-                  "status": "Group 2 State Final — lost 2-4 to Ramsey.",
-                  "score": 75
-                },
-                {
-                  "rank": 11,
-                  "team": "Bergen Catholic",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "8-5",
-                  "score": 72
-                },
-                {
-                  "rank": 12,
-                  "team": "Ramapo",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~21-8",
-                  "score": 70
-                },
-                {
-                  "rank": 13,
-                  "team": "Glen Rock",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "~16-8",
-                  "status": "Lost N1 Group 2 Sectional Final to Ramsey.",
-                  "score": 68
-                },
-                {
-                  "rank": 14,
-                  "team": "DePaul Catholic",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "record": "~20-8",
-                  "status": "Non-Public A Finalist — lost 1-11 to Delbarton.",
-                  "score": 66
-                },
-                {
-                  "rank": 15,
-                  "team": "North Hunterdon",
-                  "county": "Hunterdon",
-                  "sport": "Baseball",
-                  "record": "~12-8",
-                  "score": 64
-                },
-                {
-                  "rank": 16,
-                  "team": "West Essex",
-                  "county": "Essex",
-                  "sport": "Baseball",
-                  "record": "8-3",
-                  "score": 63
-                },
-                {
-                  "rank": 17,
-                  "team": "Immaculata",
-                  "county": "Hunterdon",
-                  "sport": "Baseball",
-                  "record": "8-4",
-                  "score": 62
-                },
-                {
-                  "rank": 18,
-                  "team": "Ridge",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "19-10",
-                  "status": "Lost Group 4 State Semifinal to Ridgewood.",
-                  "score": 61
-                },
-                {
-                  "rank": 19,
-                  "team": "Wayne Hills",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "record": "7-4",
-                  "score": 60
-                },
-                {
-                  "rank": 20,
-                  "team": "Northern Highlands",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "score": 59
-                },
-                {
-                  "rank": 21,
-                  "team": "Westwood",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "9-3",
-                  "score": 58
-                },
-                {
-                  "rank": 22,
-                  "team": "Pascack Valley",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "6-5",
-                  "score": 57
-                },
-                {
-                  "rank": 23,
-                  "team": "Paramus Catholic",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "5-5",
-                  "score": 56
-                },
-                {
-                  "rank": 24,
-                  "team": "Indian Hills",
-                  "county": "Bergen",
-                  "sport": "Baseball",
-                  "record": "7-4",
-                  "score": 55
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 73.3
                 },
                 {
                   "rank": 25,
-                  "team": "Bergenfield",
-                  "county": "Bergen",
+                  "team": "West Essex",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "record": "6-4",
-                  "score": 54
+                  "record": "21-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 72.4
                 },
                 {
                   "rank": 26,
-                  "team": "Teaneck",
+                  "team": "Ramapo",
                   "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "5-6",
-                  "score": 53
+                  "record": "21-8-1",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 71.7
                 },
                 {
                   "rank": 27,
-                  "team": "Livingston",
-                  "county": "Essex",
+                  "team": "Saint Joseph Regional",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "7-3",
-                  "score": 52
+                  "record": "20-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 71.4
                 },
                 {
                   "rank": 28,
-                  "team": "Millburn",
-                  "county": "Essex",
+                  "team": "West Morris Central",
+                  "county": "Morris",
                   "sport": "Baseball",
-                  "record": "6-4",
-                  "score": 51
+                  "record": "22-9",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 71.0
                 },
                 {
                   "rank": 29,
-                  "team": "Columbia",
-                  "county": "Essex",
+                  "team": "Lodi",
+                  "county": "Bergen",
                   "sport": "Baseball",
-                  "record": "5-5",
-                  "score": 50
+                  "record": "17-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.8
                 },
                 {
                   "rank": 30,
-                  "team": "East Side",
-                  "county": "Passaic",
+                  "team": "Carteret",
+                  "county": "Middlesex",
                   "sport": "Baseball",
-                  "record": "6-4",
-                  "score": 49
+                  "record": "17-7",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.8
                 },
                 {
                   "rank": 31,
-                  "team": "Passaic",
-                  "county": "Passaic",
+                  "team": "Edison",
+                  "county": "Middlesex",
                   "sport": "Baseball",
-                  "record": "4-6",
-                  "score": 48
+                  "record": "19-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.4
                 },
                 {
                   "rank": 32,
-                  "team": "Morris Knolls",
-                  "county": "Morris",
+                  "team": "Verona",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "record": "5-5",
-                  "score": 47
+                  "record": "19-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.4
                 },
                 {
                   "rank": 33,
-                  "team": "Morris Hills",
-                  "county": "Morris",
+                  "team": "Metuchen",
+                  "county": "Middlesex",
                   "sport": "Baseball",
-                  "record": "4-6",
-                  "score": 46
+                  "record": "19-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.4
                 },
                 {
                   "rank": 34,
-                  "team": "Randolph",
-                  "county": "Morris",
+                  "team": "Bayonne",
+                  "county": "Hudson",
                   "sport": "Baseball",
-                  "record": "6-5",
-                  "score": 45
+                  "record": "21-9",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 70.0
                 },
                 {
                   "rank": 35,
-                  "team": "Mount Olive",
-                  "county": "Morris",
+                  "team": "Dunellen",
+                  "county": "Middlesex",
                   "sport": "Baseball",
-                  "score": 44
+                  "record": "18-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 69.2
                 },
                 {
                   "rank": 36,
-                  "team": "Hackettstown",
-                  "county": "Warren",
+                  "team": "West Orange",
+                  "county": "Essex",
                   "sport": "Baseball",
-                  "record": "7-4",
-                  "score": 43
+                  "record": "20-9",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 69.0
                 },
                 {
                   "rank": 37,
-                  "team": "Belvidere",
-                  "county": "Warren",
-                  "sport": "Baseball",
-                  "record": "6-4",
-                  "score": 42
-                },
-                {
-                  "rank": 38,
-                  "team": "North Warren",
-                  "county": "Warren",
-                  "sport": "Baseball",
-                  "record": "5-5",
-                  "score": 41
-                },
-                {
-                  "rank": 39,
-                  "team": "Vernon",
-                  "county": "Sussex",
-                  "sport": "Baseball",
-                  "record": "6-5",
-                  "score": 40
-                },
-                {
-                  "rank": 40,
-                  "team": "Sparta",
-                  "county": "Sussex",
-                  "sport": "Baseball",
-                  "record": "5-6",
-                  "score": 39
-                },
-                {
-                  "rank": 41,
                   "team": "High Point",
                   "county": "Sussex",
                   "sport": "Baseball",
-                  "record": "4-6",
-                  "score": 38
+                  "record": "18-8-1",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 68.5
                 },
                 {
-                  "rank": 42,
-                  "team": "Somerville",
-                  "county": "Somerset",
+                  "rank": 38,
+                  "team": "Hackettstown",
+                  "county": "Warren",
                   "sport": "Baseball",
-                  "record": "7-4",
-                  "score": 37
+                  "record": "18-8-1",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 68.5
                 },
                 {
-                  "rank": 43,
-                  "team": "Watchung Hills",
-                  "county": "Somerset",
-                  "sport": "Baseball",
-                  "score": 36
-                },
-                {
-                  "rank": 44,
+                  "rank": 39,
                   "team": "Rutgers Prep",
                   "county": "Somerset",
                   "sport": "Baseball",
-                  "record": "5-5",
-                  "score": 35
+                  "record": "17-8",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 68.0
                 },
                 {
-                  "rank": 45,
-                  "team": "Clifton",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "record": "5-6",
-                  "score": 34
-                },
-                {
-                  "rank": 46,
+                  "rank": 40,
                   "team": "Cranford",
                   "county": "Union",
                   "sport": "Baseball",
-                  "record": "6-5",
-                  "score": 33
-                },
-                {
-                  "rank": 47,
-                  "team": "Elizabeth",
-                  "county": "Union",
-                  "sport": "Baseball",
-                  "record": "5-6",
-                  "score": 32
-                },
-                {
-                  "rank": 48,
-                  "team": "Union Catholic",
-                  "county": "Union",
-                  "sport": "Baseball",
-                  "record": "5-6",
-                  "score": 31
-                },
-                {
-                  "rank": 49,
-                  "team": "Montville",
-                  "county": "Morris",
-                  "sport": "Baseball",
-                  "record": "4-7",
-                  "score": 30
-                },
-                {
-                  "rank": 50,
-                  "team": "West Milford",
-                  "county": "Passaic",
-                  "sport": "Baseball",
-                  "record": "5-4",
-                  "score": 29
+                  "record": "21-10",
+                  "status": "2026 Spring Final YSSR Ranking",
+                  "score": 67.7
                 }
               ],
               "athletes": [
@@ -2036,6 +1986,19 @@
           "season": "2026",
           "wins": 17,
           "losses": 4,
+          "ties": 0,
+          "games": 21,
+          "win_pct": 81,
+          "confidence": "Verified",
+          "notes": "Sectional championship 12-1 W"
+        }
+      ],
+      "charts": [],
+      "newsletter_issues": []
+    }
+  ],
+  "generated_at": "2026-06-16T12:00:00.000Z"
+}
           "ties": 0,
           "games": 21,
           "win_pct": 81,
