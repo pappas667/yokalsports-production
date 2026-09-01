@@ -17,37 +17,561 @@
   ],
   "newsletter_issues": [
     {
+      "date": "2026-09-01",
+      "label": "September 1st, 2026",
+      "title": "YSSR North Jersey — Week 0",
+      "url": "https://yokalsports.beehiiv.com/p/yssr-north-jersey-week-0-d760ce6828dc88dd"
+    },
+    {
       "date": "2026-06-30",
       "label": "June 30, 2026",
       "title": "Spring 2026 Final Wrap — Seven State Champions Crowned Across North Jersey",
-      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-d9219a280e754c1a"
+      "url": "https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-d9219a280e754c1a"
     },
     {
       "date": "2026-06-16",
       "label": "June 16, 2026",
       "title": "State Champions Crowned Across North Jersey — Ridgewood, Ramsey, Delbarton, Old Tappan & More",
-      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958"
+      "url": "https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958"
     },
     {
       "date": "2026-06-09",
       "label": "June 9, 2026",
       "title": "State Playoffs Are in Full Mode — Top Stories You Need to Know",
-      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b"
+      "url": "https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b"
     },
     {
       "date": "2026-05-26",
       "label": "May 26, 2026",
       "title": "15 North Jersey Schools That Deserve Some Love This Spring",
-      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb"
+      "url": "https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb"
     },
     {
       "date": "2026-05-19",
       "label": "May 19, 2026",
       "title": "Mount Olive Stuns Delbarton + County Finals & College Corner",
-      "url": "https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577"
+      "url": "https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577"
     }
   ],
   "publications": [
+    {
+      "publish_date": "2026-09-01",
+      "display_date": "September 1st, 2026",
+      "approved": true,
+      "season": "Fall 2026",
+      "week": "Week 0",
+      "high_school": {
+        "boys": {
+          "sports": [
+            {
+              "name": "Football",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "Don Bosco Prep",
+                  "record": "1-0",
+                  "recent": "Beat Armwood (FL) 38-14",
+                  "sport": "Football",
+                  "score": 96.4
+                },
+                {
+                  "rank": 2,
+                  "team": "St. Joseph (Montvale)",
+                  "record": "0-1",
+                  "recent": "Lost to Mt Carmel (IL) 48-44",
+                  "sport": "Football",
+                  "score": 93.1
+                },
+                {
+                  "rank": 3,
+                  "team": "Paramus Catholic",
+                  "record": "1-0",
+                  "recent": "Beat La Salle (PA) 35-14",
+                  "sport": "Football",
+                  "score": 91.8
+                },
+                {
+                  "rank": 4,
+                  "team": "St. Peter's Prep",
+                  "record": "1-0",
+                  "recent": "Beat Dillard (FL) 17-7",
+                  "sport": "Football",
+                  "score": 91.2
+                },
+                {
+                  "rank": 5,
+                  "team": "DePaul Catholic",
+                  "record": "1-0",
+                  "recent": "Beat Red Bank Catholic 35-28",
+                  "sport": "Football",
+                  "score": 89.7
+                },
+                {
+                  "rank": 6,
+                  "team": "Delbarton",
+                  "record": "1-0",
+                  "recent": "Beat Gilman (MD) 21-0",
+                  "sport": "Football",
+                  "score": 87.5
+                },
+                {
+                  "rank": 7,
+                  "team": "Bergen Catholic",
+                  "record": "0-1",
+                  "recent": "Lost to Central Catholic (PA) 45-30",
+                  "sport": "Football",
+                  "score": 86.9
+                },
+                {
+                  "rank": 8,
+                  "team": "Passaic Tech",
+                  "record": "1-0",
+                  "recent": "Beat Burlington Twp 49-36",
+                  "sport": "Football",
+                  "score": 85.3
+                },
+                {
+                  "rank": 9,
+                  "team": "Wayne Hills",
+                  "record": "1-0",
+                  "recent": "Beat Midland Christian (TX) 41-34",
+                  "sport": "Football",
+                  "score": 84.6
+                },
+                {
+                  "rank": 10,
+                  "team": "Old Tappan",
+                  "record": "0-0",
+                  "recent": "Did not play Week 0",
+                  "sport": "Football",
+                  "score": 83.0
+                },
+                {
+                  "rank": 11,
+                  "team": "Ramapo",
+                  "record": "1-0",
+                  "recent": "Beat West Orange 13-12",
+                  "sport": "Football",
+                  "score": 82.4
+                },
+                {
+                  "rank": 12,
+                  "team": "Morris Knolls",
+                  "record": "1-0",
+                  "recent": "Beat Hamilton 49-7",
+                  "sport": "Football",
+                  "score": 81.1
+                },
+                {
+                  "rank": 13,
+                  "team": "Ridgewood",
+                  "record": "1-0",
+                  "recent": "Beat Montclair 42-7",
+                  "sport": "Football",
+                  "score": 80.2
+                },
+                {
+                  "rank": 14,
+                  "team": "Roxbury",
+                  "record": "1-0",
+                  "recent": "Beat Garfield 52-6",
+                  "sport": "Football",
+                  "score": 79.4
+                },
+                {
+                  "rank": 15,
+                  "team": "Northern Highlands",
+                  "record": "0-1",
+                  "recent": "Lost to Toms River North 17-14",
+                  "sport": "Football",
+                  "score": 78.0
+                },
+                {
+                  "rank": 16,
+                  "team": "Indian Hills",
+                  "record": "1-0",
+                  "recent": "Beat Park Ridge 20-14",
+                  "sport": "Football",
+                  "score": 76.8
+                },
+                {
+                  "rank": 17,
+                  "team": "River Dell",
+                  "record": "1-0",
+                  "recent": "Beat Matawan 27-7",
+                  "sport": "Football",
+                  "score": 76.1
+                },
+                {
+                  "rank": 18,
+                  "team": "New Milford",
+                  "record": "1-0",
+                  "recent": "Beat Hasbrouck Heights 21-14",
+                  "sport": "Football",
+                  "score": 74.9
+                },
+                {
+                  "rank": 19,
+                  "team": "Montclair Kimberley",
+                  "record": "1-0",
+                  "recent": "Beat Bergen Tech 36-15",
+                  "sport": "Football",
+                  "score": 74.2
+                },
+                {
+                  "rank": 20,
+                  "team": "Ramsey",
+                  "record": "1-0",
+                  "recent": "Beat Verona 27-21",
+                  "sport": "Football",
+                  "score": 73.5
+                },
+                {
+                  "rank": 21,
+                  "team": "High Point",
+                  "record": "1-0",
+                  "recent": "Beat West Milford 14-6",
+                  "sport": "Football",
+                  "score": 72.8
+                },
+                {
+                  "rank": 22,
+                  "team": "West Essex",
+                  "record": "1-0",
+                  "recent": "Beat Montville 27-14",
+                  "sport": "Football",
+                  "score": 72.0
+                },
+                {
+                  "rank": 23,
+                  "team": "Lakeland",
+                  "record": "1-0",
+                  "recent": "Beat Pompton Lakes 50-20",
+                  "sport": "Football",
+                  "score": 71.4
+                },
+                {
+                  "rank": 24,
+                  "team": "Rutherford",
+                  "record": "1-0",
+                  "recent": "Beat Bernards 26-20",
+                  "sport": "Football",
+                  "score": 70.6
+                },
+                {
+                  "rank": 25,
+                  "team": "Hawthorne",
+                  "record": "1-0",
+                  "recent": "Beat North Arlington 21-12",
+                  "sport": "Football",
+                  "score": 69.3
+                },
+                {
+                  "rank": 26,
+                  "team": "Westwood",
+                  "record": "0-1",
+                  "recent": "Lost to Manasquan 20-19",
+                  "sport": "Football",
+                  "score": 68.1
+                },
+                {
+                  "rank": 27,
+                  "team": "Hasbrouck Heights",
+                  "record": "0-1",
+                  "recent": "Lost to New Milford 21-14",
+                  "sport": "Football",
+                  "score": 67.4
+                },
+                {
+                  "rank": 28,
+                  "team": "Morris Hills",
+                  "record": "1-0",
+                  "recent": "Beat Fair Lawn 14-8",
+                  "sport": "Football",
+                  "score": 66.8
+                },
+                {
+                  "rank": 29,
+                  "team": "Seton Hall Prep",
+                  "record": "0-0",
+                  "recent": "Did not play Week 0",
+                  "sport": "Football",
+                  "score": 66.0
+                },
+                {
+                  "rank": 30,
+                  "team": "Park Ridge",
+                  "record": "0-1",
+                  "recent": "Lost to Indian Hills 20-14",
+                  "sport": "Football",
+                  "score": 64.9
+                },
+                {
+                  "rank": 31,
+                  "team": "Wayne Valley",
+                  "record": "0-1",
+                  "recent": "Lost to Rancocas Valley 23-0",
+                  "sport": "Football",
+                  "score": 64.2
+                },
+                {
+                  "rank": 32,
+                  "team": "West Milford",
+                  "record": "0-1",
+                  "recent": "Lost to High Point 14-6",
+                  "sport": "Football",
+                  "score": 63.5
+                },
+                {
+                  "rank": 33,
+                  "team": "Fair Lawn",
+                  "record": "0-1",
+                  "recent": "Lost to Morris Hills 14-8",
+                  "sport": "Football",
+                  "score": 62.7
+                },
+                {
+                  "rank": 34,
+                  "team": "West Orange",
+                  "record": "0-1",
+                  "recent": "Lost to Ramapo 13-12",
+                  "sport": "Football",
+                  "score": 62.0
+                },
+                {
+                  "rank": 35,
+                  "team": "Teaneck",
+                  "record": "0-1",
+                  "recent": "Lost to Union City 40-27",
+                  "sport": "Football",
+                  "score": 61.3
+                },
+                {
+                  "rank": 36,
+                  "team": "Montville",
+                  "record": "0-1",
+                  "recent": "Lost to West Essex 27-14",
+                  "sport": "Football",
+                  "score": 60.5
+                },
+                {
+                  "rank": 37,
+                  "team": "North Warren",
+                  "record": "1-0",
+                  "recent": "Beat Bound Brook 32-0",
+                  "sport": "Football",
+                  "score": 59.8
+                },
+                {
+                  "rank": 38,
+                  "team": "Hackettstown",
+                  "record": "1-0",
+                  "recent": "Beat Belvidere 27-8",
+                  "sport": "Football",
+                  "score": 59.1
+                },
+                {
+                  "rank": 39,
+                  "team": "Pope John XXIII",
+                  "record": "0-1",
+                  "recent": "Lost to Wash Township 14-6",
+                  "sport": "Football",
+                  "score": 58.4
+                },
+                {
+                  "rank": 40,
+                  "team": "Becton",
+                  "record": "0-1",
+                  "recent": "Lost to Hoboken 50-28",
+                  "sport": "Football",
+                  "score": 57.6
+                },
+                {
+                  "rank": 41,
+                  "team": "Lyndhurst",
+                  "record": "0-1",
+                  "recent": "Lost to Hanover Park 35-7",
+                  "sport": "Football",
+                  "score": 56.9
+                },
+                {
+                  "rank": 42,
+                  "team": "Bergen Tech",
+                  "record": "0-1",
+                  "recent": "Lost to Montclair Kimberley 36-15",
+                  "sport": "Football",
+                  "score": 56.2
+                },
+                {
+                  "rank": 43,
+                  "team": "North Arlington",
+                  "record": "0-1",
+                  "recent": "Lost to Hawthorne 21-12",
+                  "sport": "Football",
+                  "score": 55.4
+                },
+                {
+                  "rank": 44,
+                  "team": "Saddle Brook",
+                  "record": "0-1",
+                  "recent": "Lost to Butler 35-7",
+                  "sport": "Football",
+                  "score": 54.7
+                },
+                {
+                  "rank": 45,
+                  "team": "Garfield",
+                  "record": "0-1",
+                  "recent": "Lost to Roxbury 52-6",
+                  "sport": "Football",
+                  "score": 53.9
+                },
+                {
+                  "rank": 46,
+                  "team": "Bogota",
+                  "record": "0-1",
+                  "recent": "Lost to Palisades Park/Leonia",
+                  "sport": "Football",
+                  "score": 53.2
+                },
+                {
+                  "rank": 47,
+                  "team": "Wallington",
+                  "record": "0-1",
+                  "recent": "Lost to Brearley 33-0",
+                  "sport": "Football",
+                  "score": 52.5
+                },
+                {
+                  "rank": 48,
+                  "team": "Vernon",
+                  "record": "0-1",
+                  "recent": "Lost to Waldwick/Midland Park 49-41",
+                  "sport": "Football",
+                  "score": 51.8
+                },
+                {
+                  "rank": 49,
+                  "team": "Randolph",
+                  "record": "0-1",
+                  "recent": "Lost to Chatham 42-12",
+                  "sport": "Football",
+                  "score": 51.0
+                },
+                {
+                  "rank": 50,
+                  "team": "Pompton Lakes",
+                  "record": "0-1",
+                  "recent": "Lost to Lakeland 50-20",
+                  "sport": "Football",
+                  "score": 50.3
+                }
+              ],
+              "athletes": []
+            },
+            {
+              "name": "Boys Soccer",
+              "teams": [
+                {
+                  "rank": 1,
+                  "team": "St. Benedict's",
+                  "record": "0-0",
+                  "recent": "National No. 1. Defending Non-Public A champ.",
+                  "sport": "Boys Soccer",
+                  "score": 98.5
+                },
+                {
+                  "rank": 2,
+                  "team": "West Orange",
+                  "record": "0-0",
+                  "recent": "National No. 8. Defending Group 4 champ.",
+                  "sport": "Boys Soccer",
+                  "score": 94.2
+                },
+                {
+                  "rank": 3,
+                  "team": "St. Joseph (Montvale)",
+                  "record": "3-0",
+                  "recent": "Beat Paramus 1-0, Garfield 5-0, Wood-Ridge 7-1",
+                  "sport": "Boys Soccer",
+                  "score": 91.6
+                },
+                {
+                  "rank": 4,
+                  "team": "Ramapo",
+                  "record": "0-0",
+                  "recent": "Defending Group 3 / Bergen champ",
+                  "sport": "Boys Soccer",
+                  "score": 90.1
+                },
+                {
+                  "rank": 5,
+                  "team": "Bergen Catholic",
+                  "record": "0-0",
+                  "recent": "At St. Anthony's (NY)",
+                  "sport": "Boys Soccer",
+                  "score": 88.4
+                },
+                {
+                  "rank": 6,
+                  "team": "Montclair",
+                  "record": "0-0",
+                  "recent": "At Millburn",
+                  "sport": "Boys Soccer",
+                  "score": 86.0
+                },
+                {
+                  "rank": 7,
+                  "team": "Randolph",
+                  "record": "1-0",
+                  "recent": "Beat Dover 4-3",
+                  "sport": "Boys Soccer",
+                  "score": 84.7
+                },
+                {
+                  "rank": 8,
+                  "team": "Don Bosco Prep",
+                  "record": "0-0",
+                  "recent": "Idle",
+                  "sport": "Boys Soccer",
+                  "score": 83.5
+                },
+                {
+                  "rank": 9,
+                  "team": "DePaul",
+                  "record": "0-0",
+                  "recent": "Idle",
+                  "sport": "Boys Soccer",
+                  "score": 82.2
+                },
+                {
+                  "rank": 10,
+                  "team": "Passaic",
+                  "record": "1-0",
+                  "recent": "Already played",
+                  "sport": "Boys Soccer",
+                  "score": 80.8
+                }
+              ],
+              "athletes": []
+            }
+          ]
+        },
+        "girls": {
+          "sports": []
+        }
+      },
+      "college": {
+        "men": {
+          "sports": []
+        },
+        "women": {
+          "sports": []
+        }
+      },
+      "historical_winpct": [],
+      "nil_tracking": []
+    },
     {
       "publish_date": "2026-06-30",
       "approved": true,
@@ -1997,5 +2521,5 @@
       "newsletter_issues": []
     }
   ],
-  "generated_at": "2026-06-16T12:00:00.000Z"
+  "generated_at": "2026-09-01T12:00:00-04:00"
 }

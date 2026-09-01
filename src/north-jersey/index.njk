@@ -64,19 +64,19 @@ permalink: /north-jersey/index.html
       </a>
     {% endfor %}
   {% else %}
-    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958" target="_blank" rel="noopener">
+    <a class="issue-card" href="https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-a1d2b83513613958" target="_blank" rel="noopener">
       <div class="date">June 16, 2026</div>
       <h3>YSSR North Jersey — June 16, 2026</h3>
     </a>
-    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
+    <a class="issue-card" href="https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-32fd15c4d24a3a1b" target="_blank" rel="noopener">
       <div class="date">June 9, 2026</div>
       <h3>State Playoffs Are in Full Mode — Top Stories You Need to Know</h3>
     </a>
-    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb" target="_blank" rel="noopener">
+    <a class="issue-card" href="https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-9bc3d0f08b3ba4cb" target="_blank" rel="noopener">
       <div class="date">May 26, 2026</div>
       <h3>15 North Jersey Schools That Deserve Some Love This Spring</h3>
     </a>
-    <a class="issue-card" href="https://newsletter.yokalsports.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577" target="_blank" rel="noopener">
+    <a class="issue-card" href="https://yokalsports.beehiiv.com/p/the-yokal-sports-sports-report-north-jersey-aa7940a04e688577" target="_blank" rel="noopener">
       <div class="date">May 19, 2026</div>
       <h3>Mount Olive Stuns Delbarton + County Finals &amp; College Corner</h3>
     </a>
@@ -87,321 +87,168 @@ permalink: /north-jersey/index.html
 
 {% if publication %}
 
-{% set boys_baseball = null %}
-{% set boys_lax = null %}
-{% set girls_softball = null %}
-{% set girls_lax = null %}
-{% for sport in publication.high_school.boys.sports %}
-  {% if sport.name == "Baseball" %}{% set boys_baseball = sport %}{% endif %}
-  {% if sport.name == "Boys Lacrosse" %}{% set boys_lax = sport %}{% endif %}
-{% endfor %}
-{% for sport in publication.high_school.girls.sports %}
-  {% if sport.name == "Softball" %}{% set girls_softball = sport %}{% endif %}
-  {% if sport.name == "Girls Lacrosse" %}{% set girls_lax = sport %}{% endif %}
-{% endfor %}
-
-<!-- HIGH SCHOOL -->
+<!-- CURRENT YSSR RANKINGS -->
 <section class="section">
   <div class="wrap">
-    <h2 class="section-title">High School</h2>
-    <p class="section-sub">Updated {{ publication.publish_date | displayDate }} · Full lists available to Yokals</p>
-    <div class="two-col">
-
-      <!-- LEFT: BOYS -->
-      <div class="col-stack">
-
-        {% if boys_baseball %}
-        <div class="data-card">
-          <div class="card-head"><h3>Boys Baseball</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>School</th><th>County</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% for team in boys_baseball.teams %}{% if team.rank >= 1 and team.rank <= 40 %}
-              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td class="muted-cell">{{ team.county }}</td><td class="yssr-score">{{ team.score }}</td></tr>
-              {% endif %}{% endfor %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Baseball">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
-        {% if boys_lax %}
-        <div class="data-card">
-          <div class="card-head"><h3>Boys Lacrosse</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>School</th><th>County</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% for team in boys_lax.teams %}{% if team.rank >= 6 and team.rank <= 10 %}
-              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td class="muted-cell">{{ team.county }}</td><td class="yssr-score">{{ team.score }}</td></tr>
-              {% endif %}{% endfor %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Lacrosse">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
-        <div class="data-card">
-          <div class="card-head"><h3>Boys Track &amp; Field</h3><div class="date-line">Data building</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody><tr><td colspan="4" class="empty">YSSR Score Building — submit results to <a href="mailto:yokals@yokalsports.com">yokals@yokalsports.com</a></td></tr></tbody>
-          </table></div>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Track">Sponsor This List →</a>
-        </div>
-
-        {% if boys_baseball or boys_lax %}
-        <div class="data-card">
-          <div class="card-head"><h3>Boys Athletes</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% if boys_baseball %}{% for a in boys_baseball.athletes %}{% if a.rank >= 6 and a.rank <= 10 %}
-              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-              {% endif %}{% endfor %}{% endif %}
-              {% if boys_lax %}{% for a in boys_lax.athletes %}{% if a.rank >= 6 and a.rank <= 10 %}
-              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-              {% endif %}{% endfor %}{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Boys Athletes">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
+    <div class="section-head" style="align-items:flex-start;">
+      <div>
+        <div class="section-label">{{ publication.week or "Week 0" }} · {{ publication.season }}</div>
+        <h2 class="section-title">North Jersey High School YSSR Scores</h2>
+        <p class="section-sub">Published {{ publication.display_date or (publication.publish_date | displayDate) }}</p>
       </div>
-
-      <!-- RIGHT: GIRLS -->
-      <div class="col-stack">
-
-        {% if girls_softball %}
-        <div class="data-card">
-          <div class="card-head"><h3>Girls Softball</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>School</th><th>County</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% for team in girls_softball.teams %}{% if team.rank >= 6 and team.rank <= 15 %}
-              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td class="muted-cell">{{ team.county }}</td><td class="yssr-score">{{ team.score }}</td></tr>
-              {% endif %}{% endfor %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Softball">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
-        {% if girls_lax %}
-        <div class="data-card">
-          <div class="card-head"><h3>Girls Lacrosse</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>School</th><th>County</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% for team in girls_lax.teams %}{% if team.rank >= 6 and team.rank <= 10 %}
-              <tr><td class="rank">{{ team.rank }}</td><td><strong>{{ team.team }}</strong></td><td class="muted-cell">{{ team.county }}</td><td class="yssr-score">{{ team.score }}</td></tr>
-              {% endif %}{% endfor %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Lacrosse">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
-        <div class="data-card">
-          <div class="card-head"><h3>Girls Track &amp; Field</h3><div class="date-line">Data building</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody><tr><td colspan="4" class="empty">YSSR Score Building — submit results to <a href="mailto:yokals@yokalsports.com">yokals@yokalsports.com</a></td></tr></tbody>
-          </table></div>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Track">Sponsor This List →</a>
-        </div>
-
-        {% if girls_softball or girls_lax %}
-        <div class="data-card">
-          <div class="card-head"><h3>Girls Athletes</h3><div class="date-line">{{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% if girls_softball %}{% for a in girls_softball.athletes %}{% if a.rank and a.score and a.rank >= 6 and a.rank <= 10 %}
-              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-              {% endif %}{% endfor %}{% endif %}
-              {% if girls_lax %}{% for a in girls_lax.athletes %}{% if a.rank and a.score and a.rank >= 6 and a.rank <= 10 %}
-              <tr><td class="rank">{{ a.rank }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-              {% endif %}{% endfor %}{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — Girls Athletes">Sponsor This List →</a>
-        </div>
-        {% endif %}
-
-      </div>
-
-      <!-- HS WIN % -->
-      <div class="data-card">
-        <div class="card-head"><h3>Historical Win %</h3><div class="date-line">All HS Programs · {{ publication.publish_date | displayDate }}</div></div>
-        <div class="table-wrap"><table>
-          <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>Win%</th></tr></thead>
-          <tbody>
-            {% set hscount = 0 %}
-            {% for prog in publication.historical_winpct %}
-              {% if prog.win_pct and prog.level != "College" %}
-                {% set hscount = hscount + 1 %}
-                {% if hscount >= 6 and hscount <= 20 %}
-                <tr><td class="rank">{{ hscount }}</td><td><strong>{{ prog.school }}</strong></td><td class="muted-cell">{{ prog.sport }}{% if prog.gender %} · {{ prog.gender }}{% endif %}</td><td class="yssr-score-plain">{{ prog.win_pct }}%</td></tr>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% if hscount < 6 %}<tr><td colspan="4" class="empty">Win% data building</td></tr>{% endif %}
-          </tbody>
-        </table></div>
-        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — HS Win Pct">Sponsor This List →</a>
-      </div>
-
-      <!-- HS NIL -->
-      <div class="data-card">
-        <div class="card-head"><h3>NIL Tracking</h3><div class="date-line">HS Athletes · {{ publication.publish_date | displayDate }}</div></div>
-        <div class="table-wrap"><table>
-          <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Status</th></tr></thead>
-          <tbody>
-            {% if publication.nil_tracking and publication.nil_tracking.length %}
-              {% for nil in publication.nil_tracking | take(10) %}
-              <tr><td><strong>{{ nil.player }}</strong></td><td class="muted-cell">{{ nil.school }}</td><td class="muted-cell">{{ nil.sport }}</td><td>{{ nil.commit or "Tracking" }}</td></tr>
-              {% endfor %}
-            {% else %}
-            <tr><td colspan="4" class="empty">NIL data building — <a href="mailto:yokals@yokalsports.com">Submit a tip →</a></td></tr>
-            {% endif %}
-          </tbody>
-        </table></div>
-        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — NIL Tracking">Sponsor This List →</a>
-      </div>
-
     </div>
-  </div>
-</section>
 
-<!-- COLLEGE CORNER -->
-<section class="section">
-  <div class="wrap">
-    <h2 class="section-title">College Corner</h2>
-    <p class="section-sub">North Jersey athletes and programs at the college level</p>
-    <div class="two-col">
+    <style>
+      .yssr-board-grid{display:grid;grid-template-columns:1fr;gap:12px}
+      .yssr-board .card-head{align-items:center}
+      .yssr-board .board-range{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--green);margin-top:3px}
+      .yssr-board table{table-layout:auto}
+      .yssr-board th:last-child{text-align:right}
+      .yssr-board td.recent-cell{color:#214b2d;font-weight:700;font-size:10px;line-height:1.25}
+      .yssr-board td.team-cell strong{color:var(--navy)}
+      .yssr-board td.team-cell .record{color:var(--muted);font-size:10px;font-weight:800;margin-left:3px}
+      .yssr-board td.score-cell{text-align:right;width:105px;background:#eef7e8!important}
+      .yssr-board .score-highlight{display:inline-block;min-width:64px;text-align:center;padding:5px 7px;border:2px solid var(--green);border-radius:7px;background:#fff;color:var(--green);font-size:18px;line-height:1;font-weight:900;letter-spacing:-.03em}
+      @media(min-width:900px){
+        .yssr-board-grid{grid-template-columns:1fr 1fr}
+        .yssr-board.full-width{grid-column:1 / -1}
+        .yssr-board td.recent-cell{font-size:11px}
+        .yssr-board .score-highlight{font-size:20px}
+      }
+    </style>
 
-      <!-- MEN -->
-      <div class="col-stack">
-        <div class="data-card">
-          <div class="card-head"><h3>Men's Teams</h3><div class="date-line">All Sports · {{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% set menteamcount = 0 %}
-              {% for sp in publication.college.men.sports %}{% for t in sp.teams %}
-                {% set menteamcount = menteamcount + 1 %}
-                {% if menteamcount >= 6 and menteamcount <= 10 %}
-                <tr><td class="rank">{{ menteamcount }}</td><td><strong>{{ t.team }}</strong></td><td class="muted-cell">{{ t.sport }}</td><td class="yssr-score">{{ t.score }}</td></tr>
-                {% endif %}
-              {% endfor %}{% endfor %}
-              {% if menteamcount < 1 %}<tr><td colspan="4" class="empty">YSSR Score Building — data coming Tuesday</td></tr>{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College Men Teams">Sponsor This List →</a>
-        </div>
-        <div class="data-card">
-          <div class="card-head"><h3>Men's Athletes</h3><div class="date-line">All Sports · {{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% set menathletecount = 0 %}
-              {% for sp in publication.college.men.sports %}{% for a in sp.athletes %}
-                {% set menathletecount = menathletecount + 1 %}
-                {% if menathletecount >= 6 and menathletecount <= 10 %}
-                <tr><td class="rank">{{ menathletecount }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-                {% endif %}
-              {% endfor %}{% endfor %}
-              {% if menathletecount < 1 %}<tr><td colspan="4" class="empty">YSSR Score Building — data coming Tuesday</td></tr>{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College Men Athletes">Sponsor This List →</a>
-        </div>
-      </div>
+    <div class="yssr-board-grid">
+      {% for sport in publication.high_school.boys.sports %}
+        {% if sport.teams and sport.teams.length %}
 
-      <!-- WOMEN -->
-      <div class="col-stack">
-        <div class="data-card">
-          <div class="card-head"><h3>Women's Teams</h3><div class="date-line">All Sports · {{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% set womenteamcount = 0 %}
-              {% for sp in publication.college.women.sports %}{% for t in sp.teams %}
-                {% set womenteamcount = womenteamcount + 1 %}
-                {% if womenteamcount >= 6 and womenteamcount <= 10 %}
-                <tr><td class="rank">{{ womenteamcount }}</td><td><strong>{{ t.team }}</strong></td><td class="muted-cell">{{ t.sport }}</td><td class="yssr-score">{{ t.score }}</td></tr>
-                {% endif %}
-              {% endfor %}{% endfor %}
-              {% if womenteamcount < 1 %}<tr><td colspan="4" class="empty">YSSR Score Building — data coming Tuesday</td></tr>{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College Women Teams">Sponsor This List →</a>
-        </div>
-        <div class="data-card">
-          <div class="card-head"><h3>Women's Athletes</h3><div class="date-line">All Sports · {{ publication.publish_date | displayDate }}</div></div>
-          <div class="table-wrap"><table>
-            <thead><tr><th>#</th><th>Athlete</th><th>School</th><th>YSSR Score</th></tr></thead>
-            <tbody>
-              {% set womenathletecount = 0 %}
-              {% for sp in publication.college.women.sports %}{% for a in sp.athletes %}
-                {% set womenathletecount = womenathletecount + 1 %}
-                {% if womenathletecount >= 6 and womenathletecount <= 10 %}
-                <tr><td class="rank">{{ womenathletecount }}</td><td><strong>{{ a.athlete }}</strong></td><td class="muted-cell">{{ a.school }}</td><td class="yssr-score">{{ a.score }}</td></tr>
-                {% endif %}
-              {% endfor %}{% endfor %}
-              {% if womenathletecount < 1 %}<tr><td colspan="4" class="empty">YSSR Score Building — data coming Tuesday</td></tr>{% endif %}
-            </tbody>
-          </table></div>
-          <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-          <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College Women Athletes">Sponsor This List →</a>
-        </div>
-      </div>
+          {% if sport.teams.length > 25 %}
+          <div class="data-card yssr-board">
+            <div class="card-head">
+              <div>
+                <h3>{{ sport.name }} YSSR Scores</h3>
+                <div class="board-range">Teams 1–25</div>
+              </div>
+              <div class="date-line">{{ publication.week }} · {{ publication.display_date or (publication.publish_date | displayDate) }}</div>
+            </div>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Rank</th><th>Team</th><th>Recent</th><th>YSSR Score</th></tr></thead>
+              <tbody>
+                {% for team in sport.teams %}{% if team.rank >= 1 and team.rank <= 25 %}
+                <tr>
+                  <td class="rank">{{ team.rank }}</td>
+                  <td class="team-cell"><strong>{{ team.team }}</strong>{% if team.record %}<span class="record">({{ team.record }})</span>{% endif %}</td>
+                  <td class="recent-cell">{{ team.recent or "—" }}</td>
+                  <td class="score-cell"><span class="score-highlight">{{ team.score }}</span></td>
+                </tr>
+                {% endif %}{% endfor %}
+              </tbody>
+            </table></div>
+            <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor {{ sport.name }} YSSR Scores">Sponsor This YSSR Board →</a>
+          </div>
 
-      <!-- COLLEGE WIN % -->
-      <div class="data-card">
-        <div class="card-head"><h3>College Win %</h3><div class="date-line">All Programs · {{ publication.publish_date | displayDate }}</div></div>
-        <div class="table-wrap"><table>
-          <thead><tr><th>#</th><th>Program</th><th>Sport</th><th>Win%</th></tr></thead>
-          <tbody>
-            {% set collegecount = 0 %}
-            {% for prog in publication.historical_winpct %}
-              {% if prog.win_pct and prog.level == "College" %}
-                {% set collegecount = collegecount + 1 %}
-                {% if collegecount >= 6 and collegecount <= 10 %}
-                <tr><td class="rank">{{ collegecount }}</td><td><strong>{{ prog.school }}</strong></td><td class="muted-cell">{{ prog.sport }}</td><td class="yssr-score-plain">{{ prog.win_pct }}%</td></tr>
-                {% endif %}
-              {% endif %}
+          <div class="data-card yssr-board">
+            <div class="card-head">
+              <div>
+                <h3>{{ sport.name }} YSSR Scores</h3>
+                <div class="board-range">Teams 26–50</div>
+              </div>
+              <div class="date-line">{{ publication.week }} · {{ publication.display_date or (publication.publish_date | displayDate) }}</div>
+            </div>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Rank</th><th>Team</th><th>Recent</th><th>YSSR Score</th></tr></thead>
+              <tbody>
+                {% for team in sport.teams %}{% if team.rank >= 26 and team.rank <= 50 %}
+                <tr>
+                  <td class="rank">{{ team.rank }}</td>
+                  <td class="team-cell"><strong>{{ team.team }}</strong>{% if team.record %}<span class="record">({{ team.record }})</span>{% endif %}</td>
+                  <td class="recent-cell">{{ team.recent or "—" }}</td>
+                  <td class="score-cell"><span class="score-highlight">{{ team.score }}</span></td>
+                </tr>
+                {% endif %}{% endfor %}
+              </tbody>
+            </table></div>
+            <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor {{ sport.name }} YSSR Scores">Sponsor This YSSR Board →</a>
+          </div>
+
+          {% else %}
+          <div class="data-card yssr-board full-width">
+            <div class="card-head">
+              <div>
+                <h3>{{ sport.name }} YSSR Scores</h3>
+                <div class="board-range">Top {{ sport.teams.length }}</div>
+              </div>
+              <div class="date-line">{{ publication.week }} · {{ publication.display_date or (publication.publish_date | displayDate) }}</div>
+            </div>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Rank</th><th>Team</th><th>Recent</th><th>YSSR Score</th></tr></thead>
+              <tbody>
+                {% for team in sport.teams %}
+                <tr>
+                  <td class="rank">{{ team.rank }}</td>
+                  <td class="team-cell"><strong>{{ team.team }}</strong>{% if team.record %}<span class="record">({{ team.record }})</span>{% endif %}</td>
+                  <td class="recent-cell">{{ team.recent or "—" }}</td>
+                  <td class="score-cell"><span class="score-highlight">{{ team.score }}</span></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table></div>
+            <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor {{ sport.name }} YSSR Scores">Sponsor This YSSR Board →</a>
+          </div>
+          {% endif %}
+
+        {% endif %}
+      {% endfor %}
+
+      {% for sport in publication.high_school.girls.sports %}
+        {% if sport.teams and sport.teams.length %}
+          {% if sport.teams.length > 25 %}
+            {% for rangeStart in [1,26] %}
+            <div class="data-card yssr-board">
+              <div class="card-head">
+                <div>
+                  <h3>{{ sport.name }} YSSR Scores</h3>
+                  <div class="board-range">Teams {{ rangeStart }}–{{ rangeStart + 24 }}</div>
+                </div>
+                <div class="date-line">{{ publication.week }} · {{ publication.display_date or (publication.publish_date | displayDate) }}</div>
+              </div>
+              <div class="table-wrap"><table>
+                <thead><tr><th>Rank</th><th>Team</th><th>Recent</th><th>YSSR Score</th></tr></thead>
+                <tbody>
+                  {% for team in sport.teams %}{% if team.rank >= rangeStart and team.rank <= rangeStart + 24 %}
+                  <tr>
+                    <td class="rank">{{ team.rank }}</td>
+                    <td class="team-cell"><strong>{{ team.team }}</strong>{% if team.record %}<span class="record">({{ team.record }})</span>{% endif %}</td>
+                    <td class="recent-cell">{{ team.recent or "—" }}</td>
+                    <td class="score-cell"><span class="score-highlight">{{ team.score }}</span></td>
+                  </tr>
+                  {% endif %}{% endfor %}
+                </tbody>
+              </table></div>
+              <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor {{ sport.name }} YSSR Scores">Sponsor This YSSR Board →</a>
+            </div>
             {% endfor %}
-            {% if collegecount < 1 %}<tr><td colspan="4" class="empty">Win% data building</td></tr>{% endif %}
-          </tbody>
-        </table></div>
-        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College Win Pct">Sponsor This List →</a>
-      </div>
-
-      <!-- COLLEGE NIL -->
-      <div class="data-card">
-        <div class="card-head"><h3>College NIL Tracking</h3><div class="date-line">Men &amp; Women · {{ publication.publish_date | displayDate }}</div></div>
-        <div class="table-wrap"><table>
-          <thead><tr><th>Athlete</th><th>School</th><th>Sport</th><th>Status</th></tr></thead>
-          <tbody><tr><td colspan="4" class="empty">NIL data building — <a href="mailto:yokals@yokalsports.com">Submit a tip →</a></td></tr></tbody>
-        </table></div>
-        <a class="complete-list" href="#" data-ms-modal="signup" data-ms-price:add="prc_yokal-nj-monthly-x3470asv">Want the complete list? Become a Yokal →</a>
-        <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor This List — College NIL">Sponsor This List →</a>
-      </div>
-
+          {% else %}
+            <div class="data-card yssr-board full-width">
+              <div class="card-head">
+                <div><h3>{{ sport.name }} YSSR Scores</h3><div class="board-range">Top {{ sport.teams.length }}</div></div>
+                <div class="date-line">{{ publication.week }} · {{ publication.display_date or (publication.publish_date | displayDate) }}</div>
+              </div>
+              <div class="table-wrap"><table>
+                <thead><tr><th>Rank</th><th>Team</th><th>Recent</th><th>YSSR Score</th></tr></thead>
+                <tbody>{% for team in sport.teams %}
+                  <tr>
+                    <td class="rank">{{ team.rank }}</td>
+                    <td class="team-cell"><strong>{{ team.team }}</strong>{% if team.record %}<span class="record">({{ team.record }})</span>{% endif %}</td>
+                    <td class="recent-cell">{{ team.recent or "—" }}</td>
+                    <td class="score-cell"><span class="score-highlight">{{ team.score }}</span></td>
+                  </tr>
+                {% endfor %}</tbody>
+              </table></div>
+              <a class="sponsor-slot" href="mailto:yokals@yokalsports.com?subject=Sponsor {{ sport.name }} YSSR Scores">Sponsor This YSSR Board →</a>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
