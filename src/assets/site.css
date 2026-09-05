@@ -193,3 +193,28 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
 .dma-card-coming-soon{opacity:.58;cursor:default;background:#f8f9f7;}
 .dma-card-coming-soon:hover{border-color:var(--line);}
 .dma-card-coming-soon .dma-status{background:#f0f1f3;color:#777;}
+
+/* FINAL YOKAL BUSINESS MODEL HOMEPAGE */
+.gateway-card,
+.gateway-card h2,
+.gateway-card p,
+.gateway-link{text-align:center}
+.gateway-card{display:flex;flex-direction:column;align-items:center;justify-content:flex-start}
+.gateway-link{left:18px;right:18px;bottom:20px}
+.gateway-card p{max-width:420px}
+.gateway-secondary-row{display:flex;justify-content:center;margin-top:12px}
+.gateway-card-consulting{width:100%;max-width:760px;min-height:205px}
+.yokal-score-section{margin:28px auto 0;max-width:900px;background:var(--navy);color:#fff;border-radius:18px;padding:28px;text-align:center;box-shadow:var(--shadow)}
+.yokal-score-section .gateway-eyebrow{color:var(--lime)}
+.yokal-score-section h2{margin:0;color:#fff;font-family:Georgia,serif;font-size:34px;letter-spacing:-.03em}
+.yokal-score-section p{margin:10px auto 0;max-width:760px;color:rgba(255,255,255,.82);font-size:14px;line-height:1.55}
+.yokal-score-section .yokal-score-kicker{font-size:18px;color:#fff}
+.yokal-score-section .yokal-score-subhead{font-family:Georgia,serif;font-size:21px;color:var(--lime)}
+.yokal-score-lines{display:grid;gap:5px;margin-top:18px;color:#fff;font-size:14px}
+.consulting-page{padding-top:28px}
+.consulting-page h1{margin:0;color:var(--navy);font-family:Georgia,serif;font-size:36px;line-height:1;letter-spacing:-.035em}
+.consulting-lead{max-width:760px;margin:12px 0 0;color:var(--muted);font-size:15px;line-height:1.55}
+.consulting-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:22px}
+.consulting-cta-wrap{margin-top:12px}
+@media(min-width:760px){.consulting-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.yokal-score-section{padding:22px 18px}.yokal-score-section h2{font-size:30px}}
