@@ -187,3 +187,9 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
   .gateway-topnav{width:100%;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
   .gateway-hero h1,.operator-hero h1,.dma-page h1{font-size:31px}
 }
+
+
+/* Gateway copy cleanup */
+.dma-card-coming-soon{opacity:.58;cursor:default;background:#f8f9f7;}
+.dma-card-coming-soon:hover{border-color:var(--line);}
+.dma-card-coming-soon .dma-status{background:#f0f1f3;color:#777;}
