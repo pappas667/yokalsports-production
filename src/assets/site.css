@@ -130,3 +130,60 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
 /* FIX: Prevent Memberstack reflow on subscribe block */
 .subscribe-block{min-height:120px;}
 .subscribe-form-wrap{flex-shrink:0;width:320px;max-width:100%;}
+
+/* YOKAL PARENT GATEWAY */
+.gateway-masthead{gap:18px}
+.gateway-topnav{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.gateway-topnav a{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:var(--navy);padding:7px 10px;border-radius:20px;border:1px solid transparent}
+.gateway-topnav a:hover,.gateway-topnav a.active{border-color:var(--green);color:var(--green);background:#f6fbf4}
+.gateway-hero{padding:38px 0 30px;background:linear-gradient(180deg,#fff 0%,#f4f8f2 100%)}
+.gateway-eyebrow{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;color:var(--green);margin-bottom:8px}
+.gateway-hero h1,.operator-hero h1,.dma-page h1{margin:0;color:var(--navy);font-family:Georgia,serif;font-size:36px;line-height:1;letter-spacing:-.035em}
+.gateway-lead,.operator-lead,.dma-lead{max-width:760px;margin:12px 0 0;color:var(--muted);font-size:15px;line-height:1.55}
+.gateway-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:26px}
+.gateway-card{position:relative;display:block;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:var(--shadow);min-height:220px;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.gateway-card:hover{transform:translateY(-2px);border-color:#c9dcc1;box-shadow:0 8px 24px rgba(18,14,73,.09)}
+.gateway-card-featured{border:2px solid var(--green);background:linear-gradient(180deg,#fbfff9,#fff)}
+.gateway-number{font-size:10px;font-weight:900;color:var(--green);letter-spacing:.12em}
+.gateway-card h2{margin:12px 0 8px;color:var(--navy);font-family:Georgia,serif;font-size:25px;letter-spacing:-.025em}
+.gateway-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}
+.gateway-link{position:absolute;left:22px;bottom:20px;color:var(--green);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}
+
+/* OPERATORS */
+.operator-hero{padding-top:28px}
+.operator-price-card{margin-top:22px;background:var(--navy);color:#fff;border-radius:16px;padding:18px;display:grid;gap:14px;align-items:center}
+.operator-price-card>div{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.operator-price-label{width:100%;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--lime);font-weight:900}
+.operator-price-card strong{font-family:Georgia,serif;font-size:30px;line-height:1}
+.operator-price-card>div>span:last-child{font-size:14px;font-weight:800;color:rgba(255,255,255,.8)}
+.operator-price-card p{margin:0;color:rgba(255,255,255,.8);font-size:12px;line-height:1.5}
+.operator-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}
+.operator-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+.operator-card h2,.operator-next h2{margin:4px 0 7px;color:var(--navy);font-family:Georgia,serif;font-size:20px;letter-spacing:-.02em}
+.operator-card p,.operator-next p{margin:0;color:var(--muted);font-size:12px;line-height:1.55}
+.operator-next{margin-top:12px;background:#fff;border:2px solid var(--green);border-radius:14px;padding:18px;display:grid;gap:16px;align-items:center}
+.operator-cta{justify-self:start}
+
+/* DMA DIRECTORY */
+.dma-page{padding-top:28px}
+.dma-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:22px}
+.dma-card{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.dma-card:hover{border-color:var(--green)}
+.dma-status{display:inline-block;background:#eef7e8;color:var(--green);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;border-radius:20px;padding:5px 8px}
+.dma-card h2{margin:10px 0 6px;color:var(--navy);font-family:Georgia,serif;font-size:24px}
+.dma-card p{margin:0 0 14px;color:var(--muted);font-size:12px;line-height:1.5}
+.dma-card span{color:var(--green);font-size:11px;font-weight:900;text-transform:uppercase}
+.coming-soon-strip{margin-top:12px;border:1px dashed #b8c2b4;background:#fff;color:var(--muted);border-radius:12px;padding:14px;text-align:center;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+
+@media(min-width:760px){
+  .gateway-grid{grid-template-columns:repeat(3,1fr)}
+  .operator-grid{grid-template-columns:1fr 1fr}
+  .dma-grid{grid-template-columns:1fr 1fr}
+  .operator-price-card{grid-template-columns:1fr 1.4fr}
+  .operator-next{grid-template-columns:1fr auto}
+}
+@media(max-width:640px){
+  .gateway-masthead{align-items:flex-start;flex-direction:column}
+  .gateway-topnav{width:100%;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
+  .gateway-hero h1,.operator-hero h1,.dma-page h1{font-size:31px}
+}
