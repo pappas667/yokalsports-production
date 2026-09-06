@@ -224,13 +224,13 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
 .gateway-site-header{background:#fff}
 .gateway-brand-row{display:grid;grid-template-columns:minmax(180px,1fr) minmax(0,3fr);align-items:center;gap:24px;padding:12px 14px 8px}
 .gateway-logo{justify-self:start}
-.gateway-logo img{height:64px;width:auto}
-.gateway-tagline{color:var(--navy);font-family:Georgia,serif;font-size:34px;font-weight:700;line-height:1.05;letter-spacing:-.035em;text-align:left}
+.gateway-logo img{height:72px;width:auto}
+.gateway-tagline{color:var(--navy);font-family:Georgia,serif;font-size:36px;font-weight:700;line-height:1.05;letter-spacing:-.035em;text-align:left}
 .gateway-nav-row{padding-bottom:8px}
 .gateway-nav-row .gateway-topnav{justify-content:flex-end}
 .gateway-hero{padding-top:24px}
-.gateway-card h2{font-size:28px}
-.gateway-card p{font-size:16px;line-height:1.5}
+.gateway-card h2{font-size:30px}
+.gateway-card p{font-size:17px;line-height:1.5}
 .gateway-link{font-size:12px}
 .gateway-card-consulting p{max-width:650px}
 .yokal-score-section{background:var(--green);padding:24px 28px}
@@ -241,9 +241,24 @@ tbody tr:nth-child(even) td{background:#fbfdfb}
 
 @media(max-width:760px){
   .gateway-brand-row{grid-template-columns:1fr;gap:10px;padding-top:10px}
-  .gateway-logo img{height:58px}
+  .gateway-logo img{height:62px}
   .gateway-tagline{font-size:29px;text-align:center}
   .gateway-nav-row .gateway-topnav{justify-content:flex-start}
 }
 
 .gateway-card p strong{color:var(--navy)}
+
+/* 2026-09-06 consulting card CTA spacing fix */
+.gateway-card-consulting{
+  min-height:0;
+  padding-bottom:30px;
+}
+.gateway-card-consulting .gateway-link{
+  position:static;
+  left:auto;
+  right:auto;
+  bottom:auto;
+  display:block;
+  margin-top:28px;
+}
+
